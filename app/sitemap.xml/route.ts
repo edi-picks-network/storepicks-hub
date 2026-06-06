@@ -32,6 +32,7 @@ const BLOG_SLUGS = [
 
   "outreach-vs-salesloft-vs-gong-b2b-sales-engagement-2026",
   "shopify-vs-woocommerce-vs-bigcommerce-2026",
+  "shopify-app-ecosystem-2026-essential-tools",
 ];
 
 const TOOL_SLUGS = [
