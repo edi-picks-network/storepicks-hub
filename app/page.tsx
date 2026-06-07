@@ -12,19 +12,14 @@ import { ALL_TOOLS } from "@/data/tools";
 import { BLOG_POSTS } from "@/data/blog-posts";
 
 // ============================================================
-// 模板E：SaaS产品式首页 — StorePicks 适配版
-// 适用于：storepicks.net, 电商工具导航站
-// 布局：产品着陆页风格 — Hero大图 + 功能亮点 + 精选工具 + 证言
 // ============================================================
 
 export default function HomePage() {
-  // 精选工具
   const topTools = useMemo(
     () => [...ALL_TOOLS].sort((a: any, b: any) => b.rating - a.rating).slice(0, 4),
     [ALL_TOOLS]
   );
 
-  // 最新博客
   const recentPosts = useMemo(
     () => [...BLOG_POSTS]
       .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -32,7 +27,6 @@ export default function HomePage() {
     [BLOG_POSTS]
   );
 
-  // 功能亮点
   const features = [
     { icon: Zap, title: "Smart Matching", desc: "AI matches tools to your business type, size, and budget." },
     { icon: Users, title: "Real Merchant Reviews", desc: "Authentic feedback from thousands of verified e-commerce users." },
@@ -40,14 +34,12 @@ export default function HomePage() {
     { icon: Shield, title: "Unbiased Rankings", desc: "No sponsored placements — just honest, data-driven reviews." },
   ];
 
-  // 证言
   const testimonials = [
     { quote: "I tried 5 e-commerce platforms before finding the right one here. The comparison tool saved me hours of research.", name: "Sarah K.", role: "Online Store Owner" },
     { quote: "The detailed feature breakdown helped me choose a platform that actually fits my business needs.", name: "Marcus J.", role: "E-commerce Manager" },
     { quote: "I recommended this site to my entire entrepreneur network. The reviews are spot-on.", name: "Yuki T.", role: "Digital Marketing Lead" },
   ];
 
-  // 统计
   const stats = [
     { label: "Tools Reviewed", value: ALL_TOOLS.length },
     { label: "Active Users", value: "12K+" },
@@ -58,7 +50,6 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* ======== HERO（SaaS风格） ======== */}
       <section className="relative pt-20 pb-16 px-6 overflow-hidden">
         <div className="absolute inset-0"
           style={{ background: `linear-gradient(135deg, ${accentColor}08, #0EA5E910, ${accentColor}05)` }} />
@@ -239,7 +230,6 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* ======== Newsletter CTA ======== */}
       <section className="px-6 py-16">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
@@ -264,7 +254,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ======== Footer（轻量） ======== */}
       <footer className="border-t border-gray-100 px-6 py-8">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
