@@ -24,12 +24,11 @@ export default function BlogPage() {
             Blog
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-[#F0F2FE] tracking-tight mb-3">
-            Insights &{" "}
-            <span className="text-gradient">Expert Analysis</span>
+            E-Commerce Strategy &{" "}
+            <span className="text-gradient">Reviews</span>
           </h1>
           <p className="text-lg text-[#839BBE] max-w-2xl mx-auto">
-            In-depth comparisons, buying guides, and strategies to help you make
-            smarter e-commerce tool decisions.
+            In-depth comparisons and buying guides for e-commerce platforms, payment processors, and marketing tools. Expert reviews to help you grow your online store.
           </p>
         </div>
 
