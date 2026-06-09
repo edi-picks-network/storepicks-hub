@@ -4,6 +4,7 @@ const BLOG_SLUGS = [
   "best-ecommerce-product-research-tools-2026",
     "shopify-vs-bigcommerce-vs-woocommerce-vs-wix-vs-squarespace-2026",
     "checkout-optimization-payment-processing-2026",
+    "ecommerce-marketing-automation-tools-2026",
 ] as const;
 
 const TOOL_SLUGS = [
