@@ -5,6 +5,7 @@ const BLOG_SLUGS = [
     "shopify-vs-bigcommerce-vs-woocommerce-vs-wix-vs-squarespace-2026",
     "checkout-optimization-payment-processing-2026",
     "ecommerce-marketing-automation-tools-2026",
+    "dropshipping-automation-2026-tools",
 ] as const;
 
 const TOOL_SLUGS = [
