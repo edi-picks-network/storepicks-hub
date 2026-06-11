@@ -16,7 +16,7 @@ const FEATURED_PRODUCTS = [
     rating: 4.8,
     description: "Enterprise-grade e-commerce platform purpose-built for high-growth brands. Unlimited customization, dedicated support, and global infrastructure.",
     price: "From $2,000/mo",
-    href: "/tools/shopify-plus",
+    href: "/tools/shopify",
   },
   {
     name: "Klaviyo",
@@ -48,7 +48,7 @@ const FEATURED_PRODUCTS = [
     rating: 4.5,
     description: "Subscription billing platform for e-commerce brands. Manage recurring payments, delivery schedules, and customer portals seamlessly.",
     price: "From $99/mo",
-    href: "/tools/recharge",
+    href: "/tools/shopify",
   },
   {
     name: "Google Analytics 4",
@@ -56,7 +56,7 @@ const FEATURED_PRODUCTS = [
     rating: 4.4,
     description: "Next-generation analytics platform with event-based tracking, predictive insights, and cross-channel attribution for e-commerce data.",
     price: "Free",
-    href: "/tools/google-analytics-4",
+    href: "/tools/google-analytics",
   },
 ];
 
