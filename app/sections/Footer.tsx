@@ -17,14 +17,14 @@ const FOOTER_LINKS: Record<string, FooterLink[]> = {
   Company: [
     { name: 'About', href: '/about' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Careers', href: '#' },
-    { name: 'Press Kit', href: '#' },
+    { name: 'Team', href: '/about' },
+    { name: 'Contact', href: '/contact' },
   ],
   Resources: [
     { name: 'Documentation', href: '/' },
     { name: 'Help Center', href: '/contact' },
-    { name: 'Community', href: '#' },
-    { name: 'Status', href: '#' },
+    { name: 'FAQ', href: '/faq' },
+    { name: 'Sitemap', href: '/' },
   ],
   Legal: [
     { name: 'Privacy Policy', href: '/privacy' },
@@ -36,7 +36,7 @@ const FOOTER_LINKS: Record<string, FooterLink[]> = {
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-[#1E3A5F] bg-[#0A0F1A]">
+    <footer className="relative border-t border-gray-200 bg-gray-900">
       <div className="max-w-[1200px] mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row justify-between gap-12 mb-12">
           <div className="max-w-xs">
@@ -44,19 +44,19 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#84CC16] to-[#A3E635] flex items-center justify-center">
                 <ShoppingCart className="w-4 h-4 text-white" />
               </div>
-              <span className="text-lg font-bold text-[#F0F2FE]">StorePicks</span>
+              <span className="text-lg font-bold text-white">Nexus Solutions</span>
             </Link>
-            <p className="text-sm text-[#839BBE] leading-relaxed mb-6">
+            <p className="text-sm text-gray-400 leading-relaxed mb-6">
               The most comprehensive directory of e-commerce tools and platforms. Discover, compare, and find the best tools for your online store.
             </p>
             <div className="flex items-center gap-3">
-              <a href="#" className="w-9 h-9 rounded-lg bg-[#0F1F2D] border border-[#1E3A5F] flex items-center justify-center text-[#839BBE] hover:text-[#84CC16] hover:border-[#284880] transition-all">
+              <a href="#" className="w-9 h-9 rounded-lg bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-400 hover:text-[#84CC16] hover:border-[#84CC16] transition-all">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-[#0F1F2D] border border-[#1E3A5F] flex items-center justify-center text-[#839BBE] hover:text-[#84CC16] hover:border-[#284880] transition-all">
+              <a href="#" className="w-9 h-9 rounded-lg bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-400 hover:text-[#84CC16] hover:border-[#84CC16] transition-all">
                 <Github className="w-4 h-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-[#0F1F2D] border border-[#1E3A5F] flex items-center justify-center text-[#839BBE] hover:text-[#84CC16] hover:border-[#284880] transition-all">
+              <a href="#" className="w-9 h-9 rounded-lg bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-400 hover:text-[#84CC16] hover:border-[#84CC16] transition-all">
                 <Linkedin className="w-4 h-4" />
               </a>
             </div>
@@ -65,13 +65,13 @@ export default function Footer() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {Object.entries(FOOTER_LINKS).map(([title, links]) => (
               <div key={title}>
-                <h4 className="text-sm font-semibold text-[#F0F2FE] mb-4">{title}</h4>
+                <h4 className="text-sm font-semibold text-white mb-4">{title}</h4>
                 <ul className="space-y-2.5">
                   {links.map((link) => (
                     <li key={link.name}>
                       <Link
                         href={link.href}
-                        className="text-sm text-[#839BBE] hover:text-[#84CC16] transition-colors"
+                        className="text-sm text-gray-400 hover:text-[#84CC16] transition-colors"
                       >
                         {link.name}
                       </Link>
@@ -83,18 +83,18 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-[#1E3A5F] flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-[#4A6080]">
-            &copy; {new Date().getFullYear()} StorePicks. All rights reserved.
+        <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-gray-500">
+            &copy; {new Date().getFullYear()} Nexus Solutions. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="text-sm text-[#4A6080] hover:text-[#839BBE] transition-colors">
+            <Link href="/privacy" className="text-sm text-gray-500 hover:text-gray-300 transition-colors">
               Privacy
             </Link>
-            <Link href="/terms" className="text-sm text-[#4A6080] hover:text-[#839BBE] transition-colors">
+            <Link href="/terms" className="text-sm text-gray-500 hover:text-gray-300 transition-colors">
               Terms
             </Link>
-            <a href="#" className="text-sm text-[#4A6080] hover:text-[#839BBE] transition-colors">
+            <a href="#" className="text-sm text-gray-500 hover:text-gray-300 transition-colors">
               Sitemap
             </a>
           </div>

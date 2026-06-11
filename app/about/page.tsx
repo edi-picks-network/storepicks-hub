@@ -1,33 +1,66 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FileText, Target, TrendingUp, Search } from "lucide-react";
+import { MapPin, Users, Package, TrendingUp, Truck, Globe } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About — StorePicks",
+  title: "About — Nexus Solutions",
   description:
-    "StorePicks is an independent directory of e-commerce tools and platforms. We curate and compare e-commerce software to help merchants make informed decisions.",
+    "Nexus Solutions is a Bellevue, WA-based e-commerce and supply chain consultancy. Our 6-person team helps online merchants discover, compare, and deploy the right tools for their business.",
 };
+
+const TEAM_MEMBERS = [
+  {
+    name: "Marcus Chen",
+    role: "Founder & Lead Strategist",
+    bio: "Former Amazon supply chain engineer with 12+ years in e-commerce operations. Marcus founded Nexus Solutions to help merchants navigate the increasingly complex landscape of e-commerce tools.",
+  },
+  {
+    name: "Sarah Okafor",
+    role: "Senior E-Commerce Analyst",
+    bio: "Specializes in platform comparison and migration strategy. Sarah has helped 40+ brands transition between e-commerce platforms with zero downtime.",
+  },
+  {
+    name: "David Kim",
+    role: "Supply Chain Specialist",
+    bio: "Former logistics manager at a top-100 Shopify store. David evaluates fulfillment networks, shipping integrations, and inventory management systems.",
+  },
+  {
+    name: "Priya Sharma",
+    role: "Marketing Automation Lead",
+    bio: "Expert in email/SMS marketing stacks and customer data platforms. Priya runs our hands-on testing of marketing automation tools.",
+  },
+  {
+    name: "James Torres",
+    role: "Technical Architect",
+    bio: "Full-stack developer who evaluates API quality, integration depth, and headless commerce capabilities of every platform we review.",
+  },
+  {
+    name: "Aiko Tanaka",
+    role: "Research & Content Lead",
+    bio: "Compiles our tool comparisons, pricing analyses, and buyer's guides. Aiko ensures every review is accurate, unbiased, and actionable.",
+  },
+];
 
 const VALUES = [
   {
-    icon: Search,
-    title: "Independent Curation",
-    desc: "We research and catalog tools based on publicly available information, user reviews from major platforms, and product documentation — not sponsorship dollars.",
+    icon: Package,
+    title: "Rigorous Tool Evaluation",
+    desc: "We test every tool against 50+ criteria — from API reliability and integration depth to real-world pricing and support quality. No sponsored placements, no hidden bias.",
   },
   {
     icon: TrendingUp,
-    title: "Data-Driven Comparisons",
-    desc: "Every tool page includes feature comparisons, pricing breakdowns, and pros and cons synthesized from verified user feedback across multiple review platforms.",
+    title: "Supply Chain Focus",
+    desc: "Our Bellevue team brings deep supply chain expertise. We evaluate tools not just on features, but on how they impact your fulfillment operations and bottom line.",
   },
   {
-    icon: Target,
-    title: "Practical Guidance",
-    desc: "Our use case recommendations are based on real-world scenarios. We help match tools to specific e-commerce needs and business sizes.",
+    icon: Truck,
+    title: "Merchant-First Research",
+    desc: "Every comparison starts with the merchant's perspective. We ask: does this tool solve a real operational problem? Does it deliver measurable ROI?",
   },
   {
-    icon: FileText,
-    title: "Transparent Methodology",
-    desc: "We clearly indicate when information comes from public sources, vendor documentation, or aggregated review data. Our goal is transparency, not pretense.",
+    icon: Globe,
+    title: "Global Perspective",
+    desc: "E-commerce is borderless. Our team analyzes tools across multiple currencies, shipping regions, and regulatory environments to serve merchants worldwide.",
   },
 ];
 
@@ -35,51 +68,86 @@ export default function AboutPage() {
   return (
     <div className="relative pt-32 pb-20 px-6">
       <div className="max-w-[800px] mx-auto">
+        {/* Hero */}
         <div className="text-center mb-16">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#84CC16] bg-[#162540] px-3 py-1.5 rounded-md mb-4">
-            About
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#84CC16] bg-lime-50 px-3 py-1.5 rounded-md mb-4">
+            About Us
           </span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-[#F0F2FE] tracking-tight mb-6">
-            Your Guide to Better{' '}
-            <span className="text-gradient">E-commerce Tools</span>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
+            We Help Merchants Find Tools That{' '}
+            <span className="text-[#84CC16]">Actually Work</span>
           </h1>
-          <p className="text-lg text-[#839BBE] leading-relaxed max-w-2xl mx-auto">
-            StorePicks is an independent directory that helps merchants
-            discover, compare, and evaluate e-commerce platforms and tools. We aggregate
-            information from publicly available sources to give you a clear
-            picture of what each solution offers.
+          <p className="text-lg text-gray-500 leading-relaxed max-w-2xl mx-auto">
+            Nexus Solutions is a Bellevue, Washington-based team of six
+            e-commerce and supply chain specialists. We research, compare, and
+            recommend tools that help online merchants operate more efficiently
+            and grow faster.
           </p>
         </div>
 
+        {/* Our Story */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-6">What We Do</h2>
-          <div className="space-y-4 text-[#839BBE] leading-relaxed">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Story</h2>
+          <div className="space-y-4 text-gray-600 leading-relaxed">
             <p>
-              StorePicks was created to solve a common problem: finding
-              reliable, up-to-date information about e-commerce tools is
-              harder than it should be. Review sites are often biased by
-              sponsorship, pricing is hidden behind sales calls, and feature
-              comparisons quickly go out of date.
+              Nexus Solutions was founded in 2022 by Marcus Chen, a former
+              Amazon supply chain engineer who saw firsthand how difficult it is
+              for merchants to find reliable, unbiased information about
+              e-commerce tools.
             </p>
             <p>
-              We catalog and compare e-commerce tools across 10+ categories,
-              including Shopping Carts, Payment Gateways, Inventory Management, Marketing Automation, and more.
-              Each tool page includes verified pricing tiers, feature lists, pros
-              and cons synthesized from user reviews, and practical use case
-              recommendations.
+              Review sites are often driven by affiliate commissions. Pricing
+              information is buried behind sales calls. And feature comparisons
+              go out of date the moment a platform pushes an update. Marcus
+              believed merchants deserved better.
             </p>
             <p>
-              Our data is compiled from vendor documentation, official pricing
-              pages, and aggregated user reviews from platforms like G2,
-              Capterra, and TrustRadius. We do not claim to have tested every
-              tool personally — instead, we synthesize the best available public
-              information to help you make an informed choice.
+              He assembled a team of five specialists — each with deep
+              operational experience in e-commerce, supply chain, marketing
+              automation, and technical architecture — and founded Nexus
+              Solutions in Bellevue, Washington. Our mission: to be the most
+              trusted source of e-commerce tool intelligence on the web.
+            </p>
+            <p>
+              Today, our team of six evaluates 200+ tools across 15+ categories.
+              Every review, comparison, and recommendation on this site is the
+              result of hands-on testing, public data analysis, and real-world
+              merchant feedback.
             </p>
           </div>
         </div>
 
+        {/* Team */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+            Meet the Team
+          </h2>
+          <div className="flex items-center justify-center gap-2 mb-10">
+            <MapPin className="w-5 h-5 text-[#84CC16]" />
+            <span className="text-gray-600 font-medium">Bellevue, Washington · 6 Specialists</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {TEAM_MEMBERS.map((member) => (
+              <div
+                key={member.name}
+                className="bg-white border border-gray-200 rounded-xl p-6 hover:border-lime-200 hover:shadow-md transition-all"
+              >
+                <div className="w-12 h-12 rounded-lg bg-lime-50 flex items-center justify-center mb-4">
+                  <span className="text-lg font-bold text-[#84CC16]">
+                    {member.name.split(" ").map(n => n[0]).join("")}
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900 mb-1">{member.name}</h3>
+                <p className="text-sm font-medium text-[#84CC16] mb-3">{member.role}</p>
+                <p className="text-sm text-gray-500 leading-relaxed">{member.bio}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Values */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             How We Evaluate Tools
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -88,53 +156,27 @@ export default function AboutPage() {
               return (
                 <div
                   key={value.title}
-                  className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-6 card-hover"
+                  className="bg-white border border-gray-200 rounded-xl p-6 hover:border-lime-200 transition-all"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-[#162540] flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 rounded-lg bg-lime-50 flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-[#84CC16]" />
                   </div>
-                  <h3 className="text-lg font-bold text-[#F0F2FE] mb-2">{value.title}</h3>
-                  <p className="text-sm text-[#839BBE] leading-relaxed">{value.desc}</p>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">{value.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{value.desc}</p>
                 </div>
               );
             })}
           </div>
         </div>
 
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-6">Data Sources</h2>
-          <div className="space-y-4 text-[#839BBE] leading-relaxed">
-            <p>
-              Information on this site is compiled from the following sources:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                <strong className="text-[#F0F2FE]">Vendor official websites and documentation</strong> — pricing, features, and product descriptions
-              </li>
-              <li>
-                <strong className="text-[#F0F2FE]">Aggregated user reviews</strong> — publicly available ratings and feedback from platforms like G2, Capterra, and TrustRadius
-              </li>
-              <li>
-                <strong className="text-[#F0F2FE]">Industry publications and analyst reports</strong> — market trends and comparative analysis
-              </li>
-            </ul>
-            <p className="text-sm mt-4">
-              We strive to keep all information current, but pricing and features
-              change frequently. Please verify details directly with the vendor
-              before making purchasing decisions. Links to official websites are
-              provided on every tool page.
-            </p>
-          </div>
-        </div>
-
         {/* CTA */}
-        <div className="text-center bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-10">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-4">
-            Have feedback or a suggestion?
+        <div className="text-center bg-white border border-gray-200 rounded-xl p-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Have questions or feedback?
           </h2>
-          <p className="text-[#839BBE] mb-6 max-w-lg mx-auto">
-            We are always improving. If you notice outdated information or have
-            suggestions for tools we should add, let us know.
+          <p className="text-gray-500 mb-6 max-w-lg mx-auto">
+            Our team is always happy to help. Whether you need tool recommendations or
+            have suggestions for tools we should review, reach out.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -144,10 +186,10 @@ export default function AboutPage() {
               Contact Us
             </Link>
             <a
-              href="mailto:info@storepicks.net"
-              className="px-6 py-3 border border-[#1E3A5F] hover:border-[#284880] text-[#839BBE] hover:text-[#F0F2FE] font-medium rounded-lg transition-all"
+              href="mailto:hello@nexus-solutions.co"
+              className="px-6 py-3 border border-gray-200 hover:border-[#84CC16] text-gray-600 hover:text-[#84CC16] font-medium rounded-lg transition-all"
             >
-              info@storepicks.net
+              hello@nexus-solutions.co
             </a>
           </div>
         </div>

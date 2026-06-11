@@ -28,7 +28,7 @@ const FAQ_SCHEMA = {
       name: "How do I choose the right hosting provider?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'Key factors include: (1) Performance — fast load times and reliable uptime. (2) Features — product management, payment processing, shipping integration. (3) Scalability — can your store grow without switching platforms? (4) Pricing — watch for transaction fees and hidden costs. (5) Integrations — does it connect with your existing tools? (6) Support — 24/7 customer service. Compare providers on StorePicks to find your best match.',
+        text: 'Key factors include: (1) Performance — fast load times and reliable uptime. (2) Features — product management, payment processing, shipping integration. (3) Scalability — can your store grow without switching platforms? (4) Pricing — watch for transaction fees and hidden costs. (5) Integrations — does it connect with your existing tools? (6) Support — 24/7 customer service. Compare providers on Nexus Solutions to find your best match.',
       },
     },
     {
@@ -76,7 +76,7 @@ const FAQ_SCHEMA = {
       name: "How do hosting reviews and ratings work?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'StorePicks reviews are collected from verified customers on platforms like G2, Trustpilot, and specialized review sites. Users rate providers on criteria like features, ease of use, support quality, value for money, and reliability. Always read recent reviews and look for patterns rather than outliers. StorePicks synthesizes reviews across multiple platforms to give you a balanced view of each provider',
+        text: 'Nexus Solutions reviews are collected from verified customers on platforms like G2, Trustpilot, and specialized review sites. Users rate providers on criteria like features, ease of use, support quality, value for money, and reliability. Always read recent reviews and look for patterns rather than outliers. Nexus Solutions synthesizes reviews across multiple platforms to give you a balanced view of each provider',
       },
     },
     {

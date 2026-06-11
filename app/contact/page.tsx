@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Metadata } from "next";
-import { Mail, MapPin, Clock, Send } from "lucide-react";
+import { Mail, MapPin, Clock, Send, Phone } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -23,38 +22,37 @@ export default function ContactPage() {
     <div className="relative pt-32 pb-20 px-6">
       <div className="max-w-[1100px] mx-auto">
         <div className="text-center mb-12">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#84CC16] bg-[#162540] px-3 py-1.5 rounded-md mb-4">
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#84CC16] bg-lime-50 px-3 py-1.5 rounded-md mb-4">
             Contact
           </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#F0F2FE] tracking-tight mb-3">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
             Get in Touch
           </h1>
-          <p className="text-lg text-[#839BBE] max-w-xl mx-auto">
-            Have a question, suggestion, or want to list your e-commerce tool? We&apos;d love to
-            hear from you.
+          <p className="text-lg text-gray-500 max-w-xl mx-auto">
+            Have a question about e-commerce tools or want to suggest a tool for review? Our team in Bellevue is here to help.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-[1000px] mx-auto">
           <div className="lg:col-span-2">
-            <div className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-8">
-              <h2 className="text-xl font-bold text-[#F0F2FE] mb-6">Send Us a Message</h2>
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h2 className="text-xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
 
               {submitted ? (
-                <div className="bg-[#162540] border border-[#A3E635]/30 rounded-lg p-6 text-center">
-                  <div className="w-12 h-12 rounded-full bg-[#A3E635]/10 flex items-center justify-center mx-auto mb-3">
-                    <Send className="w-6 h-6 text-[#A3E635]" />
+                <div className="bg-lime-50 border border-[#84CC16]/30 rounded-lg p-6 text-center">
+                  <div className="w-12 h-12 rounded-full bg-[#84CC16]/10 flex items-center justify-center mx-auto mb-3">
+                    <Send className="w-6 h-6 text-[#84CC16]" />
                   </div>
-                  <p className="text-[#F0F2FE] font-semibold text-lg mb-1">Message Sent!</p>
-                  <p className="text-[#839BBE] text-sm">
-                    Thank you for reaching out. We&apos;ll get back to you within 24 hours.
+                  <p className="text-gray-900 font-semibold text-lg mb-1">Message Sent!</p>
+                  <p className="text-gray-500 text-sm">
+                    Thank you for reaching out. Our team will get back to you within 24 hours.
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <label className="block text-sm font-medium text-[#839BBE] mb-1.5">
+                      <label className="block text-sm font-medium text-gray-600 mb-1.5">
                         Your Name
                       </label>
                       <input
@@ -62,12 +60,12 @@ export default function ContactPage() {
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full px-4 py-3 bg-[#0A0F1A] border border-[#1E3A5F] rounded-lg text-[#F0F2FE] placeholder:text-[#4A6080] focus:border-[#84CC16] focus:outline-none transition-colors"
+                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-gray-900 placeholder:text-gray-400 focus:border-[#84CC16] focus:outline-none transition-colors"
                         placeholder="John Doe"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-[#839BBE] mb-1.5">
+                      <label className="block text-sm font-medium text-gray-600 mb-1.5">
                         Email Address
                       </label>
                       <input
@@ -75,34 +73,34 @@ export default function ContactPage() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full px-4 py-3 bg-[#0A0F1A] border border-[#1E3A5F] rounded-lg text-[#F0F2FE] placeholder:text-[#4A6080] focus:border-[#84CC16] focus:outline-none transition-colors"
+                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-gray-900 placeholder:text-gray-400 focus:border-[#84CC16] focus:outline-none transition-colors"
                         placeholder="john@company.com"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-[#839BBE] mb-1.5">
+                    <label className="block text-sm font-medium text-gray-600 mb-1.5">
                       Subject
                     </label>
                     <select
                       value={formData.subject}
                       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                       required
-                      className="w-full px-4 py-3 bg-[#0A0F1A] border border-[#1E3A5F] rounded-lg text-[#F0F2FE] focus:border-[#84CC16] focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-gray-900 focus:border-[#84CC16] focus:outline-none transition-colors"
                     >
                       <option value="">Select a subject...</option>
                       <option value="general">General Inquiry</option>
-                      <option value="provider-listing">List My Provider</option>
+                      <option value="provider-listing">List My Tool</option>
                       <option value="bug">Report a Bug</option>
                       <option value="suggestion">Feature Suggestion</option>
-                      <option value="advertising">Advertising / Partnership</option>
+                      <option value="advertising">Partnership Opportunity</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-[#839BBE] mb-1.5">
+                    <label className="block text-sm font-medium text-gray-600 mb-1.5">
                       Message
                     </label>
                     <textarea
@@ -110,7 +108,7 @@ export default function ContactPage() {
                       rows={5}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full px-4 py-3 bg-[#0A0F1A] border border-[#1E3A5F] rounded-lg text-[#F0F2FE] placeholder:text-[#4A6080] focus:border-[#84CC16] focus:outline-none transition-colors resize-none"
+                      className="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-gray-900 placeholder:text-gray-400 focus:border-[#84CC16] focus:outline-none transition-colors resize-none"
                       placeholder="Tell us how we can help..."
                     />
                   </div>
@@ -128,58 +126,58 @@ export default function ContactPage() {
           </div>
 
           <div className="space-y-5">
-            <div className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-[#F0F2FE] mb-4 flex items-center gap-2">
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
+              <h3 className="text-sm font-semibold text-gray-900 mb-4 flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#84CC16]" />
                 Email Us
               </h3>
               <div className="space-y-2">
-                <p className="text-sm text-[#839BBE]">
-                  <strong className="text-[#F0F2FE]">Support:</strong>
+                <p className="text-sm text-gray-500">
+                  <strong className="text-gray-900">General:</strong>
                   <br />
-                  <a href="mailto:support@storepicks.net" className="text-[#84CC16] hover:underline">
-                    support@storepicks.net
+                  <a href="mailto:hello@nexus-solutions.co" className="text-[#84CC16] hover:underline">
+                    hello@nexus-solutions.co
                   </a>
                 </p>
-                <p className="text-sm text-[#839BBE]">
-                  <strong className="text-[#F0F2FE]">General:</strong>
+                <p className="text-sm text-gray-500">
+                  <strong className="text-gray-900">Support:</strong>
                   <br />
-                  <a href="mailto:info@storepicks.net" className="text-[#84CC16] hover:underline">
-                    info@storepicks.net
+                  <a href="mailto:support@nexus-solutions.co" className="text-[#84CC16] hover:underline">
+                    support@nexus-solutions.co
                   </a>
                 </p>
-                <p className="text-sm text-[#839BBE]">
-                  <strong className="text-[#F0F2FE]">Press:</strong>
+                <p className="text-sm text-gray-500">
+                  <strong className="text-gray-900">Press:</strong>
                   <br />
-                  <a href="mailto:info@storepicks.net" className="text-[#84CC16] hover:underline">
-                    info@storepicks.net
+                  <a href="mailto:press@nexus-solutions.co" className="text-[#84CC16] hover:underline">
+                    press@nexus-solutions.co
                   </a>
                 </p>
               </div>
             </div>
 
-            <div className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-[#F0F2FE] mb-4 flex items-center gap-2">
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
+              <h3 className="text-sm font-semibold text-gray-900 mb-4 flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#84CC16]" />
                 Office
               </h3>
-              <p className="text-sm text-[#839BBE] leading-relaxed">
-                350 Fifth Avenue, Suite 3300
+              <p className="text-sm text-gray-500 leading-relaxed">
+                11100 NE 8th Street, Suite 600
                 <br />
-                New York, NY 10118
+                Bellevue, WA 98004
                 <br />
                 United States
               </p>
             </div>
 
-            <div className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-[#F0F2FE] mb-4 flex items-center gap-2">
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
+              <h3 className="text-sm font-semibold text-gray-900 mb-4 flex items-center gap-2">
                 <Clock className="w-4 h-4 text-[#84CC16]" />
                 Response Time
               </h3>
-              <p className="text-sm text-[#839BBE]">
-                We typically respond within <strong className="text-[#F0F2FE]">24 hours</strong> during
-                business days.
+              <p className="text-sm text-gray-500">
+                We typically respond within <strong className="text-gray-900">24 hours</strong> during
+                business days (PST).
               </p>
             </div>
           </div>

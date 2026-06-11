@@ -64,9 +64,9 @@ export default function ToolDetailPage() {
     scripts.push(s1);
 
     const org = organizationSchema(
-      'StorePicks',
-      'https://storepicks.net',
-      'Honest e-commerce reviews and comparisons for modern businesses.'
+      'Nexus Solutions',
+      'https://nexus-solutions.co',
+      'E-commerce tool research and comparisons by the Nexus Solutions team in Bellevue, WA.'
     );
     const s2 = document.createElement('script');
     s2.type = 'application/ld+json';
