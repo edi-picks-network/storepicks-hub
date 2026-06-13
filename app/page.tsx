@@ -43,14 +43,6 @@ const FEATURED_PRODUCTS = [
     href: "/tools/gorgias",
   },
   {
-    name: "Recharge",
-    category: "Subscription Management",
-    rating: 4.5,
-    description: "Subscription billing platform for e-commerce brands. Manage recurring payments, delivery schedules, and customer portals seamlessly.",
-    price: "From $99/mo",
-    href: "/tools/shopify",
-  },
-  {
     name: "Google Analytics 4",
     category: "Analytics",
     rating: 4.4,

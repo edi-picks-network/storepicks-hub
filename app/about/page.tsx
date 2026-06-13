@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MapPin, Users, Package, TrendingUp, Truck, Globe } from "lucide-react";
+import { ALL_TOOLS } from "@/data/tools";
 
 export const metadata: Metadata = {
   title: "About — Nexus Solutions",
@@ -109,7 +110,7 @@ export default function AboutPage() {
               trusted source of e-commerce tool intelligence on the web.
             </p>
             <p>
-              Today, our team of six evaluates 200+ tools across 15+ categories.
+              Today, our team of six evaluates {ALL_TOOLS.length} tools across 15+ categories.
               Every review, comparison, and recommendation on this site is the
               result of hands-on testing, public data analysis, and real-world
               merchant feedback.
