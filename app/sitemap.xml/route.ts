@@ -7,6 +7,8 @@ const BLOG_SLUGS = [
     "ecommerce-marketing-automation-tools-2026",
     "dropshipping-automation-2026-tools",
     "best-ecommerce-marketing-tools-2026",
+    "ecommerce-inventory-management-stack-2026",
+    "ecommerce-seo-optimization-strategies-2026",
 ] as const;
 
 const TOOL_SLUGS = [
