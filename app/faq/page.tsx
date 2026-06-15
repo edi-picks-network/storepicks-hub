@@ -65,7 +65,7 @@ const FAQ_SCHEMA = {
     },
     {
       "@type": "Question",
-      name: "What are the best tools for跨境电商 (cross-border ecommerce) sellers?",
+      name: "What are the best tools for cross-border ecommerce sellers?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Cross-border ecommerce sellers benefit from: product research tools like Zonbase and JS for international markets, translation tools like DeepL or Weglot for store localization, currency conversion tools, international shipping solutions like ShipStation or Easyship, and compliance tools that handle VAT/tax regulations across different countries. Payment processors like Payoneer and WorldFirst are also essential for receiving payments from global marketplaces.",

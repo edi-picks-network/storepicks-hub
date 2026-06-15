@@ -6,8 +6,8 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import Link from "next/link";
 import { ShoppingCart, Package, Truck, BarChart3, Globe, ShieldCheck, ArrowRight, Star } from "lucide-react";
 
-// ─── Nexus Solutions ◇ 电商工具站首页 ───
-// 石灰绿色系 #84cc16，产品展示式布局
+// ─── Nexus Solutions ◇ E-Commerce Tools Homepage ───
+// Lime green color scheme #84cc16, product showcase layout
 
 const FEATURED_PRODUCTS = [
   {
@@ -55,7 +55,7 @@ const FEATURED_PRODUCTS = [
 export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  // 分类聚合
+  // Category aggregation
   const categories = useMemo(() => {
     const map = new Map<string, { count: number }>();
     for (const tool of ALL_TOOLS) {
@@ -90,7 +90,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* ═══ HERO — 石灰绿色系产品展示 ═══ */}
+      {/* ═══ HERO — Lime green product showcase ═══ */}
       <section className="relative bg-gradient-to-br from-lime-50 via-white to-lime-50 overflow-hidden">
         <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 md:pt-32 md:pb-24">
           <div className="max-w-3xl">
@@ -106,7 +106,7 @@ export default function HomePage() {
               that power successful online stores — from payment gateways to
               supply chain automation.
             </p>
-            {/* 搜索 */}
+            {/* Search */}
             <div className="w-full max-w-lg">
               <div className="flex items-center bg-white border-2 border-gray-200 rounded-xl shadow-sm hover:border-lime-300 focus-within:border-lime-400 transition-colors overflow-hidden">
                 <svg
@@ -139,12 +139,12 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        {/* 装饰 */}
+        {/* Decorations */}
         <div className="absolute -top-20 -right-20 w-96 h-96 bg-lime-200/20 rounded-full blur-3xl" />
         <div className="absolute -bottom-10 -left-10 w-72 h-72 bg-lime-100/20 rounded-full blur-3xl" />
       </section>
 
-      {/* ═══ 精选产品 — 产品展示式布局 ═══ */}
+      {/* ═══ Featured Products — Product Showcase Layout ═══ */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Featured Products</h2>
@@ -185,7 +185,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 分类导航 ═══ */}
+      {/* ═══ Category Navigation ═══ */}
       <section className="py-12">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Browse by Category</h2>
@@ -209,7 +209,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 全部工具 ═══ */}
+      {/* ═══ All Tools ═══ */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">
@@ -255,7 +255,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══ 最新博客 ═══ */}
+      {/* ═══ Latest Blog Posts ═══ */}
       {latestPosts.length > 0 && (
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-6">
