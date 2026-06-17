@@ -13,6 +13,7 @@ const BLOG_SLUGS = [
     "dropshipping-sourcing-battle-2026",
     "amazon-fba-vs-dtc-brand-building-2026",
     "ecommerce-pricing-strategies-2026",
+    "ecommerce-customer-retention-strategies-2026",
 ] as const;
 
 const TOOL_SLUGS = [
