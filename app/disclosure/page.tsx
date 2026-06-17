@@ -77,8 +77,8 @@ export default function DisclosurePage() {
             <p>
               If you have any questions about our affiliate relationships or this
               disclosure, please contact us at{" "}
-              <a href="mailto:hello@nexus-solutions.co" className="text-[#84CC16] hover:underline">
-                hello@nexus-solutions.co
+              <a href="mailto:info@storepicks.net" className="text-[#84CC16] hover:underline">
+                info@storepicks.net
               </a>
               .
             </p>
