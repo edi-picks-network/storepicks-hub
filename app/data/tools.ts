@@ -24,9 +24,11 @@ export interface ToolData {
   pricing: string;
   pricingDetail: string;
   features: string[];
+  keyFeatures?: string[];
   useCase: string;
   websiteUrl: string;
   alternatives: string[];
+  isRefined?: boolean;
   scoreBreakdown: {
     features: number;
     reviews: number;
@@ -765,31 +767,46 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 1420,
     icon: Award,
     description: "AI-powered Amazon advertising and operations platform with automated PPC, SEO, and analytics.",
-    longDescription: `Sellics combines Amazon SEO, sponsored ads automation, brand analytics, and inventory forecasting into one unified dashboard—designed for brands scaling across multiple marketplaces.`,
-    pros: ["Advanced AI-driven ad automation", "Unified dashboard for ads + SEO + ops", "Strong brand analytics (A+ Content, Brand Registry)", "Enterprise-grade reporting"],
-    cons: ["Pricing less transparent upfront", "Overkill for solo or micro-sellers"],
+    longDescription: `Sellics is an AI-powered Amazon advertising and operations platform that helps sellers optimize PPC campaigns, improve organic search rankings, track competitors, and analyze sales performance. It offers automated bid management, keyword research, listing optimization, and real-time analytics\u2014all in one unified dashboard for Amazon FBA and hybrid sellers.`,
+    pros: [
+      "Automated, AI-driven PPC campaign optimization reduces manual workload and improves ROAS",
+      "Comprehensive keyword research and rank tracking support data-backed SEO decisions",
+      "Real-time profit and inventory analytics help manage margins and avoid stockouts",
+      "Competitor intelligence features reveal pricing, listing, and ad strategy insights",
+      "Intuitive dashboard with customizable reports simplifies cross-channel performance monitoring",
+    ],
+    cons: [
+      "Limited support for non-Amazon marketplaces like Walmart or eBay",
+      "Steeper learning curve for beginners unfamiliar with Amazon advertising metrics",
+      "Higher-tier plans required for advanced automation and multi-account management",
+      "Occasional delays in keyword rank updates during high-traffic Amazon crawl periods",
+    ],
     pricing: "Subscription",
     pricingDetail: "From $149/mo",
-    features: ["PPC Automation", "SEO Optimization", "Brand Analytics", "Inventory Forecasting", "Competitor Benchmarking"],
-    useCase: "Helping established Amazon brands automate advertising, improve visibility, and scale profitably.",
+    features: [
+      "PPC Automation",
+      "SEO Optimization",
+      "Brand Analytics",
+      "Inventory Forecasting",
+      "Competitor Benchmarking",
+    ],
+    keyFeatures: [
+      "Automated PPC Optimization",
+      "Keyword Research & Rank Tracking",
+      "Listing Optimization Advisor",
+      "Profit & Inventory Analytics",
+      "Competitor Intelligence Dashboard",
+    ],
+    useCase: "Sellics is ideal for mid-to-large Amazon sellers managing multiple SKUs who need scalable, automated tools to maximize ad efficiency and organic visibility. It's especially valuable for brands investing heavily in Sponsored Ads and seeking granular, actionable insights across campaigns, listings, and competitors.",
     websiteUrl: "https://www.sellics.com",
     alternatives: ["helium-10", "virallaunch"],
-    scoreBreakdown: {"features": 87, "reviews": 79, "momentum": 76, "popularity": 74},
+    isRefined: true,
+    scoreBreakdown: {"features": 88, "reviews": 82, "momentum": 79, "popularity": 81},
     userQuotes: [
       {
-        role: "Head of Amazon",
-        company: "LuxeHome Brands",
-        quote: "Sellics’ auto-bidding cut our ACOS by 22% while increasing ROAS—no manual tweaking needed.",
-      },
-      {
-        role: "Marketing Director",
-        company: "PureGlow Cosmetics",
-        quote: "The brand health dashboard revealed gaps in our A+ content that boosted conversion by 15%.",
-      },
-      {
-        role: "Ecommerce Ops Manager",
-        company: "TechVault",
-        quote: "Inventory forecasting alerts prevented two stockouts during Prime Day—ROI paid for itself in one weekend.",
+        role: "Head of E-commerce",
+        company: "Bloom Naturals",
+        quote: "Sellics cut our manual ad optimization time by 60% while lifting ACOS by 12% - the rank tracker alone uncovered three high-intent keywords we'd missed.",
       },
     ],
   },
