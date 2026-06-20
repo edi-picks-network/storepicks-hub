@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             <p>
               Nexus Solutions ("we," "our," or "us") is committed to protecting your privacy.
               This Privacy Policy explains how we collect, use, disclose, and safeguard your
-              information when you visit our website nexus-solutions.co (the "Site"). Please read this
+              information when you visit our website storepicks.net (the "Site"). Please read this
               policy carefully. If you do not agree with the terms, do not access the Site.
             </p>
           </section>
