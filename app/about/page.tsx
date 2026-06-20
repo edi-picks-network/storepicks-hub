@@ -187,10 +187,10 @@ export default function AboutPage() {
               Contact Us
             </Link>
             <a
-              href="mailto:hello@nexus-solutions.co"
+              href="mailto:sell@storepicks.net"
               className="px-6 py-3 border border-gray-200 hover:border-[#84CC16] text-gray-600 hover:text-[#84CC16] font-medium rounded-lg transition-all"
             >
-              hello@nexus-solutions.co
+              sell@storepicks.net
             </a>
           </div>
         </div>

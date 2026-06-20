@@ -148,7 +148,7 @@ export default function PrivacyPage() {
               <li><strong>Right to Opt Out (CCPA):</strong> California residents may opt out of the sale of their personal information. We do not sell personal information.</li>
             </ul>
             <p className="mt-3">
-              To exercise any of these rights, please contact us at privacy@nexus-solutions.co. We
+              To exercise any of these rights, please contact us at sell@storepicks.net. We
               will respond to your request within 30 days.
             </p>
           </section>
@@ -181,7 +181,7 @@ export default function PrivacyPage() {
               knowingly collect personal information from children. If we become aware that a
               child has provided us with personal data, we will delete it immediately. Parents
               or guardians who believe their child has submitted information to us should contact
-              us at privacy@nexus-solutions.co.
+              us at sell@storepicks.net.
             </p>
           </section>
 
@@ -211,8 +211,8 @@ export default function PrivacyPage() {
               contact us:
             </p>
             <div className="mt-4 p-5 bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl">
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> privacy@nexus-solutions.co</p>
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@nexus-solutions.co</p>
+              <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> sell@storepicks.net</p>
+              <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> sell@storepicks.net</p>
               <p><strong className="text-[#F0F2FE]">Address:</strong> 11100 NE 8th Street, Suite 600, Bellevue, WA 98004</p>
             </div>
           </section>

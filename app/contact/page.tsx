@@ -135,22 +135,22 @@ export default function ContactPage() {
                 <p className="text-sm text-gray-500">
                   <strong className="text-gray-900">General:</strong>
                   <br />
-                  <a href="mailto:hello@nexus-solutions.co" className="text-[#84CC16] hover:underline">
-                    hello@nexus-solutions.co
+                  <a href="mailto:sell@storepicks.net" className="text-[#84CC16] hover:underline">
+                    sell@storepicks.net
                   </a>
                 </p>
                 <p className="text-sm text-gray-500">
                   <strong className="text-gray-900">Support:</strong>
                   <br />
-                  <a href="mailto:support@nexus-solutions.co" className="text-[#84CC16] hover:underline">
-                    support@nexus-solutions.co
+                  <a href="mailto:sell@storepicks.net" className="text-[#84CC16] hover:underline">
+                    sell@storepicks.net
                   </a>
                 </p>
                 <p className="text-sm text-gray-500">
                   <strong className="text-gray-900">Press:</strong>
                   <br />
-                  <a href="mailto:press@nexus-solutions.co" className="text-[#84CC16] hover:underline">
-                    press@nexus-solutions.co
+                  <a href="mailto:sell@storepicks.net" className="text-[#84CC16] hover:underline">
+                    sell@storepicks.net
                   </a>
                 </p>
               </div>
