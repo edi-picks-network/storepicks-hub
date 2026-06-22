@@ -20,7 +20,7 @@ export async function generateMetadata({
   const post = BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) return { title: "Post Not Found" };
   return {
-    title: `${post.title} — Nexus Solutions`,
+    title: `${post.title} — StorePicks`,
     description: post.excerpt,
   };
 }
@@ -166,13 +166,13 @@ export default async function BlogPostPage({
     post.title,
     post.author,
     post.date,
-    'Nexus Solutions',
+    'StorePicks',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'Nexus Solutions',
+    'StorePicks',
     'https://nexus-solutions.co',
-    'E-commerce tool reviews and comparisons by the Nexus Solutions team in Bellevue, WA.'
+    'E-commerce tool reviews and comparisons by the StorePicks team in Bellevue, WA.'
   );
 
   return (

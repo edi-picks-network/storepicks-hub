@@ -44,7 +44,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#84CC16] to-[#A3E635] flex items-center justify-center">
                 <ShoppingCart className="w-4 h-4 text-white" />
               </div>
-              <span className="text-lg font-bold text-white">Nexus Solutions</span>
+              <span className="text-lg font-bold text-white">StorePicks</span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
               The most comprehensive directory of e-commerce tools and platforms. Discover, compare, and find the best tools for your online store.
@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Nexus Solutions. All rights reserved.
+            &copy; {new Date().getFullYear()} StorePicks. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="text-sm text-gray-500 hover:text-gray-300 transition-colors">

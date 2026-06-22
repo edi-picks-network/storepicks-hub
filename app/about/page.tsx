@@ -4,16 +4,16 @@ import { MapPin, Users, Package, TrendingUp, Truck, Globe } from "lucide-react";
 import { ALL_TOOLS } from "@/data/tools";
 
 export const metadata: Metadata = {
-  title: "About — Nexus Solutions",
+  title: "About — StorePicks",
   description:
-    "Nexus Solutions is a Bellevue, WA-based e-commerce and supply chain consultancy. Our 6-person team helps online merchants discover, compare, and deploy the right tools for their business.",
+    "StorePicks is a Bellevue, WA-based e-commerce and supply chain consultancy. Our 6-person team helps online merchants discover, compare, and deploy the right tools for their business.",
 };
 
 const TEAM_MEMBERS = [
   {
     name: "Marcus Chen",
     role: "Founder & Lead Strategist",
-    bio: "Former Amazon supply chain engineer with 12+ years in e-commerce operations. Marcus founded Nexus Solutions to help merchants navigate the increasingly complex landscape of e-commerce tools.",
+    bio: "Former Amazon supply chain engineer with 12+ years in e-commerce operations. Marcus founded StorePicks to help merchants navigate the increasingly complex landscape of e-commerce tools.",
   },
   {
     name: "Sarah Okafor",
@@ -79,7 +79,7 @@ export default function AboutPage() {
             <span className="text-[#84CC16]">Actually Work</span>
           </h1>
           <p className="text-lg text-gray-500 leading-relaxed max-w-2xl mx-auto">
-            Nexus Solutions is a Bellevue, Washington-based team of six
+            StorePicks is a Bellevue, Washington-based team of six
             e-commerce and supply chain specialists. We research, compare, and
             recommend tools that help online merchants operate more efficiently
             and grow faster.
@@ -91,7 +91,7 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Story</h2>
           <div className="space-y-4 text-gray-600 leading-relaxed">
             <p>
-              Nexus Solutions was founded in 2022 by Marcus Chen, a former
+              StorePicks was founded in 2022 by Marcus Chen, a former
               Amazon supply chain engineer who saw firsthand how difficult it is
               for merchants to find reliable, unbiased information about
               e-commerce tools.

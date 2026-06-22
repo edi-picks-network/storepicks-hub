@@ -4,7 +4,7 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Nexus Solutions Blog — E-Commerce Tools & Insights",
+  title: "StorePicks Blog — E-Commerce Tools & Insights",
   description:
     "Expert insights, comparisons, and strategies for choosing and using e-commerce platforms. Stay informed with the latest in e-commerce tools and online selling solutions.",
 };

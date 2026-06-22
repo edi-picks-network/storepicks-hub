@@ -14,7 +14,8 @@ const BLOG_SLUGS = [
     "amazon-fba-vs-dtc-brand-building-2026",
     "ecommerce-pricing-strategies-2026",
     "ecommerce-customer-retention-strategies-2026",
-    "supply-chain-optimization-ecommerce-2026",
+    "supply-chain-optimization-ecommerce-2026",,
+    "ai-cross-border-ecommerce-tools-strategies-2026"
 ] as const;
 
 const TOOL_SLUGS = [

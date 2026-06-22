@@ -6,7 +6,7 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import Link from "next/link";
 import { ShoppingCart, Package, Truck, BarChart3, Globe, ShieldCheck, ArrowRight, Star } from "lucide-react";
 
-// ─── Nexus Solutions ◇ E-Commerce Tools Homepage ───
+// ─── StorePicks ◇ E-Commerce Tools Homepage ───
 // Lime green color scheme #84cc16, product showcase layout
 
 const FEATURED_PRODUCTS = [
@@ -95,7 +95,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6 pt-24 pb-16 md:pt-32 md:pb-24">
           <div className="max-w-3xl">
             <span className="inline-block text-sm font-semibold text-lime-600 bg-lime-100 px-4 py-1.5 rounded-full mb-6">
-              Curated by Nexus Solutions
+              Curated by StorePicks
             </span>
             <h1 className="text-5xl md:text-7xl font-black text-gray-900 tracking-tight leading-[1.05] mb-6">
               E-Commerce Tools That{" "}

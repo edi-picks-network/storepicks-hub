@@ -39,7 +39,7 @@ export default function Header() {
             <ShoppingCart className="w-4 h-4 text-white" />
           </div>
           <span className="text-lg font-bold text-gray-900 group-hover:text-[#84CC16] transition-colors">
-            Nexus Solutions
+            StorePicks
           </span>
         </Link>
 

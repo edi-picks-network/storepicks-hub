@@ -5,9 +5,9 @@ import Header from "./sections/Header";
 import Footer from "./sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Nexus Solutions — E-Commerce Tool Reviews & Comparisons",
+  title: "StorePicks — E-Commerce Platform Comparisons & Setup Guides",
   description:
-    "Real e-commerce tool comparisons, ratings, and reviews from the Nexus Solutions team in Bellevue, WA. Find the best platforms, apps, and services for your online store — from payment gateways to supply chain solutions.",
+    "Real e-commerce tool comparisons, ratings, and reviews. Find the best platforms, apps, and services for your online store — from payment gateways to supply chain solutions.",
   keywords: [
     "e-commerce tools",
     "online store software",
@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     "payment gateway comparison",
     "e-commerce platforms",
     "supply chain tools",
-    "nexus solutions",
   ],
   verification: {
     google: "T5bb4mZivi0CfaYYRiKZLSNIWmhvAX6_RVgDEyonTGo",
@@ -23,10 +22,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Nexus Solutions",
-    title: "Nexus Solutions — E-Commerce Tool Reviews & Comparisons",
+    siteName: "StorePicks",
+    title: "StorePicks — E-Commerce Platform Comparisons & Setup Guides",
     description:
-      "Real e-commerce tool comparisons, ratings, and reviews from the Nexus Solutions team in Bellevue, WA.",
+      "Real e-commerce tool comparisons, ratings, and reviews.",
   },
 };
 

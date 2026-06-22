@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — Nexus Solutions",
+  title: "Affiliate Disclosure — StorePicks",
   description:
-    "Nexus Solutions' affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
+    "StorePicks' affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
 };
 
 export default function DisclosurePage() {
@@ -26,7 +26,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F2FE] mb-3">Transparency First</h2>
             <p>
-              Nexus Solutions is committed to transparency. This Affiliate Disclosure
+              StorePicks is committed to transparency. This Affiliate Disclosure
               explains how we may earn compensation through links on our website.
             </p>
           </section>
