@@ -31,3 +31,8 @@ patch.diff
 newtools.js
 new-tools-batch.ts
 .vercel
+check_ld.py
+refine_tools.py
+generate_blog.py
+insert_blog.py
+__pycache__/
