@@ -18,7 +18,8 @@ const BLOG_SLUGS = [
     "ai-cross-border-ecommerce-tools-strategies-2026",
     "best-ecommerce-analytics-tools-2026",
     "ecommerce-conversion-rate-optimization-2026",
-    "best-ecommerce-inventory-management-software-2026"
+    "best-ecommerce-inventory-management-software-2026",
+    "ecommerce-reviews-social-proof-tools-2026-guide"
 ] as const;
 
 const TOOL_SLUGS = [
