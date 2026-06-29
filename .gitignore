@@ -36,3 +36,6 @@ refine_tools.py
 generate_blog.py
 insert_blog.py
 __pycache__/
+
+tsconfig.tsbuildinfo
+patch_tools.py
