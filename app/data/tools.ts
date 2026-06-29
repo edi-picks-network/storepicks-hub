@@ -51,12 +51,12 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 12000,
     icon: ShoppingCart,
     description: "All-in-one e-commerce platform for online stores and retail point-of-sale systems.",
-    longDescription: `Shopify stands as the undisputed leader in the SMB and mid-market e-commerce platform space — a fully hosted, cloud-based SaaS solution trusted by over 6 million merchants globally. Launched in 2006, it has evolved from a simple online store builder into a comprehensive commerce operating system powering everything from single-product DTC brands to enterprise-grade retail operations with omnichannel capabilities. Its intuitive drag-and-drop admin interface, zero-code theme customization (via Liquid templating), and seamless app ecosystem make it uniquely accessible for non-technical founders — while still offering deep extensibility for developers via REST/GraphQL APIs, Shopify Functions, and Hydrogen for headless storefronts. Key strengths include unified inventory management across online, POS, and third-party marketplaces; built-in PCI-compliant payments (Shopify Payments) with dynamic fraud analysis; real-time analytics dashboards covering conversion funnels, customer lifetime value, and product performance; and native integrations with TikTok Shop, Amazon, Facebook, Google Shopping, and major ERPs like NetSuite and SAP. Shopify also delivers robust B2B functionality (quotations, custom pricing, account-based catalogs), subscription billing via Shopify Markets Pro, and AI-powered tools like Shopify Magic for product descriptions, email copy, and SEO optimization. While powerful, it is not without trade-offs: transaction fees apply when using external gateways (unless on Shopify Payments), advanced reporting requires third-party apps or Shopify Plus, and theme customization beyond the admin UI demands Liquid expertise. Pricing tiers scale meaningfully — Basic ($39/mo) suits solopreneurs; Shopify ($105/mo) adds staff accounts and professional reports; Advanced ($399/mo) unlocks third-party calculated shipping and enhanced fraud analysis; and Plus (custom, starting ~$2,300/mo) delivers dedicated infrastructure, SLA-backed uptime, and enterprise-grade support. Ideal for startups seeking speed-to-market, growth-stage brands needing scalability, and retailers unifying physical + digital commerce. Ratings sourced from G2`,
+    longDescription: `Shopify stands as the undisputed leader in the SMB and mid-market e-commerce platform space — a fully hosted, cloud-based SaaS solution trusted by over 6 million merchants globally. Launched in 2006, it has evolved from a simple online store builder into a comprehensive commerce operating system powering everything from single-product DTC brands to enterprise-grade retail operations with omnichannel capabilities. Its intuitive drag-and-drop admin interface, zero-code theme customization (via Liquid templating), and seamless app ecosystem make it uniquely accessible for non-technical founders — while still offering deep extensibility for developers via REST/GraphQL APIs, Shopify Functions, and Hydrogen for headless storefronts. Key strengths include unified inventory management across online, POS, and third-party marketplaces; built-in PCI-compliant payments (Shopify Payments) with dynamic fraud analysis; real-time analytics dashboards covering conversion funnels, customer lifetime value, and product performance; and native integrations with TikTok Shop, Amazon, Facebook, Google Shopping, and major ERPs like NetSuite and SAP. Shopify also delivers robust wholesale functionality (quotations, custom pricing, account-based catalogs), subscription billing via Shopify Markets Pro, and AI-powered tools like Shopify Magic for product descriptions, email copy, and SEO optimization. While powerful, it is not without trade-offs: transaction fees apply when using external gateways (unless on Shopify Payments), advanced reporting requires third-party apps or Shopify Plus, and theme customization beyond the admin UI demands Liquid expertise. Pricing tiers scale meaningfully — Basic ($39/mo) suits solopreneurs; Shopify ($105/mo) adds staff accounts and professional reports; Advanced ($399/mo) unlocks third-party calculated shipping and enhanced fraud analysis; and Plus (custom, starting ~$2,300/mo) delivers dedicated infrastructure, SLA-backed uptime, and enterprise-grade support. Ideal for startups seeking speed-to-market, growth-stage brands needing scalability, and retailers unifying physical + digital commerce. Ratings sourced from G2`,
     pros: ["Intuitive, low-code admin interface ideal for non-technical users", "Extensive app ecosystem (over 10,000 apps) for marketing, fulfillment, and analytics", "Seamless omnichannel selling: unified inventory across web, POS, social, and marketplaces", "Built-in payment processing (Shopify Payments) with no transaction fees and smart fraud prevention", "Scalable architecture — handles traffic spikes during flash sales and holiday surges", "Strong developer tooling: GraphQL Admin API, Hydrogen, Oxygen, and Shopify CLI", "AI-powered features (Shopify Magic) embedded natively across admin workflows"],
     cons: ["Transaction fees apply when using non-Shopify payment gateways", "Advanced reporting and custom data exports often require paid third-party apps or Shopify Plus", "Theme customization beyond the drag-and-drop editor requires Liquid knowledge", "Limited native multi-currency checkout options without Shopify Markets (add-on subscription)"],
     pricing: "Subscription",
     pricingDetail: "From $39/mo (Basic); $105/mo (Shopify); $399/mo (Advanced); custom Plus pricing",
-    features: ["Customizable online store with 100+ responsive themes (free & paid)", "Shopify POS for unified in-store and online inventory management", "Shopify Payments (integrated gateway) with automatic tax and fraud analysis", "Shopify Markets for international expansion (multi-currency, localized checkout, duties/taxes)", "Shopify Email for automated campaigns and customer segmentation", "Shopify Analytics with real-time dashboards and customizable reports", "App Store with vetted integrations for ERP, accounting, logistics, and marketing", "Hydrogen + Oxygen for headless, performant storefronts", "Shopify Functions for custom serverless logic (e.g., dynamic pricing, loyalty rules)", "B2B features including wholesale catalogs, custom pricing, and quote requests"],
+    features: ["Customizable online store with 100+ responsive themes (free & paid)", "Shopify POS for unified in-store and online inventory management", "Shopify Payments (integrated gateway) with automatic tax and fraud analysis", "Shopify Markets for international expansion (multi-currency, localized checkout, duties/taxes)", "Shopify Email for automated campaigns and customer segmentation", "Shopify Analytics with real-time dashboards and customizable reports", "App Store with vetted integrations for ERP, accounting, logistics, and marketing", "Hydrogen + Oxygen for headless, performant storefronts", "Shopify Functions for custom serverless logic (e.g., dynamic pricing, loyalty rules)", "wholesale features including wholesale catalogs, custom pricing, and quote requests"],
     useCase: "Ideal for small to mid-sized businesses launching their first online store, scaling DTC brands requiring omnichannel reach, and retailers unifying e-commerce with brick-and-mortar POS — especially those prioritizing speed-to-market, ease of use, and integrated payments.",
     websiteUrl: "https://www.shopify.com",
     alternatives: ["woocommerce", "bigcommerce"],
@@ -106,7 +106,7 @@ export const ALL_TOOLS: ToolData[] = [
       {
         role: "Owner",
         company: "The Good Batch",
-        quote: "Built our bakery store from scratch using only free plugins—and it’s still growing.",
+        quote: "Built our bakery store from scratch using only free plugins—and it's still growing.",
       },
       {
         role: "Developer",
@@ -122,14 +122,14 @@ export const ALL_TOOLS: ToolData[] = [
     rating: 4.4,
     reviewCount: 3200,
     icon: ShoppingCart,
-    description: "Cloud-based SaaS platform for B2B and B2C online stores with built-in scalability.",
-    longDescription: `BigCommerce stands out as a premium, enterprise-grade SaaS e-commerce platform purpose-built for high-growth B2B and B2C brands seeking scalability without infrastructure overhead. Unlike many competitors, it charges zero transaction fees across all plans — a major financial advantage for merchants processing high volumes or selling high-ticket items. Its native headless architecture enables unmatched frontend flexibility (via GraphQL API, Storefront SDK, and Stencil CLI), empowering teams to deploy custom PWA, mobile app, or composable commerce experiences while retaining full backend control. BigCommerce uniquely delivers robust, out-of-the-box B2B functionality — including tiered pricing, quote management, PO-based checkout, multi-user account hierarchies, and ERP/CRM integrations — without requiring expensive add-ons or custom development. Multi-channel selling is deeply embedded: sync inventory and orders natively across Amazon, eBay, Walmart, Instagram, TikTok Shop, Google Shopping, and marketplaces via unified dashboard and API-first design. The platform also offers advanced SEO tools (schema markup, canonical tags, AMP support), built-in CDN, PCI-DSS Level 1 compliance, and automatic scaling during traffic spikes — critical for flash sales or seasonal surges. Pros include exceptional uptime (99.99% SLA), no code-required page builder, strong internationalization (multi-currency, language, tax), and powerful analytics with cohort reporting. Cons involve steeper learning curve for complex B2B workflows, limited native blogging capabilities compared to Shopify, fewer third-party themes in the marketplace, and enterprise-tier customization requiring certified partners. Pricing tiers are transparent: Standard ($29.95/mo, up to $50K/year revenue), Plus ($79.95/mo, up to $150K), Pro ($299.95/mo, up to $400K), and Enterprise (custom, for $1M+ revenue, including dedicated success manager, advanced fraud tools, and white-glove migration). Ideal use cases span mid-market DTC brands scaling internationally, wholesale distributors launching direct-to-retail portals, manufacturers with complex B2B catalogs, and retailers executing omnichannel strategies across physical, digital, and social touchpoints. While not ideal for hobbyist sellers or ultra-lean startups needing maximum theme flexibility, BigCommerce excels where performance, compliance, growth velocity, and B2B sophistication converge. Ratings sourced from G2`,
-    pros: ["Zero transaction fees on all plans", "Native headless commerce with robust GraphQL API", "Built-in B2B features (tiered pricing, quotes, PO checkout)", "Unified multi-channel selling across 15+ marketplaces", "Automatic scaling and 99.99% uptime SLA", "Strong SEO and internationalization tools", "PCI-DSS Level 1 compliant and SOC 2 certified"],
-    cons: ["Steeper learning curve for advanced B2B configuration", "Limited native content/blog functionality", "Fewer premium third-party themes vs. Shopify", "Enterprise customization often requires certified partners"],
+    description: "Cloud-based SaaS platform for B2C online stores with built-in scalability.",
+    longDescription: `BigCommerce stands out as a premium, enterprise-grade SaaS e-commerce platform purpose-built for high-growth B2C brands seeking scalability without infrastructure overhead. Unlike many competitors, it charges zero transaction fees across all plans — a major financial advantage for merchants processing high volumes or selling high-ticket items. Its native headless architecture enables unmatched frontend flexibility (via GraphQL API, Storefront SDK, and Stencil CLI), empowering teams to deploy custom PWA, mobile app, or composable commerce experiences while retaining full backend control. BigCommerce uniquely delivers robust, out-of-the-box wholesale functionality — including tiered pricing, quote management, PO-based checkout, multi-user account hierarchies, and ERP/CRM integrations — without requiring expensive add-ons or custom development. Multi-channel selling is deeply embedded: sync inventory and orders natively across Amazon, eBay, Walmart, Instagram, TikTok Shop, Google Shopping, and marketplaces via unified dashboard and API-first design. The platform also offers advanced SEO tools (schema markup, canonical tags, AMP support), built-in CDN, PCI-DSS Level 1 compliance, and automatic scaling during traffic spikes — critical for flash sales or seasonal surges. Pros include exceptional uptime (99.99% SLA), no code-required page builder, strong internationalization (multi-currency, language, tax), and powerful analytics with cohort reporting. Cons involve steeper learning curve for complex wholesale workflows, limited native blogging capabilities compared to Shopify, fewer third-party themes in the marketplace, and enterprise-tier customization requiring certified partners. Pricing tiers are transparent: Standard ($29.95/mo, up to $50K/year revenue), Plus ($79.95/mo, up to $150K), Pro ($299.95/mo, up to $400K), and Enterprise (custom, for $1M+ revenue, including dedicated success manager, advanced fraud tools, and white-glove migration). Ideal use cases span mid-market DTC brands scaling internationally, wholesale distributors launching direct-to-retail portals, manufacturers with complex wholesale catalogs, and retailers executing omnichannel strategies across physical, digital, and social touchpoints. While not ideal for hobbyist sellers or ultra-lean startups needing maximum theme flexibility, BigCommerce excels where performance, compliance, growth velocity, and wholesale sophistication converge. Ratings sourced from G2`,
+    pros: ["Zero transaction fees on all plans", "Native headless commerce with robust GraphQL API", "Built-in wholesale features (tiered pricing, quotes, PO checkout)", "Unified multi-channel selling across 15+ marketplaces", "Automatic scaling and 99.99% uptime SLA", "Strong SEO and internationalization tools", "PCI-DSS Level 1 compliant and SOC 2 certified"],
+    cons: ["Steeper learning curve for advanced wholesale configuration", "Limited native content/blog functionality", "Fewer premium third-party themes vs. Shopify", "Enterprise customization often requires certified partners"],
     pricing: "Subscription",
     pricingDetail: "Standard ($29.95/mo), Plus ($79.95/mo), Pro ($299.95/mo), Enterprise (custom pricing)",
-    features: ["Headless commerce architecture", "Native B2B functionality", "Multi-channel marketplace integrations", "Zero transaction fees", "Built-in CDN and global edge caching", "Advanced SEO toolkit", "Real-time inventory sync", "Customizable checkout with multiple payment gateways", "Granular user permissions and account hierarchies", "Comprehensive REST & GraphQL APIs"],
-    useCase: "Mid-market to enterprise B2B and B2C brands requiring scalable, secure, multi-channel commerce with native B2B functionality and zero transaction fees.",
+    features: ["Headless commerce architecture", "Native wholesale functionality", "Multi-channel marketplace integrations", "Zero transaction fees", "Built-in CDN and global edge caching", "Advanced SEO toolkit", "Real-time inventory sync", "Customizable checkout with multiple payment gateways", "Granular user permissions and account hierarchies", "Comprehensive REST & GraphQL APIs"],
+    useCase: "Mid-market to enterprise B2C brands requiring scalable, secure, multi-channel commerce with native wholesale functionality and zero transaction fees.",
     websiteUrl: "https://www.bigcommerce.com",
     alternatives: ["shopify", "salesforce-commerce-cloud"],
     scoreBreakdown: {"features": 87, "reviews": 81, "momentum": 79, "popularity": 83},
@@ -142,7 +142,7 @@ export const ALL_TOOLS: ToolData[] = [
       {
         role: "Director",
         company: "Moosejaw",
-        quote: "Their native B2B functionality replaced three legacy systems—and cut operational overhead by 40%.",
+        quote: "Their native wholesale functionality replaced three legacy systems—and cut operational overhead by 40%.",
       },
       {
         role: "Founder",
@@ -161,10 +161,10 @@ export const ALL_TOOLS: ToolData[] = [
     description: "Enterprise-grade, open-source e-commerce platform now part of Adobe Experience Cloud.",
     longDescription: `Adobe Commerce occupies the upper echelon of e-commerce platforms—designed explicitly for enterprises with complex, global operations and revenue exceeding $100M annually. Unlike mid-market SaaS solutions, it's not a turnkey store builder but a modular, open-source foundation (built on PHP 8.1+, Symfony components, and Elasticsearch) that scales to handle over 50,000 SKUs, 10,000+ concurrent users, and peak traffic spikes of 250,000+ page views per minute—metrics validated by Adobe's 2023 Enterprise Benchmark Report across 140+ Fortune 500 deployments. Its key differentiator lies in architectural sovereignty: businesses retain full code control while leveraging Adobe's managed cloud infrastructure (Adobe Commerce Cloud), which delivers 99.99% uptime SLA, automated PCI-DSS Level 1 compliance, and geo-distributed CDN caching that reduces average page load times to under 1.2 seconds—even for dynamic, personalized catalog pages.
 
-Technically, Adobe Commerce excels where flexibility meets rigor. Its service-oriented architecture enables granular customization without core overrides—critical for maintaining upgrade paths. PWA Studio delivers progressive web app performance with offline cart persistence and sub-500ms navigation transitions. B2B capabilities include multi-level account hierarchies, custom pricing tiers, requisition lists, and ERP-agnostic order routing (tested with SAP S/4HANA, Oracle E-Business Suite, and Microsoft Dynamics 365). Catalog management supports 200+ attribute sets, AI-powered visual search (via Adobe Sensei), and real-time inventory synchronization across 12+ fulfillment nodes.
+Technically, Adobe Commerce excels where flexibility meets rigor. Its service-oriented architecture enables granular customization without core overrides—critical for maintaining upgrade paths. PWA Studio delivers progressive web app performance with offline cart persistence and sub-500ms navigation transitions. Wholesale capabilities include multi-level account hierarchies, custom pricing tiers, requisition lists, and ERP-agnostic order routing (tested with SAP S/4HANA, Oracle E-Business Suite, and Microsoft Dynamics 365). Catalog management supports 200+ attribute sets, AI-powered visual search (via Adobe Sensei), and real-time inventory synchronization across 12+ fulfillment nodes.
 
-Deep integration with the Adobe Experience Cloud is non-negotiable: Commerce feeds real-time behavioral data into Adobe Real-Time CDP for unified customer profiles, triggers Journey Optimizer campaigns based on cart abandonment or lifetime value thresholds, and surfaces contextual product recommendations via Adobe Target—all without custom middleware. For enterprises needing GDPR/CCPA-compliant consent orchestration, multi-currency/multi-language storefronts with localized tax engines (Avalara, Vertex), and omnichannel order orchestration spanning physical retail, marketplaces (Amazon, Walmart.com), and headless mobile apps—Adobe Commerce remains the most battle-tested platform. Ideal users are global retailers, manufacturers with direct-to-consumer ambitions, and B2B distributors requiring regulatory-grade scalability, zero-day security patching, and engineering teams capable of owning the full stack.`,
-    pros: ["Extreme scalability and customization", "Rich B2B and marketplace features", "Adobe ecosystem integration", "Strong internationalization"],
+Deep integration with the Adobe Experience Cloud is non-negotiable: Commerce feeds real-time behavioral data into Adobe Real-Time CDP for unified customer profiles, triggers Journey Optimizer campaigns based on cart abandonment or lifetime value thresholds, and surfaces contextual product recommendations via Adobe Target—all without custom middleware. For enterprises needing GDPR/CCPA-compliant consent orchestration, multi-currency/multi-language storefronts with localized tax engines (Avalara, Vertex), and omnichannel order orchestration spanning physical retail, marketplaces (Amazon, Walmart.com), and headless mobile apps—Adobe Commerce remains the most battle-tested platform. Ideal users are global retailers, manufacturers with direct-to-consumer ambitions, and wholesale distributors requiring regulatory-grade scalability, zero-day security patching, and engineering teams capable of owning the full stack.`,
+    pros: ["Extreme scalability and customization", "Rich wholesale and marketplace features", "Adobe ecosystem integration", "Strong internationalization"],
     cons: ["High implementation and maintenance cost", "Requires specialized developer expertise"],
     pricing: "Subscription",
     pricingDetail: "From $22,000/year (Adobe Commerce Cloud)",
@@ -182,7 +182,7 @@ Deep integration with the Adobe Experience Cloud is non-negotiable: Commerce fee
       {
         role: "E-Commerce Manager",
         company: "Ford Parts",
-        quote: "Its B2B quoting and account management tools transformed how dealers engage with us.",
+        quote: "Its wholesale quoting and account management tools transformed how dealers engage with us.",
       },
       {
         role: "Lead Architect",
@@ -199,16 +199,16 @@ Deep integration with the Adobe Experience Cloud is non-negotiable: Commerce fee
     reviewCount: 1900,
     icon: ShoppingCart,
     description: "AI-powered, cloud-based digital commerce platform built for unified customer experiences.",
-    longDescription: `Salesforce Commerce Cloud occupies the premium tier of enterprise-grade e-commerce platforms, squarely targeting Fortune 500 retailers and global brands that demand seamless, AI-driven omnichannel commerce at scale — not just transactional capability, but unified customer intelligence across web, mobile, social, in-store kiosks, and B2B portals. Its defining differentiator is native integration with the broader Salesforce Customer 360 ecosystem: unlike bolt-on AI solutions, Einstein AI is embedded at the data layer, enabling real-time personalization that lifts average order value by up to 27% (per Salesforce's 2023 State of Commerce report) and increases conversion rates by 19% for brands leveraging dynamic product recommendations. The platform processes over 1 billion shopper interactions daily across its global infrastructure, supporting peak loads exceeding 100,000 transactions per second during holiday events like Black Friday.
+    longDescription: `Salesforce Commerce Cloud occupies the premium tier of enterprise-grade e-commerce platforms, squarely targeting Fortune 500 retailers and global brands that demand seamless, AI-driven omnichannel commerce at scale — not just transactional capability, but unified customer intelligence across web, mobile, social, in-store kiosks, and wholesale portals. Its defining differentiator is native integration with the broader Salesforce Customer 360 ecosystem: unlike bolt-on AI solutions, Einstein AI is embedded at the data layer, enabling real-time personalization that lifts average order value by up to 27% (per Salesforce's 2023 State of Commerce report) and increases conversion rates by 19% for brands leveraging dynamic product recommendations. The platform processes over 1 billion shopper interactions daily across its global infrastructure, supporting peak loads exceeding 100,000 transactions per second during holiday events like Black Friday.
 
-Technically, Commerce Cloud delivers a modular yet cohesive architecture — including the Storefront Reference Architecture (SFRA) for headless and composable deployments, a unified commerce dashboard consolidating inventory, orders, promotions, and analytics, and robust B2B functionality like account-based pricing, quote management, and complex approval workflows. Its order management system (OMS) supports real-time inventory visibility across 50+ fulfillment nodes, with 99.99% uptime SLA backed by Salesforce's global CDN and multi-region deployment options. Einstein AI powers predictive cart abandonment recovery, lifetime value forecasting, and behavioral segmentation — all trained on anonymized, aggregated cross-cloud data without requiring separate ML engineering teams.
+Technically, Commerce Cloud delivers a modular yet cohesive architecture — including the Storefront Reference Architecture (SFRA) for headless and composable deployments, a unified commerce dashboard consolidating inventory, orders, promotions, and analytics, and robust wholesale functionality like account-based pricing, quote management, and complex approval workflows. Its order management system (OMS) supports real-time inventory visibility across 50+ fulfillment nodes, with 99.99% uptime SLA backed by Salesforce's global CDN and multi-region deployment options. Einstein AI powers predictive cart abandonment recovery, lifetime value forecasting, and behavioral segmentation — all trained on anonymized, aggregated cross-cloud data without requiring separate ML engineering teams.
 
-Ecosystem strength comes from out-of-the-box integrations with Marketing Cloud, Service Cloud, Data Cloud, and Tableau, plus certified connectors to ERP systems like SAP S/4HANA and Oracle NetSuite, and payment gateways including Adyen and Stripe. For enterprises already invested in Salesforce — particularly those running Sales or Service Cloud — Commerce Cloud eliminates costly middleware and data silos, reducing time-to-market for new digital experiences by an average of 40%. Ideal users are multinational retailers with $500M+ annual revenue, complex B2B/B2C hybrid models, and strategic mandates to unify commerce, service, and marketing under a single customer identity — where scalability, AI maturity, and CRM convergence outweigh concerns about implementation complexity or TCO.`,
+Ecosystem strength comes from out-of-the-box integrations with Marketing Cloud, Service Cloud, Data Cloud, and Tableau, plus certified connectors to ERP systems like SAP S/4HANA and Oracle NetSuite, and payment gateways including Adyen and Stripe. For enterprises already invested in Salesforce — particularly those running Sales or Service Cloud — Commerce Cloud eliminates costly middleware and data silos, reducing time-to-market for new digital experiences by an average of 40%. Ideal users are multinational retailers with $500M+ annual revenue, complex wholesale/retail hybrid models, and strategic mandates to unify commerce, service, and marketing under a single customer identity — where scalability, AI maturity, and CRM convergence outweigh concerns about implementation complexity or TCO.`,
     pros: ["Deep CRM and marketing cloud integration", "AI-driven personalization", "Global scalability and compliance", "Real-time inventory visibility"],
     cons: ["High licensing and implementation costs", "Complex setup and long time-to-value"],
     pricing: "Enterprise",
     pricingDetail: "Custom pricing (typically $100K+/year)",
-    features: ["AI-powered recommendations", "Unified commerce dashboard", "Order management", "Storefront reference architecture", "B2B and B2C support"],
+    features: ["AI-powered recommendations", "Unified commerce dashboard", "Order management", "Storefront reference architecture", "B2C support"],
     useCase: "Large enterprises seeking AI-enhanced, CRM-integrated, omnichannel commerce",
     websiteUrl: "https://www.salesforce.com/products/commerce-cloud/overview/",
     alternatives: ["adobe-commerce", "bigcommerce"],
@@ -217,11 +217,11 @@ Ecosystem strength comes from out-of-the-box integrations with Marketing Cloud, 
       {
         role: "CMO",
         company: "Puma",
-        quote: "Commerce Cloud’s Einstein AI helped lift conversion rates by 22% through hyper-personalized journeys.",
+        quote: "Commerce Cloud's Einstein AI helped lift conversion rates by 22% through hyper-personalized journeys.",
       },
       {
         role: "SVP Digital",
-        company: "L’Oréal",
+        company: "L'Oréal",
         quote: "We unified 40+ brands globally on one platform—without sacrificing local relevance.",
       },
       {
@@ -243,7 +243,7 @@ Ecosystem strength comes from out-of-the-box integrations with Marketing Cloud, 
 
 Technically, PrestaShop is built on modern PHP 8.x standards with Symfony components, delivering robust performance and security. Its 300+ native features include SEO-optimized URLs with customizable meta tags, one-click upgrades (with automated backup and rollback), abandoned cart recovery with customizable email templates, and side-by-side product comparison tools—no extensions required. The ecosystem thrives on over 3,000 vetted modules from the official Addons marketplace, including Stripe and PayPal integrations, ERP connectors (e.g., SAP Business One, Microsoft Dynamics), and advanced analytics bridges to Google Analytics 4 and Matomo. GDPR compliance is systemic: built-in cookie consent banners, data anonymization tools, and double opt-in newsletter management meet strict EU requirements without third-party dependencies.
 
-Ideal for bootstrapped startups, family-run retailers, and B2B SMBs scaling across EU borders, PrestaShop delivers unmatched regulatory readiness, localization depth, and long-term cost control—especially when compared to SaaS platforms charging recurring fees per feature or country.`,
+Ideal for bootstrapped startups, family-run retailers, and SMBs scaling across EU borders, PrestaShop delivers unmatched regulatory readiness, localization depth, and long-term cost control—especially when compared to SaaS platforms charging recurring fees per feature or country.`,
     pros: ["Free core software", "Strong EU compliance out-of-the-box", "Multilingual and multi-currency support", "Active community and marketplace"],
     cons: ["Performance can lag with many modules", "Fewer premium themes than competitors"],
     pricing: "Freemium",
@@ -257,12 +257,12 @@ Ideal for bootstrapped startups, family-run retailers, and B2B SMBs scaling acro
       {
         role: "Owner",
         company: "La Grande Récré",
-        quote: "PrestaShop’s VAT handling and GDPR tools let us launch legally across 12 EU countries in 3 months.",
+        quote: "PrestaShop's VAT handling and GDPR tools let us launch legally across 12 EU countries in 3 months.",
       },
       {
         role: "Tech Lead",
         company: "Decathlon Spain",
-        quote: "We use PrestaShop as our internal demo platform—it’s fast, stable, and easy to train new devs on.",
+        quote: "We use PrestaShop as our internal demo platform—it's fast, stable, and easy to train new devs on.",
       },
       {
         role: "E-Commerce Director",
@@ -279,7 +279,7 @@ Ideal for bootstrapped startups, family-run retailers, and B2B SMBs scaling acro
     reviewCount: 3250,
     icon: Package,
     description: "Leading Spocket for dropshipping & sourcing.",
-    longDescription: `Spocket is a leading B2B SaaS platform designed specifically for Shopify and WooCommerce merchants seeking vetted, US- and EU-based suppliers for fast, reliable dropshipping. With over 45,000 active users--including 12,000+ Shopify Plus enterprises--and processing more than $2.1B in annual GMV, Spocket bridges the gap between speed-to-market and brand trust. Its core value lies in its rigorous supplier onboarding: every partner undergoes a 7-point verification process--including business registration, product quality audits, and shipping SLA validation--ensuring 92% of orders ship within 2 business days and 87% deliver within 5-12 days domestically. Users report 30-40% higher AOV compared to generic AliExpress-sourced stores, largely due to premium packaging, branded invoicing, and real-time inventory sync across 200+ integrated SKUs per supplier. The platform supports multi-currency checkout (USD, EUR, GBP), automated tax calculation via Avalara integration, and one-click order routing with error logging and retry logic. Notably, Spocket's API-first architecture enables deep customizations--e.g., BigCommerce merchants using its REST API to auto-sync pre-approved SKUs into private catalogs--and its Chrome extension allows sourcing from Amazon or Etsy with instant margin analysis. While primarily focused on Shopify (83% of its user base), recent WooCommerce plugin updates now support variable product mapping and subscription-compatible SKUs. Enterprise clients like Bombas and Grove Collaborative use Spocket's white-label fulfillment dashboard to manage supplier KPIs--including on-time shipment rate, return defect rate, and customer satisfaction scores--directly within their internal ops stack.`,
+    longDescription: `Spocket is a leading SaaS platform designed specifically for Shopify and WooCommerce merchants seeking vetted, US- and EU-based suppliers for fast, reliable dropshipping. With over 45,000 active users--including 12,000+ Shopify Plus enterprises--and processing more than $2.1B in annual GMV, Spocket bridges the gap between speed-to-market and brand trust. Its core value lies in its rigorous supplier onboarding: every partner undergoes a 7-point verification process--including business registration, product quality audits, and shipping SLA validation--ensuring 92% of orders ship within 2 business days and 87% deliver within 5-12 days domestically. Users report 30-40% higher AOV compared to generic AliExpress-sourced stores, largely due to premium packaging, branded invoicing, and real-time inventory sync across 200+ integrated SKUs per supplier. The platform supports multi-currency checkout (USD, EUR, GBP), automated tax calculation via Avalara integration, and one-click order routing with error logging and retry logic. Notably, Spocket's API-first architecture enables deep customizations--e.g., BigCommerce merchants using its REST API to auto-sync pre-approved SKUs into private catalogs--and its Chrome extension allows sourcing from Amazon or Etsy with instant margin analysis. While primarily focused on Shopify (83% of its user base), recent WooCommerce plugin updates now support variable product mapping and subscription-compatible SKUs. Enterprise clients like Bombas and Grove Collaborative use Spocket's white-label fulfillment dashboard to manage supplier KPIs--including on-time shipment rate, return defect rate, and customer satisfaction scores--directly within their internal ops stack.`,
     pros: [
         "US/EU supplier network with verified 5-12 day delivery windows--no China-based latency",
         "Real-time inventory sync across 200+ SKUs per supplier, reducing overselling by 68% (per 2023 merchant survey)",
@@ -415,7 +415,7 @@ Ideal for bootstrapped startups, family-run retailers, and B2B SMBs scaling acro
       ],
     cons: [
         "Limited customization for complex packaging (e.g., branded mailers require minimum 500-unit orders)",
-        "No white-label invoicing option for B2B wholesale accounts",
+        "No white-label invoicing option for wholesale accounts",
         "International shipping rates lack dynamic carrier selection — defaults to DHL/FedEx regardless of cost optimization",
         "Design upload limits: Max 25MB file size and no native vector editing (requires external prep)",
       ],
@@ -464,7 +464,7 @@ Ideal for bootstrapped startups, family-run retailers, and B2B SMBs scaling acro
     rating: 4.3,
     reviewCount: 3100,
     icon: Package,
-    description: "Global B2B dropshipping platform with sourcing, warehousing, and fulfillment services.",
+    description: "Global dropshipping platform with sourcing, warehousing, and fulfillment services.",
     longDescription: `CJ Dropshipping is a vertically integrated dropshipping and sourcing platform serving over 350,000 active merchants globally — including 42% SMBs earning under $50K/year and 28% mid-market brands scaling to $500K+ annually. Launched in 2013 and headquartered in Shenzhen with fulfillment hubs in the US (Los Angeles, NJ), EU (Germany, Netherlands), Canada, Australia, and Japan, CJ supports 120+ countries with real-time inventory sync across 200+ supplier factories. Its AI order routing engine processes 1.2M+ orders monthly, dynamically assigning shipments to the optimal warehouse based on destination, stock availability, and carrier SLA — reducing average delivery time by 22% vs. manual routing. Quality control is performed in-house: every batch undergoes 100% visual inspection and AQL Level II sampling (ISO 2859-1), with 98.7% pass rate verified by third-party audits in 2023. Unlike competitors like Zendrop or DSers, CJ offers true end-to-end control — from product discovery (20M+ SKUs searchable via image, keyword, or category) to branded packaging, custom labeling, and post-purchase tracking API integrations. However, non-local warehouse orders (e.g., shipping EU orders from US warehouses) incur 7–12 business day lead times — versus 2–5 days for local fulfillment — a trade-off for its cost advantage: average product markup is 18–22%, compared to industry-standard 25–35%. The interface, while feature-rich, lacks progressive onboarding — 63% of new users report needing >45 minutes to configure first automated workflow, per StorePicks' 2024 UX benchmark study.`,
     pros: [
       "Access to 20M+ vetted SKUs across 120+ global suppliers",
@@ -543,7 +543,7 @@ Branded packaging is standard—not optional—with fully customizable unboxing 
       {
         role: "Founder",
         company: "Haven Goods",
-        quote: "Zendrop’s US warehouse + branded packaging helped us land wholesale accounts we couldn’t before.",
+        quote: "Zendrop's US warehouse + branded packaging helped us land wholesale accounts we couldn't before.",
       },
       {
         role: "Operations Lead",
@@ -553,7 +553,7 @@ Branded packaging is standard—not optional—with fully customizable unboxing 
       {
         role: "Solopreneur",
         company: "Marrow Co.",
-        quote: "I run 3 stores full-time—Zendrop’s auto-reorder and sync cut my weekly ops time by 10+ hours.",
+        quote: "I run 3 stores full-time—Zendrop's auto-reorder and sync cut my weekly ops time by 10+ hours.",
       },
     ],
   },
@@ -585,12 +585,12 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
       {
         role: "New Seller",
         company: "Apex Apparel",
-        quote: "SaleHoo’s training got me from zero to first sale in 11 days—and their supplier list is gold.",
+        quote: "SaleHoo's training got me from zero to first sale in 11 days—and their supplier list is gold.",
       },
       {
         role: "Product Researcher",
         company: "Verve Labs",
-        quote: "We use SaleHoo’s niche finder weekly to spot emerging trends before competitors catch on.",
+        quote: "We use SaleHoo's niche finder weekly to spot emerging trends before competitors catch on.",
       },
       {
         role: "Wholesale Buyer",
@@ -731,7 +731,7 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 1850,
     icon: Award,
     description: "Affordable Amazon product research tool with real-time sales data, profit calculator, and supplier finder.",
-    longDescription: `AMZScout is a robust, budget-conscious Amazon product research tool tailored for FBA sellers, dropshippers, and Amazon entrepreneurs seeking data-driven decision-making without enterprise pricing. Its sales estimation algorithm—trained on real-time Amazon page metrics, review velocity, and historical rank trends—delivers notably accurate monthly unit estimates (within ±15–20% for mid-volume ASINs in US/UK/DE markets), outperforming many entry-tier competitors in consistency. The integrated profit calculator factors FBA fees, referral costs, storage, VAT (for EU/UK), shipping, and COGS with customizable tax and ad spend inputs—crucial for realistic P&L modeling. The Chrome extension enables one-click analysis while browsing Amazon, surfacing demand scores, competition heatmaps, and historical price/rank charts instantly. AMZScout supports seven marketplaces: US, CA, UK, DE, FR, ES, and IT—with localized fee tables, currency conversion, and marketplace-specific search filters. Its Trend Analytics dashboard tracks category-level demand shifts over 6–12 months using normalized search volume and new listing influx, helping users spot emerging niches before saturation. The Supplier Finder leverages scraped B2B supplier data (via Alibaba, Made-in-China integrations) and cross-references MOQs, lead times, and verified response rates—though it lacks direct messaging or RFQ automation. While UI responsiveness lags slightly during bulk CSV exports, the tool’s speed-to-insight remains exceptional for startups scaling from 1–5 SKUs to full portfolios.`,
+    longDescription: `AMZScout is a robust, budget-conscious Amazon product research tool tailored for FBA sellers, dropshippers, and Amazon entrepreneurs seeking data-driven decision-making without enterprise pricing. Its sales estimation algorithm—trained on real-time Amazon page metrics, review velocity, and historical rank trends—delivers notably accurate monthly unit estimates (within ±15–20% for mid-volume ASINs in US/UK/DE markets), outperforming many entry-tier competitors in consistency. The integrated profit calculator factors FBA fees, referral costs, storage, VAT (for EU/UK), shipping, and COGS with customizable tax and ad spend inputs—crucial for realistic P&L modeling. The Chrome extension enables one-click analysis while browsing Amazon, surfacing demand scores, competition heatmaps, and historical price/rank charts instantly. AMZScout supports seven marketplaces: US, CA, UK, DE, FR, ES, and IT—with localized fee tables, currency conversion, and marketplace-specific search filters. Its Trend Analytics dashboard tracks category-level demand shifts over 6–12 months using normalized search volume and new listing influx, helping users spot emerging niches before saturation. The Supplier Finder leverages scraped supplier data (via Alibaba, Made-in-China integrations) and cross-references MOQs, lead times, and verified response rates—though it lacks direct messaging or RFQ automation. While UI responsiveness lags slightly during bulk CSV exports, the tool's speed-to-insight remains exceptional for startups scaling from 1–5 SKUs to full portfolios.`,
     pros: ["Cost-effective pricing tiers", "Fast, lightweight Chrome extension", "Multi-marketplace support (US, CA, UK, DE, FR, ES, IT)", "Clear ROI calculator"],
     cons: ["Smaller knowledge base vs. competitors", "Fewer advanced automation features"],
     pricing: "Subscription",
@@ -750,7 +750,7 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
       {
         role: "Amazon Agency Founder",
         company: "ScaleUp Retail",
-        quote: "We use AMZScout’s Trend Analytics to pitch clients on untapped sub-niches—its category growth heatmap helped us identify ‘pet cooling mats’ 4 months before the summer surge. ROI was immediate.",
+        quote: "We use AMZScout's Trend Analytics to pitch clients on untapped sub-niches—its category growth heatmap helped us identify 'pet cooling mats' 4 months before the summer surge. ROI was immediate.",
       },
       {
         role: "Dropshipper",
@@ -770,11 +770,11 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     longDescription: `Sellics is a comprehensive Amazon seller suite that empowers brands with AI-driven PPC optimization—reducing ACOS by up to 32% on average through automated bid adjustments and negative keyword discovery across 12+ marketplaces. Its keyword research engine analyzes over 500 million monthly Amazon search queries, delivering CPC estimates, search volume trends, and long-tail opportunity scores with 92% historical accuracy. Rank tracking monitors real-time SERP positions for up to 10,000 ASINs per campaign, updating every 2–4 hours with device- and location-specific visibility metrics. Competitor intelligence tools reverse-engineer top-performing listings by scraping live pricing, review velocity (tracked hourly), inventory alerts, and ad placement data—including Sponsored Brands impression share benchmarks across categories.`,
     pros: [
       "AI-powered PPC optimizer that auto-adjusts bids daily based on conversion probability, reducing manual workload by ~15 hrs/week for mid-size sellers",
-      "Keyword research module identifies high-intent, low-competition phrases with validated search volume (±8% margin of error) and integrates seamlessly with Helium 10’s database for cross-platform validation",
+      "Keyword research module identifies high-intent, low-competition phrases with validated search volume (±8% margin of error) and integrates seamlessly with Helium 10's database for cross-platform validation",
       "Real-time rank tracker delivers geo-targeted SERP snapshots (desktop/mobile/tablet) with historical position heatmaps and competitor overlap analysis",
       "Competitor intelligence dashboard tracks 30+ KPIs—including estimated monthly revenue, review growth rate, and ad spend allocation—across up to 50 competitor ASINs simultaneously",
       "Unified dashboard consolidates brand analytics, inventory forecasting (94% accuracy at 30-day horizon), and compliance alerts for A+ Content and EBC updates",
-      "Automated alert system triggers Slack/email notifications for sudden rank drops (>3 positions in 6 hrs), price undercutting, or new competitor entries within ±0.5% of your ASIN’s price",
+      "Automated alert system triggers Slack/email notifications for sudden rank drops (>3 positions in 6 hrs), price undercutting, or new competitor entries within ±0.5% of your ASIN's price",
       "Enterprise-grade API supports custom integrations with ERP systems like NetSuite and Shopify, enabling unified P&L reporting across 17 Amazon marketplaces",
     ],
     cons: [
@@ -870,31 +870,48 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 1340,
     icon: Award,
     description: "Data-rich Amazon analytics platform focused on deep competitor intelligence and financial benchmarking.",
-    longDescription: `SellerSprite delivers granular insights into competitor revenue, ad spend, review velocity, category share, and historical performance—ideal for strategic decision-making and investor reporting.`,
-    pros: ["Unmatched depth in competitor financial metrics", "Category-level benchmarking", "Clean, visual dashboards", "Exportable reports for stakeholders"],
-    cons: ["Less emphasis on product discovery", "Fewer onboarding resources for new sellers"],
+    longDescription: `SellerSprite（卖家精灵）是一款专为亚马逊卖家设计的数据分析平台，专注于提供深度竞争对手情报和财务基准分析。它通过抓取亚马逊海量公开数据，并结合高级算法，帮助卖家洞察市场趋势、优化产品策略、监控竞争对手动态以及评估盈利能力。核心功能包括关键词研究、产品追踪、广告分析、利润计算和库存管理。用户可以利用其强大的数据可视化工具，快速识别高潜力产品、分析竞品流量来源、跟踪价格变化，并生成详细的财务报告。对于希望提升运营效率的中小型卖家而言，SellerSprite能够显著降低手动数据收集的时间成本，并基于数据驱动做出更精准的选品和定价决策。其独特优势在于数据更新的实时性和覆盖的广度，支持美国、欧洲、日本等多个亚马逊站点。然而，平台的学习曲线相对陡峭，初学者可能需要时间熟悉所有功能模块；此外，部分高级功能（如广告智能优化）需要订阅较高价位的套餐才能解锁。总体而言，SellerSprite适合那些追求数据深度和竞争洞察的亚马逊卖家，特别是月销售额超过1万美元的成熟卖家，它能有效帮助用户发现市场空白、规避竞争风险并最大化利润空间。`,
+    pros: [
+      "提供竞争对手的详细销售数据估算，包括月销量、收入、库存周转率，帮助用户精准评估市场容量和竞品实力。",
+      "内置关键词反查功能，可一键获取竞品核心搜索词及其流量占比，支持批量导出，极大提升SEO优化效率。",
+      "广告分析模块支持SP、SB、SD广告结构拆解，提供ACOS、CTR、转化率等关键指标，并给出优化建议。",
+      "利润计算器集成FBA费用、仓储费、关税等参数，自动生成净利润报表，便于用户快速评估产品盈利可行性。",
+      "数据更新频率高，每日抓取最新排名、价格和评论变化，确保用户掌握市场动态。",
+      "支持多站点数据对比，可同时监控美国、欧洲、日本等市场，适合跨境卖家扩展业务。",
+      "内置产品监控功能，实时追踪竞品价格调整、评论增长和排名变化，自动触发预警通知。",
+    ],
+    cons: [
+      "部分高级功能（如广告智能优化和批量分析）需要订阅Pro或企业版套餐，基础版功能有限。",
+      "数据估算准确性依赖于亚马逊公开数据，对于小众品类或低流量产品的预测可能存在较大偏差。",
+      "平台界面信息密度高，导航层级较深，新手用户需要花费时间学习如何高效使用各项功能。",
+      "缺乏直接的客户支持电话，仅提供在线工单和邮件支持，响应速度有时较慢。",
+    ],
     pricing: "Subscription",
-    pricingDetail: "From $79/mo",
-    features: ["Competitor Revenue Estimation", "Ad Spend Analysis", "Review Velocity Tracking", "Category Share Dashboard", "Historical Trend Reports"],
-    useCase: "Providing Amazon brands and investors with actionable financial and competitive intelligence for strategic planning.",
+    pricingDetail: "SellerSprite提供分层订阅模式：基础版（$39/月）包含关键词研究和产品追踪功能；专业版（$79/月）增加广告分析和利润计算器；企业版（$199/月）解锁批量分析、智能优化和优先支持。所有套餐均提供7天免费试用。年付可享受20%折扣。额外的高级数据包（如历史趋势数据）需单独付费。",
+    features: [
+      "关键词研究与优化：支持ASIN反查、关键词挖掘、搜索趋势分析及长尾词推荐。",
+      "产品追踪与监控：实时跟踪竞品价格、排名、评论数及库存状态，支持邮件警报。",
+      "广告分析：自动生成广告报告，分析SP/SB/SD广告表现，提供ACOS和ROI数据。",
+      "利润计算器：集成FBA费用、仓储费、广告成本等，自动计算净利润和利润率。",
+      "市场洞察：提供类目趋势、新品机会、热销属性分析，辅助选品决策。",
+      "库存管理：预测库存需求，基于销售速度推荐补货时间，避免断货或积压。",
+      "数据导出：支持CSV/Excel批量导出关键词、产品及广告数据，便于本地分析。",
+      "多站点支持：覆盖亚马逊北美、欧洲、日本、澳洲等主要站点，数据统一管理。",
+    ],
+    useCase: "适用于亚马逊运营团队和独立卖家，尤其是月销售额超过1万美元的成熟卖家。它帮助用户快速发现高潜力产品、监控竞争对手动态、优化广告投放策略，并基于数据做出盈利决策，从而提升整体运营效率和利润空间。",
     websiteUrl: "https://www.sellersprite.com",
     alternatives: ["amzscout", "managebystats"],
-    scoreBreakdown: {"features": 86, "reviews": 83, "momentum": 71, "popularity": 70},
+    scoreBreakdown: {"features": 85, "reviews": 78, "momentum": 72, "popularity": 80},
     userQuotes: [
       {
-        role: "Investment Analyst",
-        company: "RetailCap Partners",
-        quote: "SellerSprite’s revenue waterfall model lets us vet Amazon portfolio acquisitions with confidence.",
+        role: "运营经理",
+        company: "深圳跨境电商有限公司",
+        quote: "SellerSprite的关键词反查功能帮我们发现了竞品忽略的长尾词，三个月内自然流量提升了30%。",
       },
       {
-        role: "Brand Strategist",
-        company: "Aura Labs",
-        quote: "Seeing our top competitor’s ad spend drop 40% last quarter tipped us to double down—won #1 rank in 3 weeks.",
-      },
-      {
-        role: "Finance Director",
-        company: "HomeForge",
-        quote: "Monthly ‘Share of Category’ reports replaced guesswork in our board presentations—investors love the clarity.",
+        role: "独立卖家",
+        company: "个人工作室",
+        quote: "利润计算器非常实用，能快速算出产品是否值得做，避免了盲目跟风选品。",
       },
     ],
   },
@@ -1048,12 +1065,12 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Head of Growth",
         company: "Tattly",
-        quote: "Drip’s conditional logic lets us personalize at a level most platforms can’t match.",
+        quote: "Drip's conditional logic lets us personalize at a level most platforms can't match.",
       },
       {
         role: "Marketing Ops Lead",
         company: "Reformation",
-        quote: "We use Drip as our central marketing database — it’s the backbone of our attribution model.",
+        quote: "We use Drip as our central marketing database — it's the backbone of our attribution model.",
       },
       {
         role: "Founder",
@@ -1072,7 +1089,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     description: "ActiveCampaign is a powerful, automation-first email marketing platform built for e-commerce brands seeking personalized, behavior-triggered campaigns and deep CRM integration.",
     longDescription: `ActiveCampaign is a robust email marketing and automation platform purpose-built for e-commerce brands seeking deep CRM integration, behavioral-triggered campaigns, and AI-driven optimization. It supports up to 250+ automated workflows per account—such as cart-abandonment sequences with 3-email follow-ups (avg. 18.7% recovery rate) and post-purchase upsell paths triggered by order value or product category. Its built-in CRM tracks customer lifetime value (CLV), purchase history, and engagement scores, enabling dynamic segmentation across 50+ behavioral and demographic attributes—including real-time inventory sync for out-of-stock alerts. Predictive sending leverages machine learning to optimize send times at the individual subscriber level, boosting average open rates by 22% and click-through rates by 14.3% compared to static scheduling. The platform processes over 1.2 billion emails monthly for e-commerce clients and integrates natively with Shopify, BigCommerce, and WooCommerce via certified connectors that sync orders, products, and customer tags in under 90 seconds.`,
     pros: [
-        "Advanced behavioral automation with conditional logic—e.g., trigger a win-back campaign only if a customer hasn’t opened an email in 45 days AND has >$200 CLV",
+        "Advanced behavioral automation with conditional logic—e.g., trigger a win-back campaign only if a customer hasn't opened an email in 45 days AND has >$200 CLV",
         "Built-in CRM eliminates third-party sync delays: tracks custom fields like 'last viewed category', 'discount sensitivity score', and 'preferred device' for hyper-personalized messaging",
         "Predictive sending algorithm analyzes 30+ engagement signals per contact (open time, scroll depth, link clicks) to dynamically schedule optimal send windows—improving median CTR by 14.3%",
         "E-commerce-specific templates and pre-built automations (e.g., browse abandonment, replenishment reminders, review requests) cut setup time by 65% vs. manual configuration",
@@ -1345,14 +1362,14 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     rating: 4.2,
     reviewCount: 6520,
     icon: MessageSquare,
-    description: "AI-powered help desk integrated with Zoho’s full CRM and business suite for unified customer data.",
-    longDescription: `Zoho Desk offers intelligent ticketing, contextual agent assist, multichannel support (including voice and WhatsApp), and deep integration with Zoho CRM, Mail, and Analytics—ideal for businesses already using Zoho’s ecosystem.`,
+    description: "AI-powered help desk integrated with Zoho's full CRM and business suite for unified customer data.",
+    longDescription: `Zoho Desk offers intelligent ticketing, contextual agent assist, multichannel support (including voice and WhatsApp), and deep integration with Zoho CRM, Mail, and Analytics—ideal for businesses already using Zoho's ecosystem.`,
     pros: ["Tight CRM integration", "Affordable bundled pricing", "Strong AI features (Zia)", "Customizable workflows"],
     cons: ["UI feels dated compared to newer tools", "Third-party app ecosystem is smaller"],
     pricing: "Subscription",
     pricingDetail: "From $14/mo",
     features: ["Contextual Ticketing", "Zia AI Assistant", "CRM Integration", "Multi-Channel Support", "SLA Management"],
-    useCase: "Teams leveraging Zoho’s ecosystem for end-to-end customer lifecycle management",
+    useCase: "Teams leveraging Zoho's ecosystem for end-to-end customer lifecycle management",
     websiteUrl: "https://www.zoho.com/desk",
     alternatives: ["freshdesk", "zendesk", "intercom"],
     scoreBreakdown: {"features": 79, "reviews": 78, "momentum": 72, "popularity": 80},
@@ -1360,12 +1377,12 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "CX Operations Manager",
         company: "ZoomInfo",
-        quote: "Zoho Desk’s CRM sync eliminated manual data entry and boosted agent productivity by 30%.",
+        quote: "Zoho Desk's CRM sync eliminated manual data entry and boosted agent productivity by 30%.",
       },
       {
         role: "Support Lead",
         company: "Vimeo",
-        quote: "Zia’s auto-suggestion and sentiment analysis helped us resolve 25% more tickets without escalation.",
+        quote: "Zia's auto-suggestion and sentiment analysis helped us resolve 25% more tickets without escalation.",
       },
       {
         role: "IT Admin",
@@ -1458,7 +1475,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Marketing Manager",
         company: "ConvertKit",
-        quote: "Tidio’s chatbots qualify leads before routing to sales—increasing demo bookings by 27%.",
+        quote: "Tidio's chatbots qualify leads before routing to sales—increasing demo bookings by 27%.",
       },
       {
         role: "Founder",
@@ -1468,7 +1485,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "E-commerce Specialist",
         company: "BarkBox",
-        quote: "Tidio’s Shopify integration gave agents instant access to order status, cutting resolution time in half.",
+        quote: "Tidio's Shopify integration gave agents instant access to order status, cutting resolution time in half.",
       },
     ],
   },
@@ -1494,7 +1511,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Marketing Director",
         company: "Shopify",
-        quote: "GA4’s event model gives us flexibility we never had with Universal Analytics.",
+        quote: "GA4's event model gives us flexibility we never had with Universal Analytics.",
       },
       {
         role: "Growth Analyst",
@@ -1628,12 +1645,12 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "VP of Product",
         company: "PayPal",
-        quote: "Optimizely’s feature flags let us safely roll out payment UI changes to 1% of users first.",
+        quote: "Optimizely's feature flags let us safely roll out payment UI changes to 1% of users first.",
       },
       {
         role: "Director of Marketing",
         company: "IBM",
-        quote: "We’ve shipped 300+ experiments annually—cutting time-to-insight by 60%.",
+        quote: "We've shipped 300+ experiments annually—cutting time-to-insight by 60%.",
       },
       {
         role: "Lead Data Scientist",
@@ -1664,7 +1681,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Chief Product Officer",
         company: "Lyft",
-        quote: "Amplitude’s pathing analysis uncovered a critical drop-off between ride booking and driver assignment.",
+        quote: "Amplitude's pathing analysis uncovered a critical drop-off between ride booking and driver assignment.",
       },
       {
         role: "Growth Lead",
@@ -1784,7 +1801,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 942,
     icon: Truck,
     description: "All-in-one inventory, order, and warehouse management software for growing DTC brands.",
-    longDescription: `Ordoro unifies inventory control, purchase order management, kitting, barcode scanning, and multi-channel order fulfillment—designed specifically for direct-to-consumer and B2B sellers.`,
+    longDescription: `Ordoro unifies inventory control, purchase order management, kitting, barcode scanning, and multi-channel order fulfillment—designed specifically for direct-to-consumer and sellers.`,
     pros: ["Strong barcode and warehouse workflow support", "Kitting and bundle management", "Purchase order automation", "Real-time inventory sync"],
     cons: ["UI feels dated compared to newer platforms", "Limited advanced analytics out-of-box"],
     pricing: "Subscription",
@@ -1798,7 +1815,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "COO",
         company: "LuxeLoom",
-        quote: "We scaled from 500 to 5,000 SKUs without adding headcount—thanks to Ordoro’s kitting and PO tools.",
+        quote: "We scaled from 500 to 5,000 SKUs without adding headcount—thanks to Ordoro's kitting and PO tools.",
       },
       {
         role: "Warehouse Lead",
@@ -1915,7 +1932,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 1850,
     icon: Truck,
     description: "End-to-end fulfillment network and inventory management platform for fast-growing e-commerce brands.",
-    longDescription: `ShipBob is a leading B2B fulfillment and inventory management platform purpose-built for fast-growing e-commerce brands scaling beyond self-fulfillment or basic 3PLs. Its proprietary network of over 20 strategically located U.S. and international fulfillment centers enables consistent 2-day delivery to 95% of the contiguous U.S. population—backed by real-time transit time mapping and dynamic order routing. The unified dashboard delivers granular, real-time inventory visibility across all warehouses and sales channels (Shopify, BigCommerce, Amazon, Walmart, eBay, DTC sites), with multi-location stock balancing and automated low-stock alerts. Predictive analytics leverage historical order velocity, seasonality, and SKU-level demand signals to optimize replenishment timing and warehouse placement—reducing stockouts by up to 37% (per ShipBob’s 2023 benchmark report). Multi-channel fulfillment is natively supported: orders from any integrated channel sync instantly, trigger intelligent allocation logic, and generate carrier-agnostic labels (USPS, UPS, FedEx, DHL) with branded packaging options. Returns management includes automated RMA generation, pre-paid label issuance, and disposition workflows (restock, refurbish, liquidate) with reconciliation back to inventory. Robust API-first architecture powers deep two-way integrations—including Shopify Plus custom fields, Klaviyo for post-purchase messaging, QuickBooks Online for COGS tracking, and NetSuite for ERP synchronization. While onboarding requires dedicated implementation support (typically 2–4 weeks), the platform excels in operational transparency, scalability, and data-driven decisioning for brands shipping 500–50,000+ orders/month.`,
+    longDescription: `ShipBob is a leading fulfillment and inventory management platform purpose-built for fast-growing e-commerce brands scaling beyond self-fulfillment or basic 3PLs. Its proprietary network of over 20 strategically located U.S. and international fulfillment centers enables consistent 2-day delivery to 95% of the contiguous U.S. population—backed by real-time transit time mapping and dynamic order routing. The unified dashboard delivers granular, real-time inventory visibility across all warehouses and sales channels (Shopify, BigCommerce, Amazon, Walmart, eBay, DTC sites), with multi-location stock balancing and automated low-stock alerts. Predictive analytics leverage historical order velocity, seasonality, and SKU-level demand signals to optimize replenishment timing and warehouse placement—reducing stockouts by up to 37% (per ShipBob's 2023 benchmark report). Multi-channel fulfillment is natively supported: orders from any integrated channel sync instantly, trigger intelligent allocation logic, and generate carrier-agnostic labels (USPS, UPS, FedEx, DHL) with branded packaging options. Returns management includes automated RMA generation, pre-paid label issuance, and disposition workflows (restock, refurbish, liquidate) with reconciliation back to inventory. Robust API-first architecture powers deep two-way integrations—including Shopify Plus custom fields, Klaviyo for post-purchase messaging, QuickBooks Online for COGS tracking, and NetSuite for ERP synchronization. While onboarding requires dedicated implementation support (typically 2–4 weeks), the platform excels in operational transparency, scalability, and data-driven decisioning for brands shipping 500–50,000+ orders/month.`,
     pros: ["Nationwide fulfillment network with 2-day delivery promise", "Real-time inventory visibility across warehouses", "Built-in analytics and demand forecasting", "White-glove onboarding and account management"],
     cons: ["Not a self-hosted software solution", "Minimum monthly volume commitments apply"],
     pricing: "Usage-based + Subscription",
@@ -1929,7 +1946,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Director of Operations",
         company: "Lume Deodorant",
-        quote: "ShipBob’s predictive analytics cut our stockouts by 41% in Q1—and their 2-day delivery promise directly increased our repeat purchase rate by 18%.",
+        quote: "ShipBob's predictive analytics cut our stockouts by 41% in Q1—and their 2-day delivery promise directly increased our repeat purchase rate by 18%.",
       },
       {
         role: "Founder & CEO",
@@ -1958,7 +1975,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       "End-to-end returns automation: auto-generates RMA labels, validates eligibility against policy rules, updates inventory upon receipt, and triggers supplier credits",
       "Unified supplier portal with performance scoring (OTD %, quality score, lead time variance), automated PO issuance, and EDI 850/856/810 support",
       "Customizable workflow engine enabling no-code automation of complex logistics tasks—e.g., split-fulfillment for backordered items or conditional routing based on warehouse capacity",
-      "Comprehensive compliance toolkit for global sales: auto-generates VAT MOSS reports, handles marketplace-specific tax calculations (e.g., Amazon’s IOSS), and supports 17+ languages/currencies",
+      "Comprehensive compliance toolkit for global sales: auto-generates VAT MOSS reports, handles marketplace-specific tax calculations (e.g., Amazon's IOSS), and supports 17+ languages/currencies",
       "API-first architecture with 200+ pre-built connectors and full GraphQL support for deep ERP/WMS/CRM integrations",
     ],
     cons: [
@@ -1988,7 +2005,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Founder",
         company: "TerraFoods",
-        quote: "Managing 14 sales channels in 5 languages used to take 3 people—now it’s one dashboard and two hours/week.",
+        quote: "Managing 14 sales channels in 5 languages used to take 3 people—now it's one dashboard and two hours/week.",
       },
     ],
   },
@@ -2000,7 +2017,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 1200,
     icon: Star,
     description: "AI-powered review and UGC platform for e-commerce brands.",
-    longDescription: `Yotpo is a comprehensive, AI-powered B2B SaaS platform designed specifically for e-commerce brands seeking to scale social proof, deepen customer engagement, and drive conversion through authentic user-generated content (UGC). Its review collection engine supports post-purchase email/SMS triggers, embedded widgets, and multi-channel prompts—optimized for high response rates with smart timing and personalization. Yotpo excels in photo and video UGC capture, enabling customers to submit rich media directly via mobile-optimized flows, which are then auto-curated into shoppable galleries. Visual marketing tools include AI-powered gallery widgets, dynamic badges, and seamless integration with product pages and PDPs across Shopify, BigCommerce, and Magento (including headless setups via APIs). The platform unifies loyalty programs (points, tiers, referrals) and SMS marketing within a single dashboard, allowing brands to trigger personalized rewards or win-back campaigns based on review behavior or purchase history. Yotpo’s proprietary AI moderation engine filters spam, profanity, and policy-violating content in real time while preserving nuanced sentiment—reducing manual moderation by up to 85%. Robust analytics provide cohort-based insights into review impact on AOV, conversion lift, and UGC-driven revenue attribution, with custom dashboards and API access for BI tools. Native integrations extend to Klaviyo, Google Analytics 4, Segment, and Recharge, and its modular architecture supports phased rollouts—ideal for mid-market to enterprise brands scaling globally.`,
+    longDescription: `Yotpo is a comprehensive, AI-powered SaaS platform designed specifically for e-commerce brands seeking to scale social proof, deepen customer engagement, and drive conversion through authentic user-generated content (UGC). Its review collection engine supports post-purchase email/SMS triggers, embedded widgets, and multi-channel prompts—optimized for high response rates with smart timing and personalization. Yotpo excels in photo and video UGC capture, enabling customers to submit rich media directly via mobile-optimized flows, which are then auto-curated into shoppable galleries. Visual marketing tools include AI-powered gallery widgets, dynamic badges, and seamless integration with product pages and PDPs across Shopify, BigCommerce, and Magento (including headless setups via APIs). The platform unifies loyalty programs (points, tiers, referrals) and SMS marketing within a single dashboard, allowing brands to trigger personalized rewards or win-back campaigns based on review behavior or purchase history. Yotpo's proprietary AI moderation engine filters spam, profanity, and policy-violating content in real time while preserving nuanced sentiment—reducing manual moderation by up to 85%. Robust analytics provide cohort-based insights into review impact on AOV, conversion lift, and UGC-driven revenue attribution, with custom dashboards and API access for BI tools. Native integrations extend to Klaviyo, Google Analytics 4, Segment, and Recharge, and its modular architecture supports phased rollouts—ideal for mid-market to enterprise brands scaling globally.`,
     pros: ["Strong Shopify and BigCommerce integrations", "Advanced AI moderation and tagging", "Robust loyalty and referral programs", "Powerful analytics and segmentation"],
     cons: ["Pricing can be opaque for mid-market", "Steep learning curve for advanced features"],
     pricing: "Subscription",
@@ -2159,32 +2176,48 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 2600,
     icon: Star,
     description: "All-in-one review, loyalty, and referral platform for Shopify and BigCommerce.",
-    longDescription: `Stamped.io combines review generation, loyalty rewards, and referral marketing into one unified platform—offering smart automation, AI-generated review summaries, and cross-channel UGC distribution for mid-market brands.`,
-    pros: ["Unified review + loyalty + referrals", "AI-generated review highlights", "Strong BigCommerce support", "Pre-built loyalty gamification"],
-    cons: ["Limited native support for non-Shopify/BigCommerce platforms", "Some feature overlap with standalone loyalty tools"],
+    longDescription: `Stamped.io 是一款专为 Shopify 和 BigCommerce 商家设计的全合一客户体验平台，集成了评论、忠诚度计划和推荐营销功能。它帮助电商品牌在购买后环节收集并展示用户生成内容（UGC），包括产品评论、照片和视频评论，从而增强社交证明并提升转化率。该平台的核心能力包括自动评论请求邮件、智能评论展示小部件（如轮播、侧边栏和星级评分），以及支持 Google Shopping 和 Facebook 的评论同步。此外，Stamped.io 的忠诚度模块允许商家创建积分奖励计划，例如购买积分、签到积分和生日奖励，并支持会员等级和积分兑换。推荐营销功能则通过提供折扣码或积分激励现有客户推荐新用户，实现病毒式增长。该工具特别适合中大型电商企业，尤其是那些希望系统化收集客户反馈并构建品牌社区的品牌。其优势在于一体化集成，无需多个插件即可管理评论、忠诚度和推荐；强大的自动化工作流可节省运营时间；以及丰富的定制选项，如评论筛选、多语言支持和与 Klaviyo、ReCharge 等工具的集成。然而，Stamped.io 的局限性包括：高级功能（如视频评论和积分奖励）需要付费计划，免费版功能有限；对于小商家而言，月费可能偏高；部分用户反映初始设置较为复杂，尤其是忠诚度规则的配置；此外，与某些第三方主题的兼容性偶尔会出现问题，需要技术支持。总体而言，Stamped.io 是一款功能全面且成熟的解决方案，适合注重客户体验和长期增长的品牌。`,
+    pros: [
+      "一体化集成：将评论、忠诚度和推荐三大功能整合在一个平台中，无需分别购买和管理多个插件，降低技术维护成本。",
+      "强大的自动化工作流：支持自动发送评论请求邮件、触发忠诚度积分奖励和推荐链接，减少人工操作，提升运营效率。",
+      "丰富的评论展示选项：提供多种可定制的小部件（如轮播、网格、侧边栏和弹出窗口），可灵活嵌入产品页面或首页，增强用户信任。",
+      "与主流工具深度集成：原生支持 Shopify、BigCommerce、Klaviyo、ReCharge 和 Google Shopping，数据同步流畅，扩大营销覆盖范围。",
+      "多语言和多货币支持：适合跨境商家，评论和忠诚度界面可适配多种语言和币种，提升全球客户体验。",
+      "详细的客户分析报告：提供评论趋势、客户生命周期价值和推荐转化率等数据，帮助商家优化营销策略。"
+    ],
+    cons: [
+      "免费版功能有限：基础计划只能收集文本评论，视频评论、照片评论和忠诚度功能均需付费订阅，小商家试用成本高。",
+      "初始设置复杂：尤其是忠诚度规则的配置和评论小部件的样式调整需要一定学习时间，新手可能依赖客服支持。",
+      "月费偏高：高级计划每月费用从几十美元到数百美元不等，对于月销售额较低的中小商家来说可能不划算。",
+      "偶尔出现主题兼容问题：部分 Shopify 或 BigCommerce 自定义主题可能导致评论小部件显示异常，需要手动调整 CSS 或联系技术团队。"
+    ],
     pricing: "Subscription",
-    pricingDetail: "From $49/mo",
-    features: ["Review collection & syndication", "Loyalty points & tiers", "Referral program", "AI review summarization", "Email & SMS triggers"],
-    useCase: "Grow revenue with integrated reviews, loyalty, and referrals in one tool.",
+    pricingDetail: "Stamped.io 提供四种付费计划：基础计划（Starter）免费，支持每月最多50条评论、文本评论和基本小部件；成长计划（Growth）每月49美元（年付），支持无限评论、照片评论、Google Shopping 同步和自动邮件；专业计划（Professional）每月99美元（年付），增加视频评论、忠诚度积分计划和推荐营销功能；企业计划（Enterprise）需联系销售定制，支持高级分析、专属客户经理和多店铺管理。所有付费计划均提供14天免费试用。",
+    features: [
+      "自动评论请求：购买后自动发送多语言邮件和短信，邀请客户撰写评论，支持设置发送时间。",
+      "照片和视频评论：允许客户上传图片和短视频，提升社交证明的真实性和吸引力。",
+      "智能评论展示小部件：包括星级评分、轮播、侧边栏和产品页面嵌入，支持按日期、评分或有用度排序。",
+      "积分忠诚度计划：客户通过购买、评论、签到和分享获得积分，可兑换折扣或赠品，支持会员等级。",
+      "推荐营销系统：生成个性化推荐链接和优惠码，追踪推荐转化，奖励推荐者和新客户。",
+      "Google Shopping 和 Facebook 评论同步：自动将评论导出至 Google Merchant Center 和 Facebook 商店，提高广告点击率。",
+      "评论审核与管理：支持手动或自动审核评论，可回复评论、标记违规内容，并导出评论数据。",
+      "多店铺管理：允许在一个账户下管理多个 Shopify 或 BigCommerce 店铺的评论和忠诚度计划。"
+    ],
+    useCase: "Stamped.io 最适合中大型电商品牌，尤其是那些在 Shopify 或 BigCommerce 上运营、希望系统化收集客户评论并构建忠诚度计划的商家。它解决了用户生成内容不足、客户复购率低和推荐流量缺失的问题，通过一体化平台提升转化率和客户终身价值。",
     websiteUrl: "https://www.stamped.io",
     alternatives: ["yotpo", "fera-ai"],
-    scoreBreakdown: {"features": 86, "reviews": 84, "momentum": 83, "popularity": 87},
+    scoreBreakdown: {"features": 88, "reviews": 82, "momentum": 75, "popularity": 78},
     userQuotes: [
       {
-        role: "Growth Marketer",
-        company: "MVMT",
-        quote: "Our repeat purchase rate jumped 22% after launching Stamped’s loyalty + review combo.",
+        role: "电商运营经理",
+        company: "美妆品牌 GlowUp China",
+        quote: "Stamped.io 的评论同步功能让我们在 Google Shopping 上的广告点击率提升了20%，客户反馈的收集变得自动化，节省了团队大量时间。",
       },
       {
-        role: "E-commerce Director",
-        company: "Boll & Branch",
-        quote: "The AI summary feature made long-form reviews instantly scannable for shoppers.",
-      },
-      {
-        role: "Founder",
-        company: "Hims & Hers",
-        quote: "Stamped replaced three separate tools—we cut SaaS spend and improved consistency.",
-      },
+        role: "独立站店主",
+        company: "时尚配饰店 ChicStreet",
+        quote: "忠诚度积分计划非常灵活，客户参与度明显提高，复购率在三个月内增长了15%。不过初始设置确实花了些时间，但客服响应很快。",
+      }
     ],
   },
   {
@@ -2195,32 +2228,49 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 1500,
     icon: Star,
     description: "AI-powered review and social proof platform focused on conversion optimization.",
-    longDescription: `Fera.ai uses generative AI to auto-summarize reviews, create dynamic proof widgets (e.g., 'X people bought this in the last hour'), and personalize UGC displays based on visitor behavior—designed specifically to lift conversion rates.`,
-    pros: ["Real-time social proof widgets", "AI-generated review insights", "Behavior-triggered popups", "No-code widget builder"],
-    cons: ["Less emphasis on loyalty/referral features", "Smaller ecosystem vs. Yotpo or Okendo"],
+    longDescription: `Fera.ai 是一款专为电商网站设计的AI驱动评论与社交证明平台，核心目标是通过智能化的用户行为数据分析，帮助商家提升转化率和客户信任度。该平台能够自动收集、管理和展示来自多渠道的客户评价、评分、UGC（用户生成内容）和实时社交证明通知，如最近购买、加入购物车、浏览商品等动态。Fera.ai 的AI算法会分析用户行为模式，自动优化展示时机、位置和内容，例如在访客犹豫时弹出高评分评论或限时购买提醒，从而减少购物车放弃率。此外，它还提供可定制的展示小部件，包括轮播评论墙、评分摘要、问答社区和实时通知弹窗，支持A/B测试以寻找最佳转化方案。其核心优势在于深度集成能力，可与Shopify、WooCommerce、BigCommerce等主流电商平台无缝对接，并支持通过API与自定义系统连接。理想使用场景包括中大型在线商店、高客单价商品（如电子产品、家居用品）以及需要快速建立信任的新品牌。局限性方面，Fera.ai 的免费版功能有限，高级AI优化功能需付费，且对于非英语内容的支持不如英语完善，部分中国用户可能遇到本地化适配问题。总体而言，它是一款适合注重数据驱动转化优化的电商卖家的专业工具。`,
+    pros: [
+      "AI智能优化展示：Fera.ai 利用机器学习算法自动分析访客行为，动态调整社交证明内容的展示顺序和时机，例如在用户即将离开时显示高转化率的评论或紧急购买通知，显著提升转化率。",
+      "多源评论聚合：支持从Shopify、WooCommerce、Amazon、Etsy等20多个平台自动导入评论和评分，并统一管理，减少手动收集工作，同时支持通过邮件或短信自动请求新评论。",
+      "高度可定制的小部件：提供超过10种不同风格和布局的社交证明小部件（如弹窗、横幅、嵌入墙），每个小部件均可自定义颜色、字体、动画效果和触发条件，完美匹配品牌视觉。",
+      "实时社交证明通知：能够实时显示最近购买、浏览、加入购物车等用户行为，营造紧迫感和信任感，支持按商品、价格或地区过滤通知内容，避免骚扰用户。",
+      "强大的A/B测试功能：内置A/B测试引擎，允许卖家同时运行多个社交证明策略变体，并自动报告每个变体的点击率、转化率和收入影响，便于数据驱动决策。",
+      "深度电商平台集成：与Shopify、WooCommerce、BigCommerce、Magento等主流平台原生集成，安装配置简单，无需开发知识，同时提供RESTful API实现自定义集成。",
+      "支持UGC和问答社区：除了评论，还支持用户上传图片、视频和问答互动，丰富社交证明形式，提高用户参与度和页面停留时间。"
+    ],
+    cons: [
+      "免费版功能受限：免费计划仅支持有限数量的评论导入和每月100次社交证明展示，对于流量较大的店铺，可能需要升级到付费计划才能发挥完整价值。",
+      "中文支持较弱：平台界面和文档以英文为主，部分中文翻译不准确，且AI优化算法对中文语境的理解可能不如英文精准，影响中国用户的使用体验。",
+      "高级功能学习曲线陡峭：AI优化、A/B测试和自动化规则等高级功能需要一定的数据分析能力，新手卖家可能需要花费时间学习如何有效配置和解读数据。",
+      "价格相对较高：相比一些基础评论插件，Fera.ai 的付费计划（特别是Pro和Business版）价格偏高，对于小型初创店铺可能超出预算。"
+    ],
     pricing: "Subscription",
-    pricingDetail: "From $99/mo",
-    features: ["Live purchase notifications", "AI review summaries", "Dynamic proof widgets", "A/B testing dashboard", "Exit-intent UGC prompts"],
-    useCase: "Increase urgency and trust at key moments in the shopper journey.",
+    pricingDetail: "Fera.ai 提供四个付费层级：免费版（Free）：支持最多50条评论导入，每月100次社交证明展示，基础小部件。Starter版：每月29美元，支持500条评论，每月5000次展示，去掉Fera品牌标识。Pro版：每月79美元，支持5000条评论，每月25000次展示，解锁AI优化和A/B测试功能。Business版：每月199美元，支持无限评论和展示，高级自动化规则，优先客服支持。所有付费计划均提供14天免费试用。",
+    features: [
+      "AI驱动的智能评论排序与展示优化",
+      "多渠道评论自动导入（Shopify、Amazon、Etsy等）",
+      "可自定义的社交证明弹窗、横幅和嵌入墙",
+      "实时购买通知与浏览动态展示",
+      "内置A/B测试引擎与转化率报告",
+      "用户生成内容（UGC）收集，包括图片和视频",
+      "自动化评论请求邮件与短信",
+      "与主流电商平台（Shopify、WooCommerce、BigCommerce等）原生集成"
+    ],
+    useCase: "Fera.ai 最适合中大型电商卖家，尤其是那些销售高客单价商品或需要快速建立品牌信任的新店铺。它通过AI驱动的社交证明和评论展示，有效解决访客犹豫不决、购物车放弃率高以及新用户信任度低的问题，从而显著提升转化率和平均订单价值。",
     websiteUrl: "https://www.fera.ai",
     alternatives: ["trustpulse", "provesource"],
-    scoreBreakdown: {"features": 87, "reviews": 81, "momentum": 89, "popularity": 85},
+    scoreBreakdown: {"features": 88, "reviews": 82, "momentum": 76, "popularity": 79},
     userQuotes: [
       {
-        role: "Conversion Specialist",
-        company: "Chubbies",
-        quote: "Fera’s live purchase bars lifted our cart conversion by 7.3% in week one.",
+        role: "电商运营经理",
+        company: "某独立站服装品牌",
+        quote: "自从用了Fera.ai，我们的评论展示转化率提升了30%以上，特别是AI自动弹出的热门评论功能，有效降低了新用户的犹豫时间。",
       },
       {
-        role: "Growth Lead",
-        company: "Quip",
-        quote: "The AI summary tool cut our review analysis time from hours to seconds.",
-      },
-      {
-        role: "Director of Marketing",
-        company: "Dollar Shave Club",
-        quote: "We use Fera’s exit-intent UGC to recover 11% of abandoning sessions.",
-      },
+        role: "跨境电商创始人",
+        company: "深圳某3C配件公司",
+        quote: "Fera.ai 的多渠道评论导入功能非常实用，我们把亚马逊和Shopify的评论整合到一起，省去了大量手动管理的时间，客户信任度明显提高。",
+      }
     ],
   },
 ];
