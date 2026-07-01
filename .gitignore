@@ -39,3 +39,6 @@ __pycache__/
 
 tsconfig.tsbuildinfo
 patch_tools.py
+.next_old/
+*.py
+*.json
