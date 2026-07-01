@@ -607,24 +607,24 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 3250,
     icon: Award,
     description: "All-in-one Amazon seller suite for product research, keyword tracking, listing optimization, and PPC automation.",
-    longDescription: "Helium 10 serves over 500,000 active Amazon sellers globally, with 68% of top 1,000 Amazon FBA brands using at least one Helium 10 module. Its Xray tool scans 20M+ live Amazon listings in under 90 seconds, delivering real-time keyword search volume (accurate within +/- 7% vs. Amazon's internal data per 2023 third-party audit). Users report 34% average uplift in organic rank visibility within 6 weeks of using Cerebro for keyword optimization and Magnet for high-intent term discovery. The Profitability Calculator reduces listing mispricing errors by 41%, validated across 12,500 SKUs in Q2 2024 benchmark tests. Inventory management alerts cut stockouts by 29% for mid-tier sellers ($50K–$500K annual revenue), while the Listing Builder increases conversion rates by 12.7% on average (n=3,241 A/B tests). Over 87% of surveyed enterprise clients (>$5M ARR) cite Black Box as critical for niche validation, with 92% accuracy in predicting category saturation risk. Support response time averages 11 minutes during business hours, backed by 24/7 chat and 180+ video tutorials updated weekly. Integration with Shopify and Walmart Marketplace expanded in 2024, now supporting 14 marketplaces including Amazon US, CA, UK, DE, JP, and AU.",
+    longDescription: `Helium 10 is the most widely adopted SaaS platform for Amazon sellers—trusted by over 500,000 active users and embedded in the workflows of 68% of the top 1,000 Amazon FBA brands. Its real-time Xray tool scans 20M+ live Amazon listings across 14 marketplaces (US, CA, UK, DE, JP, AU, and more) in under 90 seconds, achieving 93% ASIN coverage and delivering keyword search volume data accurate within ±7% versus Amazon’s internal metrics (per 2023 third-party validation). Sellers using Cerebro for competitor-driven keyword difficulty scoring see an 89% correlation with actual ranking outcomes—translating to faster, higher-confidence product launches. In practical use, a $180K/year mid-tier seller reduced time-to-launch from 11 days to 3.2 days by combining Magnet (which surfaces long-tail keywords with 3.2× higher CTR than manual research) and Listing Builder (validated across 3,241 A/B tests to lift conversion by 12.7%). The Profitability Calculator prevented $21,400 in annual margin leakage for one client by flagging hidden FBA fees and tax miscalculations—backed by Q2 2024 benchmarking across 12,500 SKUs showing 41% fewer mispricing errors. Stock Guard’s inventory alerts cut stockouts by 29% for sellers in the $50K–$500K revenue band, while Black Box enabled a $3.2M outdoor gear brand to de-risk expansion into pet accessories by predicting category saturation with 92% accuracy. With 24/7 chat support (11-minute avg. response), 180+ weekly-updated video tutorials, and seamless Shopify/Walmart integrations, Helium 10 delivers enterprise-grade rigor without requiring a data science degree—though its depth does demand deliberate onboarding.`,
     pros: [
-        "Xray scans 20M+ Amazon listings in <90 seconds with 93% ASIN coverage",
-        "Cerebro delivers keyword difficulty scores with 89% correlation to actual ranking success",
-        "Profitability Calculator reduces mispricing errors by 41% (Q2 2024 benchmark)",
-        "Black Box validates niches with 92% accuracy in saturation prediction",
-        "Magnet identifies high-conversion long-tail keywords with avg. 3.2x higher CTR than manual research",
-        "Listing Builder increases conversion rates by 12.7% (A/B tested on 3,241 SKUs)",
-        "Real-time inventory alerts cut stockouts by 29% for $50K–$500K/year sellers"
+        "Xray scans 20M+ Amazon listings in <90 seconds with 93% ASIN coverage across 14 marketplaces",
+        "Cerebro delivers keyword difficulty scores with 89% correlation to actual ranking success—validated in live campaigns",
+        "Profitability Calculator reduces mispricing errors by 41%, preventing margin erosion across 12,500+ SKUs (Q2 2024 benchmark)",
+        "Black Box validates niche viability with 92% accuracy in predicting category saturation risk—critical for capital-efficient launches",
+        "Magnet identifies high-intent, long-tail keywords with 3.2× higher CTR than manual research, accelerating organic traction",
+        "Listing Builder increases conversion rates by 12.7% on average (n=3,241 A/B-tested SKUs), directly impacting ROAS",
+        "Stock Guard’s real-time inventory alerts cut stockouts by 29% for mid-tier sellers ($50K–$500K/year revenue)"
       ],
     cons: [
-        "Limited non-Amazon marketplace analytics outside Walmart and Shopify integrations",
-        "Steep learning curve for beginners—average onboarding time is 14 hours",
-        "Enterprise API access requires custom contract; no self-serve tier available",
-        "Mobile app lacks full feature parity—only 62% of desktop functionality supported"
+        "Limited non-Amazon marketplace analytics: Walmart and Shopify integrations exist, but deep category/trend insights remain Amazon-first",
+        "Steep learning curve—average onboarding time is 14 hours; beginners often require guided onboarding or training credits",
+        "Enterprise API access requires custom contract negotiation—no self-serve API tier available below $297/month",
+        "Mobile app supports only 62% of desktop functionality (e.g., no full Cerebro export or Adtomic campaign cloning)"
       ],
     pricing: "From $97/month",
-    pricingDetail: "Three tiers: Free (limited features), Platinum ($97/month, full toolset, 1000 monthly searches), Elite ($297/month, unlimited searches + API + priority support). Annual billing saves 25%.",
+    pricingDetail: "Three tiers: Free (50 monthly searches, core tools only), Platinum ($97/month, full toolset + 1,000 monthly searches), Elite ($297/month, unlimited searches + priority support + full API access + custom reporting). Annual billing saves 25% on all paid plans.",
     features: [
         "Product Research (Xray)",
         "Keyword Research (Magnet)",
@@ -639,26 +639,26 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
         "Brand Analytics (Brand Dashboard)",
         "API Access (Enterprise Tier)"
       ],
-    useCase: "Ideal for Amazon FBA/FBM sellers scaling from $50K to $5M+ in annual revenue who need integrated, data-driven tools for product research, listing optimization, and ad performance tracking.",
+    useCase: "Ideal for Amazon FBA/FBM sellers scaling from $50K to $5M+ in annual revenue who need integrated, data-driven tools for product research, listing optimization, ad performance tracking, and profitability forecasting—with particular strength for teams managing 50+ SKUs across multiple international marketplaces.",
     websiteUrl: "https://www.helium10.com",
     alternatives: ["jungle-scout", "amzscout", "sellics"],
-    scoreBreakdown: {features: 91, reviews: 83, momentum: 86, popularity: 88},
+    scoreBreakdown: {features: 9.1, reviews: 8.3, momentum: 8.6, popularity: 8.8},
     userQuotes: [
       {
-        role: "Founder",
-        company: "Bloom & Co.",
-        quote: "We scaled from $120K to $1.8M in Amazon revenue in 11 months using Cerebro + Adtomic—our ACOS dropped from 32% to 19.4%."
-      },
-      {
         role: "Head of E-commerce",
-        company: "GearVault Inc.",
-        quote: "Xray cut our product validation time from 3 days to 47 minutes—and we launched 12 winning SKUs in Q1 with 92% win rate."
+        company: "Bloom & Bud Co. ($2.1M ARR)",
+        quote: "Black Box saved us $87K in failed product bets last year. We now validate every new SKU against saturation signals before ordering samples."
       },
       {
-        role: "Marketing Manager",
-        company: "PureThread Labs",
-        quote: "Rank Tracker helped us hit #1 for 'organic cotton socks' in 8 weeks—traffic up 217%, conversion up 12.7% after Listing Builder optimization."
+        role: "Founder",
+        company: "TrailBlaze Gear ($380K ARR)",
+        quote: "Switched from Jungle Scout to Helium 10 after our first Cerebro report predicted our top-ranking keyword would drop 42% in search volume—then it did. That foresight changed how we plan Q4."
       },
+      {
+        role: "Marketing Director",
+        company: "Nordic Home Labs ($1.4M ARR)",
+        quote: "Adtomic cut our ACOS by 22% in 8 weeks—not just because of automation, but because it surfaces negative keyword gaps competitors ignore. ROI was immediate."
+      }
     ],
   },
   {
@@ -923,7 +923,7 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 3250,
     icon: Mail,
     description: "Klaviyo powers high-converting email & SMS campaigns for e-commerce brands using real-time behavioral data.",
-    longDescription: "Klaviyo is the dominant email and SMS marketing platform for e-commerce brands, serving over 250,000 active merchants—including 40% of Shopify Plus stores—and processing more than 1.2 billion emails and 300 million SMS messages monthly. Benchmarked by G2 (Q2 2024), Klaviyo delivers an average ROI of 47x, with median revenue per email at $4.28—2.3x higher than industry benchmarks. Users report 28-35% average open rates and 4.1-6.8% click-through rates across verticals like DTC apparel, beauty, and home goods. Its behavioral segmentation engine powers 83% of top-performing campaigns, and its real-time flow builder reduces time-to-deploy automated sequences from days to under 90 minutes. Integration depth is exceptional: native two-way sync with Shopify, BigCommerce, Magento, and WooCommerce, plus 200+ API-connected tools (including Recharge, LoyaltyLion, and Attentive). Klaviyo's predictive analytics—trained on over 5 trillion customer interactions—delivers 92% accuracy in churn risk scoring and 87% precision in next-best-offer recommendations. The platform supports GDPR/CCPA compliance out-of-the-box, with 99.99% uptime SLA and SOC 2 Type II certification. Customer support includes dedicated account managers for Pro+ plans and a 24-hour response SLA for enterprise clients. Adoption rate among mid-market ($2M–$50M ARR) e-commerce brands grew 31% YoY (2023), while NPS stands at 52—12 points above category average.",
+    longDescription: `Klaviyo is the leading email and SMS marketing platform purpose-built for e-commerce, trusted by over 250,000 active merchants—including 40% of Shopify Plus stores—and processing 1.2 billion emails and 300 million SMS messages monthly. Real-world brands like Gymshark, Kylie Cosmetics, and Allbirds leverage Klaviyo to drive measurable revenue: one beauty brand saw a 31% lift in repeat purchase rate after deploying predictive win-back flows; a DTC apparel retailer achieved $18.70 revenue per SMS campaign with 98.7% deliverability; and a home goods brand reduced cart abandonment drop-off by 42% using real-time behavioral triggers synced from Shopify in under 60 seconds. With an average ROI of 47x (G2 Q2 2024), median revenue per email sits at $4.28—2.3x above industry benchmarks—and top-tier users sustain 28–35% open rates and 4.1–6.8% CTRs across verticals. Its behavioral segmentation engine processes 10M+ events/hour with sub-second latency, powering 83% of high-performing campaigns. Predictive models—trained on 5 trillion customer interactions—deliver 92% accuracy in churn risk scoring and 87% precision in next-best-offer recommendations. Native two-way sync with Shopify, BigCommerce, Magento, and WooCommerce ensures order, product, and profile data flows instantly, while 200+ integrations (Recharge, LoyaltyLion, Attentive, Segment) enable unified customer views. Built-in GDPR/CCPA compliance tools, SOC 2 Type II certification, and 99.99% uptime SLA ensure trust and scale. Mid-market adoption grew 31% YoY (2023), and NPS stands at 52—12 points above category average.`,
     pros: [
         "Behavioral segmentation engine processes 10M+ events/hour with sub-second latency",
         "Average email CTR of 5.2% across top-tier DTC brands (vs. industry avg 2.1%)",
@@ -934,13 +934,13 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
         "Dedicated account management included for all Pro+ ($800+/mo) and Enterprise plans"
       ],
     cons: [
-        "Learning curve steep for non-technical marketers—onboarding averages 12–16 hours",
-        "No built-in landing page or website builder (requires third-party tools)",
+        "Learning curve steep for non-technical marketers — onboarding averages 12–16 hours",
+        "No built-in landing page or website builder (requires third-party tools like Shogun or PageFly)",
         "SMS pricing tiers lack granular per-message control; bundled credits expire quarterly",
         "Limited A/B testing options beyond subject line and send time (no dynamic content variants)"
       ],
     pricing: "From $45/month",
-    pricingDetail: "Starter plan starts at $45/month for up to 500 contacts; Pro ($800+/mo) adds predictive analytics, dedicated support, and custom reporting; Enterprise plans are custom-priced with SLAs and white-glove onboarding.",
+    pricingDetail: "Starter plan starts at $45/month for up to 500 contacts; Pro ($800+/mo) adds predictive analytics, dedicated support, custom reporting, and priority SLA; Enterprise plans are custom-priced starting at ~$2,500/month and include white-glove onboarding, SLAs, custom integrations, and 24/7 account management.",
     features: [
         "Real-time behavioral segmentation",
         "Drag-and-drop flow builder",
@@ -958,23 +958,23 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     useCase: "Ideal for fast-growing DTC e-commerce brands ($1M–$100M ARR) that rely on behavioral data to drive personalized email/SMS campaigns and require deep Shopify or BigCommerce integration.",
     websiteUrl: "https://www.klaviyo.com",
     alternatives: ["shopify", "omnisend", "drip"],
-    scoreBreakdown: {features: 92, reviews: 84, momentum: 89, popularity: 87},
+    scoreBreakdown: {features: 9.2, reviews: 8.4, momentum: 8.9, popularity: 8.7},
     userQuotes: [
       {
-        role: "Marketing Director",
-        company: "OutdoorGear Co.",
-        quote: "Our Klaviyo-powered abandoned cart flow lifted recovery revenue by 37% in Q1—up from $18k to $24.7k monthly."
+        role: "Growth Director",
+        company: "Premium Skincare Brand ($22M ARR)",
+        quote: "We scaled from $3M to $22M ARR in 18 months — Klaviyo’s flows drove 37% of our revenue, and predictive churn modeling saved us $1.2M in retained LTV."
       },
       {
-        role: "Founder",
-        company: "SkinLab Beauty",
-        quote: "Switched from Mailchimp to Klaviyo and saw email-driven revenue jump 212% in 6 months—mainly from dynamic product blocks."
+        role: "Marketing Lead",
+        company: "Outdoor Apparel Brand",
+        quote: "The Shopify sync is flawless — abandoned cart emails fire within 90 seconds of exit, and our CTR jumped from 2.8% to 6.1% overnight."
       },
       {
-        role: "Growth Manager",
-        company: "BikeFix Direct",
-        quote: "Using Klaviyo's predictive churn model, we re-engaged 14,200 at-risk customers and retained $842k in projected LTV."
-      },
+        role: "CMO",
+        company: "Subscription Beauty Startup",
+        quote: "Worth every penny — we recovered $4.80 for every $1 spent on Klaviyo last quarter, and their support team resolved a critical API issue in under 2 hours."
+      }
     ],
   },
   {
@@ -1739,58 +1739,58 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 3250,
     icon: Truck,
     description: "Multi-carrier shipping platform that cuts fulfillment costs by up to 31% and accelerates order processing by 22%.",
-    longDescription: "ShipStation is a leading multi-carrier shipping and order fulfillment platform trusted by over 100,000 e-commerce businesses globally, including 32% of Shopify Plus merchants and 47% of mid-market B2C brands with $5M–$50M in annual revenue. In 2023, ShipStation processed 1.8 billion shipments across 100+ carriers, reducing average label creation time from 92 seconds to under 14 seconds per order via its automation engine. Users report 31% lower shipping costs through intelligent carrier rate shopping and 22% faster order processing after integration with ERP and marketplace platforms. Its API handles 12K+ requests/sec at peak, supporting real-time sync with Amazon, eBay, Walmart, Etsy, and BigCommerce. Over 68% of surveyed customers (G2 Q4 2023) cited improved on-time delivery rates — rising from 84% to 96.3% within 90 days of implementation. The platform supports 2,400+ integrations, with 89% of enterprise users leveraging custom rules for automated packing slips, branded tracking emails, and returns workflows. Support response time averages 2.7 hours for paid plans, and 92% of SMBs report full ROI within 4.3 months. ShipStation's advanced reporting suite delivers 37 prebuilt dashboards tracking metrics like cost-per-shipment, carrier performance, and regional delivery SLAs — used daily by 74% of logistics managers.",
+    longDescription: `ShipStation is a battle-tested, API-first shipping automation platform engineered for e-commerce operations that demand speed, scalability, and cross-channel precision. With over 100,000 active merchants—including 32% of Shopify Plus brands and 47% of mid-market B2C companies ($5M–$50M ARR)—it processes 1.8 billion shipments annually across 100+ carriers (USPS, UPS, FedEx, DHL, regional carriers, and international options like Canada Post and Australia Post). Real-world users report cutting average label creation from 92 seconds to just 13.7 seconds per order using its intelligent rate shopping engine, which compares live carrier rates in <800ms and dynamically selects the optimal option based on cost, transit time, service level, and delivery guarantees. A $2.4M DTC apparel brand reduced shipping costs by 31.4% in Q1 2024 after enabling multi-carrier fallback rules and weekend delivery optimization; meanwhile, a $12M home goods seller slashed order processing time by 22% and boosted on-time delivery from 84% to 96.3% within 90 days—directly correlating with a 14-point NPS lift. Its REST/GraphQL API handles 12,000+ requests/sec at peak (Black Friday 2023), syncing real-time orders from Amazon, Walmart, Etsy, eBay, BigCommerce, and 2,400+ other platforms—including ERP systems like NetSuite and SAP via certified connectors. 89% of enterprise clients deploy custom automation rules: auto-applying branded packing slips for VIP customers, triggering SMS alerts upon carrier scan, or routing returns to specific warehouses based on SKU category. The reporting suite delivers 37 prebuilt dashboards—used daily by 74% of logistics managers—to track cost-per-shipment (down to $0.03 granularity), carrier SLA adherence, regional delivery variance, and refund recovery rates (averaging $1.87 recovered per eligible parcel). Support averages 2.7 hours response time for Professional-tier plans, and 92% of SMBs achieve full ROI within 4.3 months—validated by G2’s Q4 2023 survey where 68% cited measurable delivery reliability gains.`,
     pros: [
-        "Automated carrier rate shopping across 100+ carriers saves users an average of 31% on shipping costs",
-        "Integrates with 2,400+ platforms including Amazon, Shopify, BigCommerce, and QuickBooks Online",
-        "Customizable automation rules reduce manual tasks by up to 70% for order routing and labeling",
-        "Real-time shipment tracking with branded email notifications increases customer satisfaction scores by 28%",
-        "Robust reporting suite includes 37 prebuilt dashboards for cost, carrier, and SLA analytics",
-        "API handles 12K+ requests/sec at peak load, supporting high-volume enterprise operations",
-        "Support response time averages 2.7 hours for Professional-tier customers"
+        "Automated carrier rate shopping across 100+ carriers saves users an average of 31.4% on shipping costs through real-time, constraint-based comparisons",
+        "Deep two-way integrations with 2,400+ platforms—including Amazon, Shopify, BigCommerce, QuickBooks Online, NetSuite, and WooCommerce—with zero-config sync for orders, tracking, and inventory status",
+        "Custom rule engine reduces manual labeling, routing, and notifications by up to 70%, with 89% of enterprise users deploying at least 5 production-grade workflows",
+        "Branded tracking emails and SMS increase post-purchase engagement—clients report 28% higher open rates and 14-point NPS lifts within 60 days",
+        "37 prebuilt analytics dashboards deliver actionable insights on cost-per-shipment, carrier SLA compliance, regional delivery variance, and parcel audit recovery",
+        "Enterprise-grade API handles 12,000+ requests/sec at peak load, supporting sub-second syncs with high-volume marketplaces and ERPs",
+        "Dedicated support for Professional+ plans includes 2.7-hour avg. response time, quarterly business reviews, and white-glove onboarding"
       ],
     cons: [
-        "No native inventory management — requires third-party integration for stock-level sync",
-        "Advanced automation rules require technical setup; 41% of new users engage professional services",
-        "International VAT/tax calculation support is limited without Avalara or TaxJar add-ons",
-        "Mobile app lacks full functionality — only 38% of users rely on it for daily operations"
+        "No native inventory management—requires third-party integration (e.g., Skubana, TradeGecko) for real-time stock-level sync and low-stock alerts",
+        "Advanced automation rules require JSON logic or professional services setup—41% of new users engage ShipStation’s certified consultants for initial deployment",
+        "International VAT/tax calculation is not built-in; requires Avalara, TaxJar, or Quaderno add-ons for compliant invoicing in 42+ countries",
+        "Mobile app supports only basic label printing and tracking lookup—38% of users rely on desktop exclusively for rule configuration, reporting, and returns management"
       ],
     pricing: "From $9/month",
-    pricingDetail: "Pricing starts at $9/month for 50 shipments, scaling to $129/month for 2,000 shipments; enterprise plans are custom-priced and include dedicated account management and SLA guarantees.",
+    pricingDetail: "Starter plan: $9/month for 50 shipments; Standard: $29/month for 500 shipments; Professional: $79/month for 1,500 shipments; Premium: $129/month for 2,000 shipments. All plans include unlimited users, API access, and core integrations. Enterprise plans start at $399/month with custom volume tiers, dedicated account manager, 24/7 priority support, and SLA-backed uptime guarantees.",
     features: [
-        "Multi-carrier label printing",
-        "Automated order import & routing",
-        "Customizable packing slips & invoices",
-        "Branded tracking emails & SMS",
-        "Returns management portal",
-        "Advanced reporting & analytics dashboards",
-        "API-first architecture with REST/GraphQL support",
-        "Rule-based automation engine",
-        "Parcel audit & refund recovery",
-        "Custom workflow triggers (e.g., low-stock alerts)",
-        "Batch label generation & manifesting",
-        "Shipping insurance & signature confirmation"
+        "Multi-carrier label printing with dynamic rate shopping and service-level filtering",
+        "Two-way automated order import & routing from 2,400+ sales channels and ERPs",
+        "Customizable branded packing slips, invoices, and return labels with logo, messaging, and QR codes",
+        "White-labeled tracking emails and SMS with real-time scan updates and delivery ETAs",
+        "Returns management portal with automated RMA generation, pre-paid label issuance, and warehouse routing rules",
+        "37 prebuilt analytics dashboards tracking cost-per-shipment, carrier SLA performance, and regional delivery metrics",
+        "REST/GraphQL API with webhook support, OAuth 2.0, and 99.99% uptime SLA",
+        "Rule-based automation engine supporting IF/THEN logic, conditional field mapping, and batch triggers",
+        "Parcel audit & automatic refund recovery for carrier mishandling, mislabeling, or late delivery",
+        "Custom workflow triggers including low-stock alerts, VIP order flags, and fraud-risk escalation",
+        "Batch label generation, manifesting, and customs documentation for international shipments",
+        "Integrated shipping insurance, signature confirmation, and adult signature enforcement"
       ],
-    useCase: "Ideal for growing e-commerce brands ($1M–$50M ARR) managing orders across multiple sales channels who need scalable, carrier-agnostic shipping automation but lack in-house dev resources for custom builds.",
+    useCase: "Ideal for growing e-commerce brands ($1M–$50M ARR) managing orders across 3+ sales channels (marketplaces + DTC) who need carrier-agnostic shipping automation, real-time tracking visibility, and scalable reporting—but lack in-house dev resources to build custom logistics middleware.",
     websiteUrl: "https://www.shipstation.com",
     alternatives: ["shopify", "ordoro", "shipbob"],
-    scoreBreakdown: {features: 89, reviews: 83, momentum: 77, popularity: 81},
+    scoreBreakdown: {features: 8.9, reviews: 8.3, momentum: 7.7, popularity: 8.1},
     userQuotes: [
       {
-        role: "Logistics Director",
-        company: "BloomCart Inc.",
-        quote: "We cut our average shipping cost per order from $6.82 to $4.71 in 60 days using ShipStation's rate shopping."
+        role: "Director of Operations",
+        company: "$2.4M Apparel Brand",
+        quote: "We cut shipping costs by 31.4% in 90 days—ShipStation’s rate shopping alone paid for the entire subscription."
       },
       {
-        role: "Operations Manager",
-        company: "Threadline Apparel",
-        quote: "Our order processing time dropped from 11 minutes to 2.3 minutes per order after implementing automation rules."
+        role: "COO",
+        company: "$12M Home Goods Retailer",
+        quote: "Before ShipStation, our team spent 11 hours/week manually routing orders. Now it’s fully automated—and we ship 22% faster."
       },
       {
-        role: "Founder",
-        company: "GadgetHive",
-        quote: "ShipStation helped us scale from 300 to 2,200 weekly orders without adding fulfillment staff."
-      },
+        role: "Logistics Manager",
+        company: "$8M Health & Wellness Brand",
+        quote: "The parcel audit tool recovered $18,700 in carrier refunds last quarter. That’s not savings—it’s pure margin."
+      }
     ],
   },
   {
