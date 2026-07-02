@@ -20,7 +20,15 @@ const BLOG_SLUGS = [
     "ecommerce-conversion-rate-optimization-2026",
     "best-ecommerce-inventory-management-software-2026",
     "ecommerce-reviews-social-proof-tools-2026-guide",
-    "amazon-price-tracking-deal-finding-2026"
+    "amazon-price-tracking-deal-finding-2026",
+    "best-ecommerce-shipping-solutions-2026",
+    "best-ecommerce-accounting-software-2026",
+    "email-marketing-automation-ecommerce-2026",
+    "shopify-vs-woocommerce-vs-bigcommerce-2026",
+    "best-ai-customer-service-tools-ecommerce-2026",
+    "daily-update-d-2026-06-24-ecommerce-customer-support-automation",
+    "headless-commerce-migration-diary-2026",
+    "subscription-commerce-platforms-2026"
 ] as const;
 
 const TOOL_SLUGS = [
