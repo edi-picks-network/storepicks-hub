@@ -28,7 +28,8 @@ const BLOG_SLUGS = [
     "best-ai-customer-service-tools-ecommerce-2026",
     "daily-update-d-2026-06-24-ecommerce-customer-support-automation",
     "headless-commerce-migration-diary-2026",
-    "subscription-commerce-platforms-2026"
+    "subscription-commerce-platforms-2026",
+    "abandoned-cart-recovery-tools-2026"
 ] as const;
 
 const TOOL_SLUGS = [
