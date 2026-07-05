@@ -104,7 +104,7 @@ const CATEGORY_SLUGS = [
 ] as const;
 
 export async function GET() {
-  const baseUrl = "https://nexus-solutions.co";
+  const baseUrl = "https://storepicks.net";
 
   const urls: string[] = [];
 

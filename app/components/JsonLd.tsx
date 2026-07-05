@@ -9,7 +9,7 @@ interface JsonLdProps {
 
 export default function JsonLd({
   siteName = 'StorePicks',
-  siteUrl = 'https://nexus-solutions.co',
+  siteUrl = 'https://storepicks.net',
   description = 'Honest hosting reviews and comparisons for modern businesses.',
 }: JsonLdProps) {
   useEffect(() => {

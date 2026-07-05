@@ -171,7 +171,7 @@ export default async function BlogPostPage({
   );
   const orgJsonLd = organizationSchema(
     'StorePicks',
-    'https://nexus-solutions.co',
+    'https://storepicks.net',
     'E-commerce tool reviews and comparisons by the StorePicks team in Bellevue, WA.'
   );
 

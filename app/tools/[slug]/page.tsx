@@ -65,7 +65,7 @@ export default function ToolDetailPage() {
 
     const org = organizationSchema(
       'StorePicks',
-      'https://nexus-solutions.co',
+      'https://storepicks.net',
       'E-commerce tool research and comparisons by the StorePicks team in Bellevue, WA.'
     );
     const s2 = document.createElement('script');
