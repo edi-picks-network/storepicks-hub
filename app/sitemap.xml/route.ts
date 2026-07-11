@@ -37,6 +37,7 @@ const BLOG_SLUGS = [
   "social-commerce-tiktok-shop-instagram-pinterest-facebook-2026",
   "subscription-commerce-platforms-2026",
   "supply-chain-optimization-ecommerce-2026",
+  "b2b-vs-b2c-ecommerce-platforms-2026",
 ] as const;
 
 const TOOL_SLUGS = [
