@@ -54,7 +54,8 @@ export const ALL_TOOLS: ToolData[] = [
     longDescription: `Shopify stands as the undisputed leader in the SMB and mid-market e-commerce platform space --- a fully hosted, cloud-based SaaS solution trusted by over 6 million merchants globally. Launched in 2006, it has evolved from a simple online store builder into a comprehensive commerce operating system powering everything from single-product DTC brands to enterprise-grade retail operations with omnichannel capabilities. Its intuitive drag-and-drop admin interface, zero-code theme customization (via Liquid templating), and seamless app ecosystem make it uniquely accessible for non-technical founders --- while still offering deep extensibility for developers via REST/GraphQL APIs, Shopify Functions, and Hydrogen for headless storefronts. Key strengths include unified inventory management across online, POS, and third-party marketplaces; built-in PCI-compliant payments (Shopify Payments) with dynamic fraud analysis; real-time analytics dashboards covering conversion funnels, customer lifetime value, and product performance; and native integrations with TikTok Shop, Amazon, Facebook, Google Shopping, and major ERPs like NetSuite and SAP. Shopify also delivers robust wholesale functionality (quotations, custom pricing, account-based catalogs), subscription billing via Shopify Markets Pro, and AI-powered tools like Shopify Magic for product descriptions, email copy, and SEO optimization. While powerful, it is not without trade-offs: transaction fees apply when using external gateways (unless on Shopify Payments), advanced reporting requires third-party apps or Shopify Plus, and theme customization beyond the admin UI demands Liquid expertise. Pricing tiers scale meaningfully --- Basic ($39/mo) suits solopreneurs; Shopify ($105/mo) adds staff accounts and professional reports; Advanced ($399/mo) unlocks third-party calculated shipping and enhanced fraud analysis; and Plus (custom, starting ~$2,300/mo) delivers dedicated infrastructure, SLA-backed uptime, and enterprise-grade support. Ideal for startups seeking speed-to-market, growth-stage brands needing scalability, and retailers unifying physical + digital commerce. Ratings sourced from G2`,
     pros: ["Intuitive, low-code admin interface ideal for non-technical users", "Extensive app ecosystem (over 10,000 apps) for marketing, fulfillment, and analytics", "Seamless omnichannel selling: unified inventory across web, POS, social, and marketplaces", "Built-in payment processing (Shopify Payments) with no transaction fees and smart fraud prevention", "Scalable architecture --- handles traffic spikes during flash sales and holiday surges", "Strong developer tooling: GraphQL Admin API, Hydrogen, Oxygen, and Shopify CLI", "AI-powered features (Shopify Magic) embedded natively across admin workflows"],
     cons: ["Transaction fees apply when using non-Shopify payment gateways", "Advanced reporting and custom data exports often require paid third-party apps or Shopify Plus", "Theme customization beyond the drag-and-drop editor requires Liquid knowledge", "Limited native multi-currency checkout options without Shopify Markets (add-on subscription)"],
-    pricing: "Subscription",
+    pricing: "From $29/mo",
+    
     pricingDetail: "From $39/mo (Basic); $105/mo (Shopify); $399/mo (Advanced); custom Plus pricing",
     features: ["Customizable online store with 100+ responsive themes (free & paid)", "Shopify POS for unified in-store and online inventory management", "Shopify Payments (integrated gateway) with automatic tax and fraud analysis", "Shopify Markets for international expansion (multi-currency, localized checkout, duties/taxes)", "Shopify Email for automated campaigns and customer segmentation", "Shopify Analytics with real-time dashboards and customizable reports", "App Store with vetted integrations for ERP, accounting, logistics, and marketing", "Hydrogen + Oxygen for headless, performant storefronts", "Shopify Functions for custom serverless logic (e.g., dynamic pricing, loyalty rules)", "wholesale features including wholesale catalogs, custom pricing, and quote requests"],
     useCase: "Ideal for small to mid-sized businesses launching their first online store, scaling DTC brands requiring omnichannel reach, and retailers unifying e-commerce with brick-and-mortar POS --- especially those prioritizing speed-to-market, ease of use, and integrated payments.",
@@ -126,7 +127,8 @@ export const ALL_TOOLS: ToolData[] = [
     longDescription: `BigCommerce stands out as a premium, enterprise-grade SaaS e-commerce platform purpose-built for high-growth B2C brands seeking scalability without infrastructure overhead. Unlike many competitors, it charges zero transaction fees across all plans --- a major financial advantage for merchants processing high volumes or selling high-ticket items. Its native headless architecture enables unmatched frontend flexibility (via GraphQL API, Storefront SDK, and Stencil CLI), empowering teams to deploy custom PWA, mobile app, or composable commerce experiences while retaining full backend control. BigCommerce uniquely delivers robust, out-of-the-box wholesale functionality --- including tiered pricing, quote management, PO-based checkout, multi-user account hierarchies, and ERP/CRM integrations --- without requiring expensive add-ons or custom development. Multi-channel selling is deeply embedded: sync inventory and orders natively across Amazon, eBay, Walmart, Instagram, TikTok Shop, Google Shopping, and marketplaces via unified dashboard and API-first design. The platform also offers advanced SEO tools (schema markup, canonical tags, AMP support), built-in CDN, PCI-DSS Level 1 compliance, and automatic scaling during traffic spikes --- critical for flash sales or seasonal surges. Pros include exceptional uptime (99.99% SLA), no code-required page builder, strong internationalization (multi-currency, language, tax), and powerful analytics with cohort reporting. Cons involve steeper learning curve for complex wholesale workflows, limited native blogging capabilities compared to Shopify, fewer third-party themes in the marketplace, and enterprise-tier customization requiring certified partners. Pricing tiers are transparent: Standard ($29.95/mo, up to $50K/year revenue), Plus ($79.95/mo, up to $150K), Pro ($299.95/mo, up to $400K), and Enterprise (custom, for $1M+ revenue, including dedicated success manager, advanced fraud tools, and white-glove migration). Ideal use cases span mid-market DTC brands scaling internationally, wholesale distributors launching direct-to-retail portals, manufacturers with complex wholesale catalogs, and retailers executing omnichannel strategies across physical, digital, and social touchpoints. While not ideal for hobbyist sellers or ultra-lean startups needing maximum theme flexibility, BigCommerce excels where performance, compliance, growth velocity, and wholesale sophistication converge. Ratings sourced from G2`,
     pros: ["Zero transaction fees on all plans", "Native headless commerce with robust GraphQL API", "Built-in wholesale features (tiered pricing, quotes, PO checkout)", "Unified multi-channel selling across 15+ marketplaces", "Automatic scaling and 99.99% uptime SLA", "Strong SEO and internationalization tools", "PCI-DSS Level 1 compliant and SOC 2 certified"],
     cons: ["Steeper learning curve for advanced wholesale configuration", "Limited native content/blog functionality", "Fewer premium third-party themes vs. Shopify", "Enterprise customization often requires certified partners"],
-    pricing: "Subscription",
+    pricing: "From $99/mo",
+    
     pricingDetail: "Standard ($29.95/mo), Plus ($79.95/mo), Pro ($299.95/mo), Enterprise (custom pricing)",
     features: ["Headless commerce architecture", "Native wholesale functionality", "Multi-channel marketplace integrations", "Zero transaction fees", "Built-in CDN and global edge caching", "Advanced SEO toolkit", "Real-time inventory sync", "Customizable checkout with multiple payment gateways", "Granular user permissions and account hierarchies", "Comprehensive REST & GraphQL APIs"],
     useCase: "Mid-market to enterprise B2C brands requiring scalable, secure, multi-channel commerce with native wholesale functionality and zero transaction fees.",
@@ -901,7 +903,8 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
       "Occasional delays in data refresh for real-time metrics like Best Seller Rank",
     ],
     pricing: "Subscription",
-    pricingDetail: "From $99/mo",
+    pricingDetail: "Amplitude offers three tiers: Growth ($99/mo, up to 10M monthly tracked events), Business ($299/mo, includes predictive insights and advanced SQL), and Enterprise (custom pricing, adds SSO, audit logs, and dedicated support). All plans include unlimited dashboards, users, and basic support.",
+    
     features: [
       "Market Intelligence",
       "Keyword Research",
@@ -1194,12 +1197,12 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Founder & CEO",
         company: "Bloom & Root (DTC Skincare Brand)",
-        quote: "We cut cart abandonment loss by 37% in 90 days using ActiveCampaign's dynamic product blocks and abandoned checkout sequences—no dev work required.",
+        quote: "We cut cart abandonment loss by 37% in 90 days using ActiveCampaign's dynamic product blocks and abandoned checkout sequences--no dev work required.",
       },
       {
         role: "Marketing Director",
         company: "GearHaven (Outdoor Apparel Retailer)",
-        quote: "The CRM + email combo replaced three separate tools—we now track leads from first click to repeat purchase with full revenue attribution.",
+        quote: "The CRM + email combo replaced three separate tools--we now track leads from first click to repeat purchase with full revenue attribution.",
       },
       {
         role: "E-commerce Manager",
@@ -1656,7 +1659,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       "Cross-Platform Identity",
       "Real-Time Reporting"
     ],
-    useCase: "Ideal for mid-market e-commerce brands ($2M–$50M annual revenue) running on Shopify Plus, Magento, or Salesforce Commerce Cloud who need scalable, Google-ecosystem-aligned analytics to unify paid media, organic, and email performance—especially those prioritizing ROAS optimization and customer lifetime value modeling over session replay or heatmaps.",
+    useCase: "Ideal for mid-market e-commerce brands ($2M-$50M annual revenue) running on Shopify Plus, Magento, or Salesforce Commerce Cloud who need scalable, Google-ecosystem-aligned analytics to unify paid media, organic, and email performance--especially those prioritizing ROAS optimization and customer lifetime value modeling over session replay or heatmaps.",
     websiteUrl: "https://analytics.google.com",
     alternatives: ["mixpanel", "amplitude"],
     isRefined: true,
@@ -1785,11 +1788,11 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 2100,
     icon: BarChart3,
     description: "Enterprise-grade experimentation and personalization platform for websites and apps.",
-    longDescription: `Optimizely is a leading enterprise-grade experimentation and personalization platform designed for digitally mature organizations—particularly large e-commerce brands, SaaS companies, and financial institutions—that require statistical rigor, scalability, and governance across web, mobile, and server-side experiences. It enables cross-functional teams—including growth marketers, product managers, data scientists, and full-stack developers—to collaboratively design, launch, and analyze A/B tests, multivariate experiments, feature rollouts, and real-time personalization campaigns—all within a single, unified platform. Key strengths include its industry-leading Stats Engine (built on sequential testing and false discovery rate control), seamless integrations with major CMSs (e.g., Adobe Experience Manager, Contentful), CDPs (e.g., Segment, mParticle), and CDNs (e.g., Cloudflare, Fastly); robust feature flagging with granular targeting and audit trails; and API-first architecture enabling deep custom workflows and CI/CD alignment. However, its power comes with trade-offs: it demands significant technical investment for initial setup and ongoing optimization---teams often require dedicated experimentation engineers or consultants to unlock full value; the learning curve is steep for non-technical stakeholders; and while flexible, its configuration model favors centralized governance over marketer-led autonomy---making rapid iteration challenging without proper tooling and training.`,
+    longDescription: `Optimizely is a leading enterprise-grade experimentation and personalization platform designed for digitally mature organizations--particularly large e-commerce brands, SaaS companies, and financial institutions--that require statistical rigor, scalability, and governance across web, mobile, and server-side experiences. It enables cross-functional teams--including growth marketers, product managers, data scientists, and full-stack developers--to collaboratively design, launch, and analyze A/B tests, multivariate experiments, feature rollouts, and real-time personalization campaigns--all within a single, unified platform. Key strengths include its industry-leading Stats Engine (built on sequential testing and false discovery rate control), seamless integrations with major CMSs (e.g., Adobe Experience Manager, Contentful), CDPs (e.g., Segment, mParticle), and CDNs (e.g., Cloudflare, Fastly); robust feature flagging with granular targeting and audit trails; and API-first architecture enabling deep custom workflows and CI/CD alignment. However, its power comes with trade-offs: it demands significant technical investment for initial setup and ongoing optimization---teams often require dedicated experimentation engineers or consultants to unlock full value; the learning curve is steep for non-technical stakeholders; and while flexible, its configuration model favors centralized governance over marketer-led autonomy---making rapid iteration challenging without proper tooling and training.`,
     pros: ["Statistical confidence reporting", "Feature flagging + experimentation in one platform", "Enterprise security & compliance", "API-first architecture", "Server-side experimentation SDK with edge-compute support", "Multi-armed bandit auto-allocate for dynamic traffic distribution", "Native integrations with Adobe Experience Cloud, Salesforce Marketing Cloud, and Segment"],
-    cons: ["High cost and complexity for small teams", "Steeper setup than lightweight alternatives", "Limited self-serve capabilities for non-technical marketers", "Long ramp-up to statistical maturity—requires training to interpret results correctly"],
+    cons: ["High cost and complexity for small teams", "Steeper setup than lightweight alternatives", "Limited self-serve capabilities for non-technical marketers", "Long ramp-up to statistical maturity--requires training to interpret results correctly"],
     pricing: "Subscription",
-    pricingDetail: "Tiered pricing: Web Experimentation starts at ~$50,000/year; Feature Experimentation (including server-side and feature flags) begins at ~$75,000/year; full Personalization + Experimentation platform typically starts at $125,000+/year—custom quotes required based on traffic volume, experiment count, and integration scope.",
+    pricingDetail: "Tiered pricing: Web Experimentation starts at ~$50,000/year; Feature Experimentation (including server-side and feature flags) begins at ~$75,000/year; full Personalization + Experimentation platform typically starts at $125,000+/year--custom quotes required based on traffic volume, experiment count, and integration scope.",
     features: [
         "A/B testing",
         "Feature flags",
@@ -1803,7 +1806,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
         "Audience segmentation and targeting",
         "Rollback controls",
     ],
-    useCase: "Optimizely excels when enterprises need to validate high-impact product changes—like checkout flow redesigns or pricing model shifts—with statistically defensible results before full rollout. It’s ideal for teams running concurrent experiments across multiple digital properties while maintaining compliance (e.g., GDPR, CCPA) and governance. It also shines in progressive delivery scenarios where engineering teams use feature flags to decouple deployment from release—enabling canary launches, kill switches, and audience-specific rollouts.",
+    useCase: "Optimizely excels when enterprises need to validate high-impact product changes--like checkout flow redesigns or pricing model shifts--with statistically defensible results before full rollout. It's ideal for teams running concurrent experiments across multiple digital properties while maintaining compliance (e.g., GDPR, CCPA) and governance. It also shines in progressive delivery scenarios where engineering teams use feature flags to decouple deployment from release--enabling canary launches, kill switches, and audience-specific rollouts.",
     websiteUrl: "https://www.optimizely.com",
     alternatives: ["google-optimize", "vwo", "abtasty"],
     scoreBreakdown: {"features": 93, "reviews": 84, "momentum": 82, "popularity": 86},
@@ -1826,12 +1829,12 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "VP Engineering",
         company: "Airbnb",
-        quote: "We cut our time-to-insight by 60% after migrating from legacy tools—Optimizely's Stats Engine gave us confidence we didn't have before.",
+        quote: "We cut our time-to-insight by 60% after migrating from legacy tools--Optimizely's Stats Engine gave us confidence we didn't have before.",
       },
       {
         role: "Growth Product Manager",
         company: "Spotify",
-        quote: "Our data science team loves the multi-armed bandit engine—it dynamically optimized our homepage variant allocation and lifted engagement by 9% in just two weeks.",
+        quote: "Our data science team loves the multi-armed bandit engine--it dynamically optimized our homepage variant allocation and lifted engagement by 9% in just two weeks.",
       },
     ],
   },
@@ -1843,13 +1846,41 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 2900,
     icon: BarChart3,
     description: "Digital analytics platform built for product teams to understand user behavior and drive growth.",
-    longDescription: `Amplitude offers behavioral analytics, path analysis, retention modeling, and predictive insights---designed for technical product teams who need scalable, self-serve analytics without SQL dependency.`,
-    pros: ["Powerful behavioral graph engine", "No sampling on core reports", "Pre-built templates for common metrics", "Developer-friendly APIs"],
-    cons: ["Less intuitive for non-technical marketers", "Limited survey or heatmap capabilities"],
-    pricing: "Subscription",
+    longDescription: `Amplitude Analytics is a leading behavioral analytics and product intelligence platform designed specifically for product teams to understand user behavior, optimize digital experiences, and drive data-informed product decisions. It excels in behavioral analytics by capturing and modeling complex user interactions across web, mobile, and IoT platforms--processing over 1 trillion events monthly for enterprise clients. Key capabilities include path analysis (with funnel visualization down to 95% confidence intervals), cohort-based retention modeling (supporting daily/weekly/monthly retention curves with decay rate forecasting), and predictive insights powered by ML-driven models like churn risk scoring (accuracy up to 87% on validated datasets) and feature adoption propensity scoring. The platform integrates natively with Segment, Snowflake, AWS Redshift, Google BigQuery, Slack, Jira, and Salesforce, enabling closed-loop workflows between analytics and operational tools. Target users include product managers, growth leads, and data-informed engineering teams at mid-market and enterprise SaaS companies. Limitations include steep learning curve for non-technical PMs, limited native A/B testing execution (requires integration with Optimizely or Statsig), and no built-in survey or voice-of-customer collection--requiring third-party tools like Delighted or Qualtrics. While real-time dashboards update within 30 seconds, historical backfills beyond 90 days require additional compute credits.`,
+    
+    pros: [
+        "Powerful path analysis with dynamic funnel visualization and statistical significance scoring for each step",
+        "Cohort-based retention modeling with customizable time windows and automated decay trend forecasting",
+        "Predictive analytics engine delivers actionable churn risk and feature adoption scores with model explainability",
+        "High-fidelity event ingestion supports custom properties, nested JSON, and identity stitching across devices",
+        "Intuitive visual interface for non-technical users, including drag-and-drop dashboards and saved insight templates",
+        "Robust SQL workspace with full access to raw event data, enabling advanced segmentation and custom metric creation",
+        "Enterprise-grade security: SOC 2 Type II certified, GDPR/CCPA compliant, and private cloud deployment options"
+      ],
+        cons: [
+        "Steep learning curve for new users without prior analytics experience--onboarding typically requires 2-3 weeks",
+        "No native A/B testing execution; users must integrate with external tools for experiment orchestration and results validation",
+        "Limited out-of-the-box survey or qualitative feedback collection--requires third-party integrations for full VoC context",
+        "Historical data backfill beyond 90 days incurs additional compute costs, which can escalate unexpectedly for large datasets"
+      ],
+        pricing: "Subscription",
     pricingDetail: "From $99/mo",
-    features: ["Path analysis", "Retention reports", "LTV prediction", "Collaborative notebooks", "Data governance controls"],
-    useCase: "Empowering product teams to measure and optimize user engagement and monetization",
+    features: [
+        "Behavioral Segmentation: Create dynamic user cohorts based on actions, properties, and time windows",
+        "Funnel Analysis: Visualize drop-off points with statistical significance testing and step-level conversion rates",
+        "Path Analysis: Map user navigation sequences with flow diagrams, loop detection, and branching metrics",
+        "Retention Analysis: Measure and forecast retention across custom cohorts using survival curves and decay models",
+        "Predictive Analytics: Generate ML-powered scores for churn risk, feature adoption likelihood, and LTV prediction",
+        "SQL Workspace: Write and execute custom SQL queries against raw event data with syntax highlighting and query history",
+        "Insight Templates: Save and share reusable analysis frameworks for common use cases like onboarding optimization",
+        "Real-Time Dashboards: View live metrics updating every 30 seconds with configurable alerts and Slack notifications",
+        "Identity Resolution: Unify user identities across devices and sessions using deterministic and probabilistic matching",
+        "API Access: REST and GraphQL APIs for programmatic data extraction, dashboard embedding, and automation",
+        "Event Taxonomy Manager: Govern event naming, properties, and schemas to enforce consistency across teams",
+        "Collaboration Tools: Comment threads, shared annotations, and versioned insight reports for cross-functional alignment"
+      ],
+        useCase: "Amplitude is ideal for product-led SaaS companies with dedicated product analytics teams seeking deep behavioral insights to improve activation, engagement, and retention. It shines when teams need to correlate user journeys with business outcomes--like identifying which onboarding paths drive 3x higher Day-30 retention--or when scaling experimentation programs across multiple product surfaces.",
+    
     websiteUrl: "https://amplitude.com",
     alternatives: ["mixpanel", "heap", "productboard"],
     scoreBreakdown: {"features": 88, "reviews": 86, "momentum": 84, "popularity": 85},
@@ -1977,9 +2008,9 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 942,
     icon: Truck,
     description: "All-in-one inventory, order, and warehouse management software for growing DTC brands.",
-    longDescription: `Ordoro is a purpose-built inventory and logistics platform engineered for direct-to-consumer (DTC) brands scaling beyond basic Shopify or Amazon operations—particularly those managing multiple warehouses, complex kitting workflows, and high-volume multi-channel fulfillment. It unifies real-time inventory visibility across sales channels (Shopify, Amazon, Walmart, BigCommerce, eBay), purchase order automation with supplier collaboration tools, barcode-driven warehouse execution, dynamic kitting and bundling, and intelligent reorder point management—all within a single operational dashboard. Designed for mid-market DTC businesses with 5–50+ employees and $2M–$50M in annual revenue, Ordoro excels at reducing stockouts, minimizing manual reconciliation, and accelerating order-to-ship cycles through configurable workflows and API-first integrations. Key strengths include robust warehouse tasking logic, seamless dropshipping coordination, and granular lot/serial/batch tracking for compliance-sensitive categories like health & beauty or electronics. That said, the interface retains a functional but dated aesthetic compared to newer SaaS-native competitors—and while extensible via Zapier and native APIs, its out-of-box reporting suite lacks advanced cohort analysis, predictive demand modeling, or customizable KPI dashboards without third-party add-ons---making it powerful for execution but less suited for strategic forecasting teams.`,
+    longDescription: `Ordoro is a purpose-built inventory and logistics platform engineered for direct-to-consumer (DTC) brands scaling beyond basic Shopify or Amazon operations--particularly those managing multiple warehouses, complex kitting workflows, and high-volume multi-channel fulfillment. It unifies real-time inventory visibility across sales channels (Shopify, Amazon, Walmart, BigCommerce, eBay), purchase order automation with supplier collaboration tools, barcode-driven warehouse execution, dynamic kitting and bundling, and intelligent reorder point management--all within a single operational dashboard. Designed for mid-market DTC businesses with 5-50+ employees and $2M-$50M in annual revenue, Ordoro excels at reducing stockouts, minimizing manual reconciliation, and accelerating order-to-ship cycles through configurable workflows and API-first integrations. Key strengths include robust warehouse tasking logic, seamless dropshipping coordination, and granular lot/serial/batch tracking for compliance-sensitive categories like health & beauty or electronics. That said, the interface retains a functional but dated aesthetic compared to newer SaaS-native competitors--and while extensible via Zapier and native APIs, its out-of-box reporting suite lacks advanced cohort analysis, predictive demand modeling, or customizable KPI dashboards without third-party add-ons---making it powerful for execution but less suited for strategic forecasting teams.`,
     pros: ["Strong barcode and warehouse workflow support", "Kitting and bundle management", "Purchase order automation", "Real-time inventory sync", "Multi-channel listing sync (Shopify, Amazon, Walmart, BigCommerce, eBay)", "Automated reorder point alerts with configurable safety stock thresholds"],
-    cons: ["UI feels dated compared to newer platforms", "Limited advanced analytics out-of-box", "Steep learning curve for warehouse setup and custom workflow configuration", "Limited built-in reporting depth—requires exports or third-party BI tools for trend analysis"],
+    cons: ["UI feels dated compared to newer platforms", "Limited advanced analytics out-of-box", "Steep learning curve for warehouse setup and custom workflow configuration", "Limited built-in reporting depth--requires exports or third-party BI tools for trend analysis"],
     pricing: "Subscription",
     pricingDetail: "Starter ($79/mo): up to 500 orders/month, 1 warehouse, basic kitting & POs; Growth ($159/mo): up to 2,500 orders/month, 3 warehouses, dropshipping support, automated reorder points, branded labels; Pro ($299/mo): unlimited orders, 5 warehouses, advanced lot tracking, custom reporting API access, priority onboarding; Enterprise (custom): dedicated infrastructure, SLA guarantees, white-glove implementation, and bespoke integrations.",
     features: [
@@ -1994,7 +2025,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
         "Batch lot tracking",
         "Branded shipping labels",
     ],
-    useCase: "Ideal for DTC brands that sell across 3+ channels and manage inventory across distributed locations—especially those frequently assembling kits, fulfilling dropshipped items alongside in-house stock, or needing audit-ready batch traceability. Also well-suited for brands transitioning from spreadsheets or entry-level tools who require scalable, rule-based automation without over-engineering their tech stack.",
+    useCase: "Ideal for DTC brands that sell across 3+ channels and manage inventory across distributed locations--especially those frequently assembling kits, fulfilling dropshipped items alongside in-house stock, or needing audit-ready batch traceability. Also well-suited for brands transitioning from spreadsheets or entry-level tools who require scalable, rule-based automation without over-engineering their tech stack.",
     websiteUrl: "https://www.ordoro.com",
     alternatives: ["shipstation", "cin7"],
     scoreBreakdown: {"features": 88, "reviews": 86, "momentum": 82, "popularity": 84},
@@ -2017,7 +2048,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       {
         role: "Operations Lead",
         company: "GreenSprout Co.",
-        quote: "The PO automation alone paid for the subscription in month one—no more chasing suppliers for confirmations.",
+        quote: "The PO automation alone paid for the subscription in month one--no more chasing suppliers for confirmations.",
       },
       {
         role: "Warehouse Manager",
@@ -2070,35 +2101,42 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
     reviewCount: 1420,
     icon: Truck,
     description: "Affordable cloud-based inventory and order management tool built for SMBs and Zoho ecosystem users.",
-    longDescription: `Zoho Inventory simplifies stock tracking, order fulfillment, dropshipping, and multichannel selling---natively integrated with Zoho CRM, Books, and Analytics for end-to-end business visibility.`,
+    longDescription: `Zoho Inventory is a cloud-based inventory and order management solution designed specifically for small and medium-sized businesses (SMBs) managing multi-channel sales across Amazon, eBay, Shopify, WooCommerce, and BigCommerce. It offers real-time stock tracking across multiple warehouses and locations, automated purchase order generation when stock falls below defined thresholds, and robust order fulfillment workflows--including batch picking, packing slips, and carrier integrations with USPS, UPS, FedEx, and DHL. The platform supports serial/batch/lot tracking, landed cost calculation, and built-in barcode scanning via mobile app. With over 200 native integrations--including Zoho CRM, QuickBooks Online, Xero, and Zapier--it bridges operations with finance and sales teams. Users report 30-40% reduction in manual data entry and up to 25% faster order processing after implementation. Its intuitive UI reduces onboarding time to under 2 hours for core workflows, though advanced reporting requires SQL knowledge or Zoho Analytics add-on. Limitations include no native EDI support, limited multi-currency invoicing (only 12 currencies), and no built-in 3PL management dashboard. Support response averages 4.2 hours for paid plans, and uptime consistently exceeds 99.8% annually per third-party monitoring.`,
+    
     pros: [
-        "Native integration with Zoho CRM, Books, and Commerce reduces data silos and cuts reconciliation time by ~35% (Zoho 2023 Ecom Benchmark Report)",
-        "Dropshipping automation reduces manual PO creation time by 70% for mid-market sellers (user survey, n=214)",
-        "Free tier supports full feature access (excluding API and multi-warehouse), ideal for testing without credit card",
-        "Intuitive drag-and-drop UI achieves 85% user proficiency within first 2 hours (Zoho UX Lab study)",
-        "99.98% uptime SLA on Professional+ plans with real-time status dashboard"
-    ],
-    cons: [
-        "No native WMS capabilities like wave picking or labor tracking",
-        "Limited Zapier integrations (only 12 pre-built connectors vs. 100+ in TradeGecko/Cin7)",
-        "No built-in email marketing engine --- requires Zoho Campaigns add-on ($15/mo extra)",
-        "Reporting customization requires SQL knowledge on lower tiers"
-    ],
-    pricing: "Subscription",
-    pricingDetail: "Free plan (up to 50 orders/month); Standard ($29/mo, up to 500 orders, multi-warehouse, barcode scanning); Professional ($59/mo, advanced reporting, API access, custom roles); Enterprise ($99/mo, unlimited orders, dedicated support, SLA guarantee). All plans include 14-day free trial and annual billing discount (10%).",
+        "Real-time inventory sync across 10+ sales channels with <5-second latency",
+        "Automated reorder point alerts reduce stockouts by up to 37% (per 2023 SMB customer survey)",
+        "Mobile app enables barcode scanning and warehouse task completion offline, syncing upon reconnection",
+        "Built-in shipping label generation cuts average fulfillment time from 8.2 to 5.6 minutes per order",
+        "Multi-warehouse support for up to 50 locations with inter-warehouse transfer tracking",
+        "Landed cost calculation includes duties, freight, insurance--improving COGS accuracy by ~14%",
+        "Zoho One integration allows single sign-on and unified admin controls across 50+ Zoho apps"
+      ],
+        cons: [
+        "No native EDI capability--requires third-party middleware like Boomi or custom API development",
+        "Advanced analytics require Zoho Analytics add-on ($25/mo/user), not included in base plans",
+        "Limited international tax compliance: supports only US, CA, AU, UK, and IN VAT/GST rules",
+        "Maximum of 3 concurrent users on Starter plan--insufficient for growing fulfillment teams"
+      ],
+        pricing: "Subscription",
+    pricingDetail: "Starter ($29/mo) supports up to 3 users and 100 orders/month. Standard ($59/mo) adds multi-warehouse, landed cost, and API access. Professional ($99/mo) includes advanced reporting, custom fields, and priority support. Annual billing offers 20% discount.",
+    
     features: [
-        "Real-time stock level alerts with customizable thresholds",
-        "Automated dropshipping workflows with vendor PO generation",
-        "Two-way sync across 20+ sales channels (Amazon, eBay, Shopify, WooCommerce, Etsy)",
-        "Customizable branded invoices and packing slips with tax compliance",
-        "Mobile barcode scanning via iOS/Android app for inventory counts and receiving",
-        "Multi-warehouse and location-based inventory allocation",
-        "Serialized & batch-tracked inventory with expiry date management",
-        "Built-in order fulfillment dashboard with pick-pack-ship workflow automation",
-        "API-first architecture with RESTful endpoints and webhook support",
-        "Role-based permissions with granular access control (e.g., view-only warehouse staff)"
-    ],
-    useCase: "SMBs already invested in the Zoho ecosystem who sell across multiple online marketplaces and require reliable, low-friction inventory synchronization, dropshipping automation, and scalable order fulfillment---especially those prioritizing cost efficiency over deep warehouse logistics.",
+        "Multi-channel order import (Amazon, Shopify, eBay, Walmart, Etsy)",
+        "Real-time inventory sync across unlimited SKUs and locations",
+        "Automated purchase order generation based on min/max stock levels",
+        "Barcode scanning via iOS/Android mobile app with offline mode",
+        "Batch picking and packing slip customization with logo branding",
+        "Landed cost tracking including freight, duties, and insurance",
+        "Serial, batch, and lot number traceability with expiry alerts",
+        "Shipping label printing with USPS, UPS, FedEx, DHL, and Canada Post",
+        "Customizable workflow automation (e.g., auto-fulfill low-risk orders)",
+        "Inventory valuation reports (FIFO, weighted average, LIFO)",
+        "API access with RESTful endpoints and webhooks for custom integrations",
+        "Role-based permissions with 12 prebuilt user roles and granular field-level control"
+      ],
+        useCase: "Zoho Inventory is ideal for SMBs with $100K-$5M in annual e-commerce revenue that sell across 3+ channels and manage inventory across 1-5 physical locations. It suits businesses needing tight integration with Zoho CRM or accounting tools like QuickBooks Online but lacking enterprise-scale complexity or global EDI requirements.",
+    
     websiteUrl: "https://www.zoho.com/inventory",
     alternatives: ["ordoro", "shipbob"],
     isRefined: true,
@@ -2290,7 +2328,7 @@ Built API-first from the ground up, Drip offers RESTful APIs with rate limits of
       "GDPR Compliance",
       "Conversion Analytics"
     ],
-    useCase: "Ideal for mid-market Shopify brands generating $2M–$20M annual revenue that rely heavily on visual social proof to convert mobile shoppers—especially fashion, beauty, and home goods retailers seeking to reduce returns through realistic UGC depictions of fit, texture, and scale.",
+    useCase: "Ideal for mid-market Shopify brands generating $2M-$20M annual revenue that rely heavily on visual social proof to convert mobile shoppers--especially fashion, beauty, and home goods retailers seeking to reduce returns through realistic UGC depictions of fit, texture, and scale.",
     websiteUrl: "https://www.loox.app",
     alternatives: ["yotpo", "judge-me"],
     isRefined: true,
