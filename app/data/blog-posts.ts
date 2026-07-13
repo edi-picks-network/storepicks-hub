@@ -666,7 +666,7 @@ Google Lens and Bing Visual Search now process *real-time inventory feeds*. When
 Geo-targeting is obsolete. *Culture-targeting* is mandatory.
 In 2026, Google serves localized SERPs based on *cultural context signals*, not just \`hreflang\`:
 - Local payment method support (e.g., Alipay in China, Pix in Brazil)
-- Region-specific certifications (CE Mark ≠ UKCA ≠ GCC Conformity)
+- Region-specific certifications (CE Mark != UKCA != GCC Conformity)
 - Local tax display (VAT/GST/JCT calculated *pre-cart*, not at checkout)
 - Language + dialect alignment (e.g., "colour" vs. "color", "lift" vs. "elevator")
 ### Critical Fixes for Global Brands
