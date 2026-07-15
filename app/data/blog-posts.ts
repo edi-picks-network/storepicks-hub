@@ -4236,7 +4236,7 @@ SEO in 2026 isn't about gaming algorithms — it's about building trust, speed, 
     category: "ecommerce",
     readTime: 12,
     tags: ["SEO", "e-commerce SEO", "organic traffic", "Google search", "technical SEO", "content marketing", "Shopify SEO", "WooCommerce SEO", "BigCommerce SEO"],
-  }
+  },
   {
     slug: "ecommerce-seo-tools-2026",
     title: "Top 10 E-Commerce SEO Tools in 2026: Boost Your Organic Traffic and Sales",
