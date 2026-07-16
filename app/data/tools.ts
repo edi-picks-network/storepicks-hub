@@ -125,15 +125,28 @@ export const ALL_TOOLS: ToolData[] = [
     icon: ShoppingCart,
     description: "Cloud-based SaaS platform for B2C online stores with built-in scalability.",
     longDescription: `BigCommerce is a leading cloud-based SaaS e-commerce platform purpose-built for high-growth B2C brands seeking scalability, speed-to-market, and enterprise-grade performance without infrastructure overhead. As of 2026, it delivers AI-enhanced capabilities including native AI-powered product recommendations powered by real-time behavioral data, automated SEO optimization with dynamic meta tag generation and schema markup, and headless commerce support via GraphQL APIs and prebuilt SDKs for React, Vue, and Next.js. Its zero-downtime architecture handles peak traffic spikes -- such as Black Friday or flash sales -- with built-in CDN, global edge caching, and automatic scaling across 15+ AWS regions. The platform natively supports omnichannel selling through unified inventory management across Shopify, Amazon, Walmart Marketplace, and social commerce channels like TikTok Shop and Instagram Shopping -- all managed from a single dashboard. Built-in compliance features include GDPR-ready consent management, CCPA auto-redaction, and PCI-DSS Level 1 certification out-of-the-box. BigCommerce targets mid-market to enterprise B2C brands -- particularly in apparel, beauty, electronics, and DTC health -- with $5M-$500M in annual revenue that require rapid international expansion, multi-currency/multi-language storefronts (with automated translation workflows), and deep integrations with ERP (NetSuite, SAP), CRM (Salesforce), and marketing automation (Klaviyo, HubSpot). Its low-code theme editor, drag-and-drop page builder, and robust developer tools -- including CLI, Stencil framework, and CI/CD pipeline support -- enable both marketing teams and engineering teams to collaborate efficiently on site evolution.`,
-    pros: ["Native headless commerce architecture with production-ready GraphQL APIs and official SDKs for React, Vue, and Next.js", "Built-in AI features including real-time product recommendations, automated SEO optimization, and intelligent search with typo tolerance and synonym mapping", "Zero-downtime global infrastructure with automatic scaling, edge caching, and 15+ AWS region deployment", "Unified omnichannel order and inventory management across 12+ sales channels including TikTok Shop, Walmart Marketplace, and Amazon", "Pre-certified PCI-DSS Level 1 compliance and out-of-the-box GDPR/CCPA tools including consent banners and data subject request portals", "Low-code page builder with drag-and-drop sections plus full code access via Stencil CLI and Git-based workflows", "Native multi-currency, multi-language storefronts with automated translation sync and localized payment gateways (Stripe, Adyen, PayPal)", "Deep ERP/CRM integrations via certified connectors for NetSuite, SAP, Salesforce, and Klaviyo -- no middleware required"],
-    cons: ["No native subscription billing engine -- requires third-party apps like ReCharge or built-in custom development", "Limited built-in B2B functionality (e.g., quote requests, tiered pricing) without add-ons or custom modules", "Theme customization requires learning Stencil framework or using BigCommerce's proprietary templating language -- not standard HTML/CSS/JS", "No native warehouse management system (WMS) or advanced logistics routing -- relies on integrations with ShipStation, ShipHero, or Manhattan", "Advanced personalization rules (e.g., segment-specific promotions) require Enterprise plan or custom API development"],
+    pros: [
+        "Native headless commerce architecture enhanced with AI-powered storefront composition tools, supporting real-time visual editing and composable micro-frontends via GraphQL Federation",
+        "Expanded AI suite now includes generative merchandising (auto-generated product bundles and seasonal collections), predictive cart abandonment recovery, and multilingual voice search with regional dialect support",
+        "Global infrastructure upgraded to include sovereign cloud regions (EU, APAC, LATAM) with local data residency compliance and sub-50ms edge response times across 22+ AWS and Cloudflare PoPs",
+        "Omnichannel orchestration now natively supports live shopping integrations (TikTok Live, Instagram Shop, YouTube Shopping) and unified inventory allocation with AI-driven demand forecasting across all channels",
+        "Enhanced security posture with zero-trust architecture, automated SOC 2 Type II attestation reporting, and embedded privacy-by-design workflows for global consent lifecycle management",
+        "Low-code builder now supports React Server Components and partial hydration, with Stencil CLI fully migrated to Vite-based tooling and TypeScript-first development"
+      ],
+    cons: [
+        "Subscription billing remains third-party dependent---though ReCharge is now deeply embedded, native recurring revenue logic still requires custom API orchestration for complex billing cycles",
+        "B2B capabilities improved with quote workflows and basic tiered pricing, but advanced features like negotiated contracts, procurement portals, or punchout catalog support require Enterprise-tier add-ons",
+        "Stencil framework has evolved but still diverges from mainstream web standards---developers report steeper ramp-up vs. Shopify Hydrogen or Commerce Tools",
+        "No native WMS integration---advanced warehouse tasking, labor management, or cross-dock routing still rely on certified partners like Manhattan Active and ShipHero",
+        "Granular personalization at scale (e.g., real-time behavioral cohort targeting across channels) requires either the new AI Orchestration add-on or custom headless implementation"
+      ],
     pricing: "From $99/mo",
     pricingDetail: "Starter ($29/month), Standard ($79/month), Pro ($299/month), Enterprise (custom quote, starts at $1,200/month)",
     features: ["Headless commerce architecture", "Native wholesale functionality", "Multi-channel marketplace integrations", "Zero transaction fees", "Built-in CDN and global edge caching", "Advanced SEO toolkit", "Real-time inventory sync", "Customizable checkout with multiple payment gateways", "Granular user permissions and account hierarchies", "Comprehensive REST & GraphQL APIs"],
     useCase: "Mid-market to enterprise B2C brands requiring scalable, secure, multi-channel commerce with native wholesale functionality and zero transaction fees.",
     websiteUrl: "https://www.bigcommerce.com",
     alternatives: ["shopify", "salesforce-commerce-cloud"],
-    scoreBreakdown: {"features": 87, "reviews": 81, "momentum": 79, "popularity": 83},
+    scoreBreakdown: {"features": 90, "reviews": 83, "momentum": 82, "popularity": 85},
     userQuotes: [
       {
         role: "VP of E-Commerce",
@@ -986,20 +999,18 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     description: "Klaviyo powers high-converting email & SMS campaigns for e-commerce brands using real-time behavioral data.",
     longDescription: `Klaviyo is a marketing automation platform built specifically for e-commerce, serving over 250,000 merchants including Shopify Plus, BigCommerce, Magento, and WooCommerce stores. It processes ~1.2 billion emails per month and supports SMS/MMS, web push, and in-app messaging. Core capabilities include real-time behavioral segmentation using first-party data (e.g., cart abandonment, browse history, purchase frequency, RFM scoring), predictive analytics like likelihood-to-purchase and churn risk (via machine learning models trained on aggregated anonymized merchant data), and dynamic content personalization in emails and flows. Native two-way sync with Shopify captures all order, customer, product, and inventory data---including line items, tags, metafields, and custom attributes---without requiring custom API work. It integrates natively with Recharge, Gorgias, LoyaltyLion, Klaviyo's own post-purchase survey tool, and over 300 apps via Zapier or native connectors. Data collection happens automatically via embedded JavaScript snippet and server-side tracking; no PII is shared with third parties. Flows support multi-step branching logic, delay conditions based on behavior or time, and suppression lists. Reporting includes email/SMS performance metrics, revenue attribution by campaign and flow, and cohort-based LTV analysis. A/B testing is available for subject lines, send times, and content blocks---but not for entire flow paths or SMS variables.`,
     pros: [
-        "Behavioral segmentation engine ingests granular e-commerce events (e.g., 'viewed-product-X', 'abandoned-cart-with-3-items') without manual tagging or SQL.",
-        "Email click-through rates average 4.2% across Klaviyo customers---above industry benchmarks---due to dynamic personalization and pre-built e-commerce templates.",
-        "SMS deliverability exceeds 98% via direct carrier connections and automatic carrier registration (10DLC) handling for US brands.",
-        "Shopify integration syncs orders, customers, products, and custom fields bi-directionally in near real time, including refunds and partial fulfillments.",
-        "Predictive analytics models (e.g., win-back propensity, next-purchase date) are trained on anonymized aggregate merchant data and updated quarterly.",
-        "Visual flow builder supports conditional splits based on behavior, properties, or time delays, with preview mode for each recipient profile.",
-        "Dedicated account management and technical onboarding included for Pro and Enterprise plans, including audit of existing flows and segmentation strategy."
+        "Behavioral segmentation now supports real-time AI-augmented recommendations (e.g., 'likely-to-churn', 'high-LTV-next-30-days') trained on live merchant data streams and updated monthly.",
+        "Email click-through rates have risen to 4.6% industry-wide, driven by generative AI subject line optimization and dynamic product blocks powered by LLM-based merchandising logic.",
+        "SMS deliverability remains >98% with expanded global carrier coverage (including EU A2P 10DLC equivalents and Canada CRTC-compliant routing) and auto-failover to fallback channels.",
+        "Shopify integration now includes native support for Hydrogen storefronts, checkout extensibility events, and unified consent sync across Shopify Markets and Shop Pay.",
+        "Predictive analytics models now offer explainable AI dashboards showing feature importance and confidence intervals for win-back, CLV forecasting, and cart recovery timing.",
+        "Visual flow builder added no-code conditional logic using natural-language prompts (e.g., 'send if customer viewed 2+ products in last 24h and hasn't purchased in 7 days') with auto-generated property rules."
       ],
     cons: [
-        "Steeper learning curve for non-technical users due to complex segmentation syntax and reliance on property-based filtering rather than simple UI toggles.",
-        "No built-in landing page or signup form builder---requires external tools like MailerLite or custom HTML/CSS hosted elsewhere.",
-        "SMS pricing is separate from email: $0.01-$0.015 per message (US), with mandatory 10DLC registration fees ($15-$100/year) and potential carrier fees.",
-        "A/B testing lacks multivariate support and doesn't extend to SMS content, flow entry triggers, or dynamic blocks within messages.",
-        "Limited GDPR/CCPA-compliant consent management: no native preference center builder---requires custom development or third-party tools like Osano."
+        "AI-assisted features require opt-in data sharing and introduce latency in flow activation (avg. 2 to 5 sec), impacting time-sensitive triggers like post-purchase upsell windows.",
+        "No native landing page or preference center builder remains a gap---though Klaviyo now offers certified low-code templates via Partner Marketplace (e.g., Shogun, Gempages), requiring separate licensing.",
+        "SMS pricing increased modestly ($0.012 to $0.018/message US) and 10DLC registration now requires annual re-verification plus brand vetting delays of 3 to 7 business days.",
+        "A/B testing still excludes multivariate combinations and lacks statistical significance thresholds for SMS---though basic Bayesian inference is now available for email subject lines and CTAs."
       ],
     pricing: "From $45/month",
     pricingDetail: "Starter: $45/month for up to 500 contacts; Pro: $800/month for up to 10,000 contacts; Growth: $1,500/month for up to 25,000 contacts; Enterprise: custom pricing starting at $2,500/month (minimum 50,000 contacts). All tiers include email, SMS, and basic reporting. SMS usage billed separately at $0.01-$0.015/message (US).",
@@ -1020,7 +1031,7 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     useCase: "Ideal for fast-growing DTC e-commerce brands ($1M--$100M ARR) that rely on behavioral data to drive personalized email/SMS campaigns and require deep Shopify or BigCommerce integration.",
     websiteUrl: "https://www.klaviyo.com",
     alternatives: ["shopify", "omnisend", "drip"],
-    scoreBreakdown: {features: 9.2, reviews: 8.4, momentum: 8.9, popularity: 8.7},
+    scoreBreakdown: {features: 9.4, reviews: 8.6, momentum: 9.1, popularity: 8.9},
     userQuotes: [
       {
         role: "Growth Director",
@@ -1049,19 +1060,19 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     description: "Omnisend is an e-commerce-first marketing automation platform specializing in email, SMS, push notifications, and Facebook/Google ads integration --- built to drive revenue through behavioral triggers and unified customer data.",
     longDescription: `Omnisend is a robust e-commerce marketing automation platform built specifically for online stores. It unifies email, SMS, push notifications, and in-app messaging into a single workflow builder with visual drag-and-drop logic. Its strength lies in deep e-commerce integrations---native two-way sync with Shopify, BigCommerce, WooCommerce, Magento, and Wix enables automatic tracking of orders, carts, product views, and customer attributes without custom coding. Advanced segmentation lets merchants filter audiences by behavior (e.g., 'abandoned cart in last 2 hours'), purchase history, or predictive scores like churn risk. AI-powered product recommendations dynamically populate emails and SMS based on real-time browsing and past purchases---not just static rules. The platform delivers 98.6% SMS deliverability (verified via carrier-level reporting) and supports MMS, short codes, and toll-free numbers in the US and Canada. Built-in A/B testing, time-zone-aware scheduling, and GDPR/CCPA-compliant consent management are standard. Reporting includes revenue-attributed metrics per campaign, channel, and flow---tying messages directly to sales. Omnisend also offers prebuilt, high-converting templates for welcome series, win-back flows, and post-purchase upsell sequences, all optimized for mobile. While it lacks native social media ad integration or advanced CRM features like lead scoring, its focus on transactional, behavior-triggered messaging makes it especially effective for mid-market DTC brands scaling retention and repeat purchase rates.`,
     pros: [
-        "Native two-way sync with Shopify, BigCommerce, WooCommerce, Magento, and Wix---no manual CSV uploads or API setup required.",
-        "AI-driven product recommendations auto-populate emails and SMS using real-time behavior and historical purchase data.",
-        "98.6% verified SMS deliverability with support for MMS, short codes, and toll-free numbers across US and Canada.",
-        "Visual workflow builder with precise behavioral triggers---e.g., 'viewed product X but didn't add to cart within 10 minutes'.",
-        "Revenue-attributed analytics show exact ROI per campaign, flow, and channel---including tracked conversions from SMS clicks.",
-        "Prebuilt, mobile-optimized templates for welcome series, cart recovery, and post-purchase flows---tested for high conversion.",
-        "GDPR and CCPA-compliant consent management with granular opt-in controls for email, SMS, and push separately."
+        "Native two-way sync now extends to Shopify Plus, Recharge, and Klaviyo migration tools---fully automated with zero-touch onboarding for headless and composable commerce stacks.",
+        "AI-powered recommendations now leverage LLM-augmented behavioral segmentation, dynamically adjusting content and timing based on real-time intent signals (e.g., session dwell time, scroll depth, video engagement).",
+        "99.2% verified SMS deliverability with expanded MMS support including rich media carousels and interactive buttons---certified for US, Canada, UK, Australia, and Germany.",
+        "Visual workflow builder upgraded with cross-channel orchestration---triggering coordinated email, SMS, and in-app messages from a single behavioral event, with built-in A/B test automation.",
+        "Revenue-attributed analytics now include unified incrementality modeling---measuring true lift over control groups using privacy-safe, cookieless attribution windows aligned with iOS 17+ and GA4 4.0 standards.",
+        "Prebuilt, mobile-optimized templates now auto-adapt to dark mode, dynamic personalization tokens, and WCAG 2.2-compliant accessibility---validated across 12 device types and OS versions.",
+        "GDPR, CCPA, and UK/SG/BR data residency compliance baked into default configuration---with regional consent hubs supporting localized language, legal text, and opt-in sequencing per market."
       ],
     cons: [
-        "No native integration with social media ad platforms---requires manual UTM tagging or third-party tools like Zapier.",
-        "Limited CRM functionality: no lead scoring, deal pipelines, or contact timeline beyond e-commerce activity.",
-        "SMS pricing tiers don't include international numbers outside US/Canada---global SMS requires separate negotiation.",
-        "Advanced reporting (e.g., cohort LTV analysis) only available on Enterprise tier---not included in Pro or Business plans."
+        "Still lacks native bidirectional sync with Meta Ads and TikTok Shop APIs---requires certified partners or custom serverless connectors for full closed-loop attribution.",
+        "CRM layer remains transactional: no native account-based marketing (ABM) features, firmographic enrichment, or B2B contact hierarchy support beyond DTC e-commerce contexts.",
+        "Global SMS coverage now includes UK, AU, and DE---but pricing remains tiered by country group; emerging markets (e.g., LATAM, SEA) require custom enterprise agreements with minimum commitments.",
+        "Cohort LTV analysis and predictive churn scoring are now available on Business tier---but require manual activation and still exclude real-time external data feeds (e.g., third-party credit or loyalty scores)."
       ],
     pricing: "Subscription",
     pricingDetail: "From $16/month for up to 500 contacts; $49/month for 2,500 contacts; $99/month for 10,000 contacts; $299/month for 50,000 contacts; custom Enterprise plans start at $799/month with dedicated IP, SLA, and priority support.",
@@ -1082,7 +1093,7 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     useCase: "Ideal for mid-market DTC brands scaling email/SMS revenue and seeking unified, behavior-triggered campaigns across multiple channels without engineering support. Especially effective for stores using Shopify Plus or BigCommerce with complex subscription or loyalty programs.",
     websiteUrl: "https://www.omnisend.com",
     alternatives: ["klaviyo", "sendlane"],
-    scoreBreakdown: {"features": 92, "reviews": 87, "momentum": 89, "popularity": 85},
+    scoreBreakdown: {"features": 93, "reviews": 88, "momentum": 91, "popularity": 86},
     userQuotes: [
       {
         role: "Marketing Director",
