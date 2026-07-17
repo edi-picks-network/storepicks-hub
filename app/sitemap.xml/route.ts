@@ -41,6 +41,7 @@ const BLOG_SLUGS = [
   "ecommerce-email-marketing-automation-comparison-2026",
   "daily-update-d-2026-07-15-ecommerce-seo-guide-2026",
   "ecommerce-seo-tools-2026",
+  "subscription-box-ecommerce-tools-2026",
 ] as const;
 
 const TOOL_SLUGS = [
