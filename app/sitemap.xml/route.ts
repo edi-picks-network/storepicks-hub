@@ -47,6 +47,7 @@ const BLOG_SLUGS = [
   "tidio-vs-intercom-vs-gorgias-2026",
   "woocommerce-vs-shopify-payment-processing-2026",
   "ecommerce-cro-tools-comparison-2026",
+  "multichannel-ecommerce-selling-tools-comparison-2026",
 ] as const;
 
 const TOOL_SLUGS = [
