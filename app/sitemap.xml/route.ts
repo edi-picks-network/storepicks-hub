@@ -49,6 +49,7 @@ const BLOG_SLUGS = [
   "ecommerce-cro-tools-comparison-2026",
   "multichannel-ecommerce-selling-tools-comparison-2026",
   "shopify-vs-woocommerce-vs-bigcommerce-vs-magento-2026",
+  "marketplace-selling-vs-own-store-2026",
 ] as const;
 
 const TOOL_SLUGS = [
