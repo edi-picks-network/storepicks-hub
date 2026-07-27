@@ -51,6 +51,8 @@ const BLOG_SLUGS = [
   "shopify-vs-woocommerce-vs-bigcommerce-vs-magento-2026",
   "marketplace-selling-vs-own-store-2026",
   "email-vs-sms-marketing-ecommerce-2026",
+  "ai-ecommerce-analytics-tools-2026"
+
 ] as const;
 
 const TOOL_SLUGS = [
