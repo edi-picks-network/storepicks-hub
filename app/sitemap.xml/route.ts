@@ -3,10 +3,12 @@ import { MetadataRoute } from "next";
 const BLOG_SLUGS = [
   "abandoned-cart-recovery-tools-2026",
   "ai-cross-border-ecommerce-tools-strategies-2026",
+  "ai-ecommerce-analytics-tools-2026",
   "ai-ecommerce-tools-pricing-product-descriptions-2026",
   "ai-in-ecommerce-machine-learning-2026",
   "amazon-fba-vs-dtc-brand-building-2026",
   "amazon-price-tracking-deal-finding-2026",
+  "amazon-review-management-vs-social-proof-platforms-2026",
   "b2b-vs-b2c-ecommerce-platforms-2026",
   "best-ai-customer-service-tools-ecommerce-2026",
   "best-ecommerce-accounting-software-2026",
@@ -25,6 +27,7 @@ const BLOG_SLUGS = [
   "dropshipping-sourcing-battle-2026",
   "dropshipping-tools-2026",
   "ecommerce-conversion-rate-optimization-2026",
+  "ecommerce-cro-tools-comparison-2026",
   "ecommerce-customer-retention-strategies-2026",
   "ecommerce-email-marketing-automation-comparison-2026",
   "ecommerce-email-marketing-klaviyo-omnisend-mailerlite-2026",
@@ -36,24 +39,22 @@ const BLOG_SLUGS = [
   "ecommerce-seo-optimization-strategies-2026",
   "ecommerce-seo-tools-2026",
   "email-marketing-automation-ecommerce-2026",
+  "email-vs-sms-marketing-ecommerce-2026",
   "headless-commerce-migration-diary-2026",
+  "marketplace-selling-vs-own-store-2026",
+  "multichannel-ecommerce-selling-tools-comparison-2026",
   "shopify-review-apps-comparison-2026",
   "shopify-vs-bigcommerce-vs-woocommerce-vs-wix-vs-squarespace-2026",
   "shopify-vs-woocommerce-vs-bigcommerce-2026",
+  "shopify-vs-woocommerce-vs-bigcommerce-vs-magento-2026",
   "social-commerce-tiktok-shop-instagram-pinterest-facebook-2026",
   "subscription-box-ecommerce-tools-2026",
   "subscription-commerce-platforms-2026",
   "supply-chain-optimization-ecommerce-2026",
   "tidio-vs-intercom-vs-gorgias-2026",
   "woocommerce-vs-shopify-payment-processing-2026",
-  "ecommerce-cro-tools-comparison-2026",
-  "multichannel-ecommerce-selling-tools-comparison-2026",
-  "shopify-vs-woocommerce-vs-bigcommerce-vs-magento-2026",
-  "marketplace-selling-vs-own-store-2026",
-  "email-vs-sms-marketing-ecommerce-2026",
-  "ai-ecommerce-analytics-tools-2026"
 
-] as const;
+] as const;;
 
 const TOOL_SLUGS = [
   "aws",
