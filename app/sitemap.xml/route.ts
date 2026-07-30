@@ -53,8 +53,9 @@ const BLOG_SLUGS = [
   "supply-chain-optimization-ecommerce-2026",
   "tidio-vs-intercom-vs-gorgias-2026",
   "woocommerce-vs-shopify-payment-processing-2026",
-
-] as const;;
+  "ecommerce-customer-support-tools-2026-comparison",
+  "best-e-commerce-cro-tools-compared-2026",
+] as const;
 
 const TOOL_SLUGS = [
   "aws",
