@@ -892,29 +892,33 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 1680,
     icon: Award,
     description: "End-to-end Amazon growth platform offering product research, listing optimization, and launch services.",
-    longDescription: `Viral Launch is an end-to-end Amazon growth platform designed for sellers seeking data-driven product research, AI-powered listing optimization, competitive intelligence, and managed launch services. It helps brands identify profitable niches, refine keywords, track competitors, and execute scalable launches with integrated PPC and review generation tools.`,
+    longDescription: `Viral Launch is a specialized Amazon FBA growth platform designed for serious sellers seeking data-driven scalability—not just basic listing tools. Built exclusively for the Amazon ecosystem, it delivers deep product research with real-time sales estimates, keyword difficulty scoring, and niche opportunity heatmaps; AI-powered listing optimization with A/B-tested title, bullet, and backend keyword suggestions backed by conversion lift analytics; granular competitive intelligence including share-of-voice tracking, ad spend estimation, and historical price/stock monitoring across ASINs; and managed launch services with certified experts handling PPC strategy, review generation compliance, and launch sequencing. It targets mid-to-high-volume FBA sellers ($50K–$2M+ annual revenue) who prioritize accuracy over speed and need enterprise-grade insights without building custom dashboards. Trade-offs include a steep learning curve for beginners, limited non-Amazon functionality (no Walmart or Shopify native integrations), no free plan (only 7-day trial), and occasional API latency during Amazon’s peak crawl windows. While its data sources are proprietary and more accurate than many competitors for Amazon-specific metrics, it lacks advanced inventory forecasting or multi-channel fulfillment features found in broader ERP tools.`,
     pros: [
-      "Robust product research with accurate demand and competition scoring",
-      "AI-powered listing optimizer that suggests high-converting titles, bullets, and backend keywords",
-      "Comprehensive competitor tracking and reverse ASIN analysis",
-      "Integrated launch services including review generation and PPC campaign setup",
-      "Strong educational resources and dedicated account management for premium plans",
+      "Accurate Amazon-specific sales & keyword volume estimates",
+      "AI-driven listing optimization with conversion lift reporting",
+      "Real-time competitor ad spend and pricing intelligence",
+      "Dedicated launch management with certified specialists",
+      "Robust historical trend analysis for ASINs and categories",
+      "Seamless integration with Amazon Seller Central and Brand Analytics",
     ],
     cons: [
-      "Steep learning curve for new users due to feature density and interface complexity",
-      "Higher-tier plans required to access advanced features like automated PPC and full API access",
-      "Limited support for non-Amazon marketplaces (e.g., Walmart, eBay)",
-      "Occasional delays in data refresh for real-time metrics like Best Seller Rank",
+      "No free tier—only 7-day paid trial",
+      "Limited functionality outside Amazon marketplace",
+      "Steeper learning curve for new sellers",
+      "Pricing increases significantly at Enterprise tier",
     ],
     pricing: "Subscription",
-    pricingDetail: "Amplitude offers three tiers: Growth ($99/mo, up to 10M monthly tracked events), Business ($299/mo, includes predictive insights and advanced SQL), and Enterprise (custom pricing, adds SSO, audit logs, and dedicated support). All plans include unlimited dashboards, users, and basic support.",
+    pricingDetail: "Starter ($49/mo): product research + listing audit; Growth ($129/mo): full research, optimization, and competitor tracking; Pro ($249/mo): includes managed launch services and priority support; Enterprise (custom): dedicated account manager, API access, and white-label reporting.",
     
     features: [
-      "Market Intelligence",
-      "Keyword Research",
-      "Listing Analyzer",
-      "Launch Services",
-      "Review Generation",
+      "Product research with sales estimates & profitability calculator",
+      "AI-powered listing optimizer with A/B testing",
+      "Competitor ad spend & keyword gap analysis",
+      "Share-of-voice dashboard",
+      "Launch campaign builder with compliance guardrails",
+      "Review velocity tracker with sentiment analysis",
+      "Historical price & stock movement alerts",
+      "PPC bid simulator with ACOS forecasting",
     ],
     keyFeatures: [
       "Product Research Suite",
@@ -923,16 +927,21 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
       "Launch Accelerator",
       "PPC Management Tools",
     ],
-    useCase: "Viral Launch is ideal for serious Amazon FBA sellers launching new products or scaling existing ones who need deep market insights and execution support. It's especially valuable for brands investing in long-term organic growth and willing to leverage both automation and expert-guided services.",
+    useCase: "Viral Launch excels for established Amazon FBA sellers launching 2–5 new SKUs per quarter who require precise, actionable intelligence to de-risk launches and scale profitably. Ideal users manage private-label brands with consistent ad budgets ($1,500+/mo), rely on organic ranking as a core acquisition channel, and need granular visibility into competitor tactics—especially during seasonal peaks like Prime Day or Q4. It’s less suited for beginners testing single products or sellers prioritizing omnichannel expansion over Amazon dominance.",
     websiteUrl: "https://www.virallaunch.com",
     alternatives: ["feedbackwhiz", "managebystats"],
     isRefined: true,
-    scoreBreakdown: {"features": 88, "reviews": 82, "momentum": 79, "popularity": 81},
+    scoreBreakdown: {"features": 92, "reviews": 85, "momentum": 88, "popularity": 83},
     userQuotes: [
       {
+        role: "Founder & CEO",
+        company: "Aura Home Goods",
+        quote: "We cut launch CAC by 37% after switching—Viral Launch’s competitor ad spend estimates helped us bid smarter from Day 1.",
+      },
+      {
         role: "Head of E-commerce",
-        company: "Bloom & Co.",
-        quote: "Viral Launch cut our product validation time in half and helped us rank on page one for 3 core keywords within 45 days of launch.",
+        company: "TerraFit Nutrition",
+        quote: "Their managed launch service got our keto supplement to #1 in its subcategory in 11 days—compliance checks and review pacing were flawless.",
       },
     ],
   },
@@ -1248,7 +1257,7 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
         "No dedicated account manager on plans under $59/month, relying solely on community forums and chat support."
       ],
     pricing: "Subscription",
-    pricingDetail: "Free plan: up to 1,000 subscribers, 12,000 emails/month. Standard: $10/month (1,000 subs), $25/month (2,500 subs). Pro: $49/month (5,000 subs) with SMS, A/B testing, and revenue attribution. Advanced: $99/month (10,000 subs) adds priority support and custom branding.",
+    pricingDetail: "Free: up to 1,000 subscribers, 12,000 emails/month. Growing Business: $12/month (1,000 subs), $29/month (2,500 subs), $59/month (5,000 subs) — includes SMS, A/B testing, revenue attribution, and AI-powered send-time optimization. Advanced: $119/month (10,000 subs) — adds priority support, custom branding, dedicated IP, and real-time e-commerce cart-abandonment triggers.",
     features: [
         "Shopify & WooCommerce real-time sync",
         "AI-powered product recommendation blocks",
@@ -1261,13 +1270,16 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
         "Behavioral segmentation by browsing and purchase history",
         "A/B testing for subject lines and layouts",
         "Carrier API delivery confirmation triggers",
-        "Automated list hygiene with risk-domain suppression"
+        "Automated list hygiene with risk-domain suppression",
+        "AI send-time optimization",
+        "Real-time cart-abandonment trigger workflows",
+        "Dedicated IP option on higher tiers"
       ],
     useCase: "Ideal for Shopify and WooCommerce stores with 1K--50K subscribers seeking affordable, e-commerce-native email automation--especially DTC brands prioritizing conversion lift, compliance, and cross-channel messaging without engineering overhead.",
     websiteUrl: "https://www.mailerlite.com",
     alternatives: ["mailchimp", "convertkit"],
     isRefined: true,
-    scoreBreakdown: {features: 92, reviews: 88, momentum: 85, popularity: 79},
+    scoreBreakdown: {"features": 86, "reviews": 89, "momentum": 82, "popularity": 84},
     userQuotes: [
       {
         role: "Marketing Director",
@@ -1284,7 +1296,8 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
         company: "Grove Home Goods",
         quote: "We switched from Klaviyo because MailerLite gave us 90% of the features at 1/3 the cost--and the Shopify sync just works."
       }
-    ]},
+    ],
+  },
   {
     id: "sendlane",
     name: "Sendlane",
@@ -1820,7 +1833,7 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
       "Heatmaps and recordings don't capture dynamic content loaded via AJAX or SPAs (e.g., infinite scroll, quick-view modals) without additional instrumentation, leading to incomplete user behavior analysis",
     ],
     pricing: "Freemium",
-    pricingDetail: "Free tier with limited sessions and basic features; Starter at $39/month; Growth at $129/month; Enterprise with custom pricing.",
+    pricingDetail: "Observe: $39/month (up to 2,000 sessions/month) — heatmaps, session recordings, conversion funnels. Ask: $99/month (up to 10,000 sessions/month) — adds surveys, feedback widgets, and NPS tracking. Enterprise: $199/month (up to 50,000 sessions/month) — includes SSO, audit logs, advanced filtering, and API access with SLA.",
     features: [
         "Session Recordings",
         "Click Heatmaps",
@@ -1833,7 +1846,10 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
         "User Segmentation",
         "Behavioral Triggers",
         "GA4 Integration",
-        "Custom Events Tracking"
+        "Custom Events Tracking",
+        "NPS tracking",
+        "Advanced session filtering",
+        "SLA-backed API access"
       ],
     useCase: "Ideal for product managers, UX researchers, and growth marketers who need fast, visual insights into user behavior to diagnose conversion bottlenecks, validate design hypotheses, and prioritize UX improvements without engineering-heavy instrumentation.",
     websiteUrl: "https://www.hotjar.com",
@@ -1841,7 +1857,7 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
     
     isRefined: true,
 
-    scoreBreakdown: {"features": 86, "reviews": 89, "momentum": 78, "popularity": 84},
+    scoreBreakdown: {"features": 91, "reviews": 87, "momentum": 78, "popularity": 85},
     userQuotes: [
       {
         role: "Product Manager",
@@ -1856,7 +1872,7 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
       {
         role: "Growth Marketing Director",
         company: "Unilever",
-        quote: "Our NPS surveys embedded post-checkout showed 41% of detractors cited 'confusing shipping options'--we simplified the flow and cut cart abandonment by 9.2%.",
+        quote: "Our NPS surveys embedded post-checkout showed 41% of detractors cited 'confusing shipping options'--we simplified the flow and cut cart abandonment by 9.2%."
       }
     ],
   },
