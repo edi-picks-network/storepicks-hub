@@ -56,6 +56,7 @@ const BLOG_SLUGS = [
   "ecommerce-customer-support-tools-2026-comparison",
   "best-e-commerce-cro-tools-compared-2026",
   "ecommerce-holiday-season-prep-2026",
+  "ecommerce-returns-management-tools-2026",
 ] as const;
 
 const TOOL_SLUGS = [
