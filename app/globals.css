@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Nexus Solutions 样式 ── */
-/* 白底、无动画背景、干净 */
+/* Nexus Solutions styles */
+/* White background, no animation, clean */
 
 @layer base {
   body {
