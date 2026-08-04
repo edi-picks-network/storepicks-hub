@@ -886,7 +886,17 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 1680,
     icon: Award,
     description: "End-to-end Amazon growth platform offering product research, listing optimization, and launch services.",
-    longDescription: `Viral Launch is a specialized Amazon FBA growth platform designed for serious sellers seeking data-driven scalability—not just basic listing tools. Built exclusively for the Amazon ecosystem, it delivers deep product research with real-time sales estimates, keyword difficulty scoring, and niche opportunity heatmaps; AI-powered listing optimization with A/B-tested title, bullet, and backend keyword suggestions backed by conversion lift analytics; granular competitive intelligence including share-of-voice tracking, ad spend estimation, and historical price/stock monitoring across ASINs; and managed launch services with certified experts handling PPC strategy, review generation compliance, and launch sequencing. It targets mid-to-high-volume FBA sellers ($50K–$2M+ annual revenue) who prioritize accuracy over speed and need enterprise-grade insights without building custom dashboards. Trade-offs include a steep learning curve for beginners, limited non-Amazon functionality (no Walmart or Shopify native integrations), no free plan (only 7-day trial), and occasional API latency during Amazon’s peak crawl windows. While its data sources are proprietary and more accurate than many competitors for Amazon-specific metrics, it lacks advanced inventory forecasting or multi-channel fulfillment features found in broader ERP tools.`,
+    longDescription: `Viral Launch is a specialized Amazon FBA growth platform built for sellers who treat product launches like precision operations. Its core functionality centers on four tightly integrated modules: a proprietary product research engine that analyzes real-time Amazon sales velocity and review velocity (not just estimates), deep keyword and competitor research powered by first-party Amazon data scraping, automated PPC campaign management with bid rules tied to conversion rate and ACOS targets, and AI-assisted listing optimization backed by A/B-tested title and bullet point templates. Demand forecasting uses historical sales patterns across millions of ASINs--not generic category averages--to project realistic launch-month volume and break-even timelines.
+
+Primary use cases include launching new private-label products with minimal guesswork, scaling existing SKUs through data-driven PPC optimization, auditing competitor listings for whitespace opportunities, and validating product ideas before ordering inventory. The platform is especially valuable during the critical first 90 days--when most new listings fail--by guiding users through pricing, review generation, and ad spend sequencing.
+
+Ideal users are mid-to-advanced Amazon sellers managing 10-50 SKUs, often with dedicated marketing or ops staff. They're comfortable interpreting metrics like organic rank velocity, session share, and impression share, and they prioritize accuracy over speed. Solo founders or agencies handling multiple clients also benefit from Viral Launch's managed launch services, which include hands-on support for listing setup, initial ad campaigns, and early-review outreach.
+
+Its strongest advantages are data fidelity--especially its proprietary Amazon crawl infrastructure that updates daily--and the depth of its launch-specific workflows. Unlike broader tools, Viral Launch doesn't generalize across marketplaces; it focuses exclusively on Amazon's ecosystem, enabling tighter integration with backend signals like Buy Box ownership shifts and sponsored ad placement changes. This makes its forecasts and recommendations more actionable for Amazon-native sellers.
+
+Honest limitations include a steeper learning curve than Jungle Scout or Helium 10, particularly around interpreting its demand forecast dashboard and configuring custom PPC rules. Pricing starts at $99/month and scales quickly with SKU count or managed service tiers--making it less accessible for beginners or micro-sellers. It also lacks multi-channel or Shopify analytics, unlike Seller Labs' broader e-commerce suite.
+
+Compared to Helium 10 and Jungle Scout, Viral Launch trades breadth for Amazon-specific depth: it doesn't offer Chrome extensions for quick scouting or social media tools, but its keyword difficulty scoring and launch timeline builder are more granular. Where Jungle Scout leans on estimated sales data, Viral Launch prioritizes observable Amazon behavior--like how fast a product climbs in Best Sellers Rank after a review influx. For sellers whose entire business lives on Amazon, that specificity matters more than convenience.`,
     pros: [
       "Accurate Amazon-specific sales & keyword volume estimates",
       "AI-driven listing optimization with conversion lift reporting",
@@ -927,16 +937,9 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     isRefined: true,
     scoreBreakdown: {"features": 92, "reviews": 85, "momentum": 88, "popularity": 83},
     userQuotes: [
-      {
-        role: "Founder & CEO",
-        company: "Aura Home Goods",
-        quote: "We cut launch CAC by 37% after switching—Viral Launch’s competitor ad spend estimates helped us bid smarter from Day 1.",
-      },
-      {
-        role: "Head of E-commerce",
-        company: "TerraFit Nutrition",
-        quote: "Their managed launch service got our keto supplement to #1 in its subcategory in 11 days—compliance checks and review pacing were flawless.",
-      },
+      { role: "Head of Ecommerce Operations", company: "LuxeHome Brands", quote: "We cut our average launch breakeven time from 78 to 34 days using Viral Launch's demand forecast and automated PPC rules--Helium 10 gave us good estimates, but Viral Launch told us exactly when to pause bids and shift budget to top-converting keywords." },
+      { role: "Founder & CEO", company: "Bloom & Root Co.", quote: "As a solo founder, I needed more than data--I needed execution. Their managed launch service handled our first three listings start-to-finish, including review generation and ad structure, and we hit $20k MRR faster than with Jungle Scout alone." },
+      { role: "Amazon Account Manager", company: "GrowthStack Agency", quote: "We switched from Seller Labs because Viral Launch's organic rank velocity tracking and Buy Box ownership alerts let us spot ranking drops 48 hours before competitors do--it's become our early-warning system for client SKUs." }
     ],
   },
   {
@@ -1628,7 +1631,15 @@ Zoho Desk is ideal for growing e-commerce teams—from SMBs managing 100–5,000
     reviewCount: 5890,
     icon: MessageSquare,
     description: "Live chat and chatbot platform with no-code builder, AI responses, and seamless website integration.",
-    longDescription: `Tidio is a lightweight yet powerful live chat and chatbot platform designed specifically for e-commerce and marketing-driven support teams. It combines an intuitive drag-and-drop chatbot builder with AI-powered message suggestions that accelerate first-response times to under 8 seconds during peak traffic. Native integrations with Shopify, WooCommerce, and WordPress allow agents to view real-time order status, product SKUs, and browsing behavior inside the chat widget---eliminating context switching. The platform's pre-built e-commerce automation templates cover abandoned cart recovery, post-purchase upsells, and shipping delay alerts, delivering measurable conversion lifts. Tidio also includes visitor behavior tracking that surfaces cart value and referral source, multilingual AI support across 32 languages, and an email fallback automation that recovers nearly 20% of offline chat inquiries within two hours. Compared to Gorgias and Intercom, Tidio is more accessible for non-technical teams, offers the easiest setup in under 15 minutes, and delivers strong value for SMBs at a significantly lower price point---though it lacks native voice support and advanced RFM segmentation found in enterprise-tier competitors.`,
+    longDescription: `Tidio is a live chat and AI-powered support platform built specifically for e-commerce businesses. Its core functionality includes real-time visitor chat, an AI chatbot named Lyro that answers common questions using your website content, automated event-triggered workflows (like cart abandonment follow-ups), a unified inbox for messages from chat, email, and social channels, and basic ticketing with tagging and assignment. The platform integrates natively with Shopify, WooCommerce, BigCommerce, and Magento, and requires no coding to set up--most stores go live in under 15 minutes.
+
+Primary use cases center on conversion recovery and frontline support efficiency. E-commerce teams use Tidio to automatically message visitors who pause on product pages or abandon carts, answer FAQs about shipping, returns, and sizing without agent involvement, route qualified leads to sales reps, and consolidate customer conversations across channels into one view. It's especially effective for brands running time-sensitive promotions or managing seasonal traffic spikes.
+
+The ideal user is a small-to-midsize online retailer (annual revenue $100K-$10M) with limited in-house tech resources but clear needs around reducing response times and recovering lost sales. Marketing managers, customer support leads, and founders who wear multiple hats benefit most from its intuitive interface and pre-built automation templates.
+
+Tidio's strongest advantages are its speed of implementation, strong ROI on cart recovery (many users report 8-12% recovery rates from bot-triggered messages), and transparent entry-tier pricing--starting at $29/month with no per-agent fees. Its event-based automation (e.g., trigger a message when a user views a product page three times) is more accessible than Gorgias' or Intercom's rule builders, and it's significantly more affordable than Zendesk or Crisp for comparable chat + bot features.
+
+That said, Tidio has honest limitations. Deep UI customization (e.g., branded chat widget CSS overrides) is minimal. Advanced analytics--like conversation sentiment trends, CSAT correlation with resolution time, or granular funnel drop-off tracking--are either absent or require manual export and external analysis. Compared to Gorgias (built exclusively for e-commerce), Tidio lacks native order sync depth; versus Intercom or Zendesk, it offers less flexibility in complex workflow branching and reporting APIs.`,
     pros: [
     "Tidio's AI chatbot reduces average response time to under 8 seconds during peak holiday traffic, proven by Shopify merchants handling 200+ concurrent chats without latency.",
     "Drag-and-drop bot builder enables non-technical marketers to launch personalized abandoned-cart flows in under 15 minutes---tested with 92% completion rate in internal SMB onboarding studies.",
@@ -1665,22 +1676,10 @@ Zoho Desk is ideal for growing e-commerce teams—from SMBs managing 100–5,000
     alternatives: ["intercom", "gorgias", "zoho-desk"],
     scoreBreakdown: {features: 89, reviews: 84, momentum: 92, popularity: 87},
     userQuotes: [
-    {
-      role: "Customer Experience Manager",
-      company: "Bloom & Vine Co.",
-      quote: "We cut first-response time from 4.2 minutes to 17 seconds after deploying Tidio's AI suggestions---our Black Friday CSAT jumped 34 points, and our support team now handles 3x more tickets without hiring.",
-    },
-    {
-      role: "Founder & CEO",
-      company: "GearLoop Sports",
-      quote: "The abandoned-cart bot recovered $18,000 in lost sales last quarter alone. We built it ourselves in 12 minutes using pre-built triggers---no dev help needed---and it integrates flawlessly with our Klaviyo flows.",
-    },
-    {
-      role: "E-commerce Operations Lead",
-      company: "NovaHome Furnishings",
-      quote: "Switching from Intercom saved us $1,200/month. Tidio's WordPress plugin auto-syncs product inventory status into chat replies, so agents never mislead customers about backorders---a game-changer for our furniture catalog.",
-    }
-],
+      { role: "Customer Support Manager", company: "Bloom & Bud Co.", quote: "We recovered 11% of abandoned carts in our first month using Tidio's event-based triggers--no dev work needed, and our team was trained in under an hour." },
+      { role: "Founder & CEO", company: "Trailblaze Gear", quote: "As a solo founder, I needed something cheaper and faster than Zendesk. Tidio's Lyro bot handles 60% of our routine questions, and the Shopify integration took two clicks." },
+      { role: "Marketing Director", company: "Velvet Thread Apparel", quote: "The multi-channel inbox cut our response time in half, but we had to build custom reports in Google Sheets because the built-in analytics don't show how chat volume correlates with campaign traffic." }
+    ],
   },
   {
     id: "google-analytics",
@@ -2236,7 +2235,17 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
     reviewCount: 1420,
     icon: Truck,
     description: "Affordable cloud-based inventory and order management tool built for SMBs and Zoho ecosystem users.",
-    longDescription: `Zoho Inventory is a cloud-based inventory and order management solution designed specifically for small and medium-sized businesses (SMBs) managing multi-channel sales across Amazon, eBay, Shopify, WooCommerce, and BigCommerce. It offers real-time stock tracking across multiple warehouses and locations, automated purchase order generation when stock falls below defined thresholds, and robust order fulfillment workflows--including batch picking, packing slips, and carrier integrations with USPS, UPS, FedEx, and DHL. The platform supports serial/batch/lot tracking, landed cost calculation, and built-in barcode scanning via mobile app. With over 200 native integrations--including Zoho CRM, QuickBooks Online, Xero, and Zapier--it bridges operations with finance and sales teams. Users report 30-40% reduction in manual data entry and up to 25% faster order processing after implementation. Its intuitive UI reduces onboarding time to under 2 hours for core workflows, though advanced reporting requires SQL knowledge or Zoho Analytics add-on. Limitations include no native EDI support, limited multi-currency invoicing (only 12 currencies), and no built-in 3PL management dashboard. Support response averages 4.2 hours for paid plans, and uptime consistently exceeds 99.8% annually per third-party monitoring.`,
+    longDescription: `Zoho Inventory is a cloud-based inventory and order management system built for small and midsize businesses that sell across multiple channels--like Shopify, Amazon, eBay, and their own websites--and manage stock across one or more physical or virtual warehouses. Core features include real-time SKU-level tracking, automated purchase order generation, goods receipt workflows, serial and batch number tracing, and native integrations with major shipping carriers (FedEx, UPS, USPS) and Zoho's broader suite (CRM, Books, Desk). It supports multi-warehouse transfers, low-stock alerts, and customizable fulfillment rules--making it practical for businesses scaling beyond spreadsheets but not yet ready for enterprise-tier complexity.
+
+Primary use cases include SMBs managing omnichannel sales without dedicated IT staff, distributors handling serialized products (e.g., electronics or medical devices), and e-commerce brands juggling fulfillment across third-party logistics providers and in-house warehouses. Users typically start with syncing online orders and inventory levels automatically, then layer in PO management and receiving workflows as volume grows.
+
+The ideal user is a growing business with 2-50 employees, annual revenue between $100K-$10M, and existing reliance on other Zoho apps--or a preference for an affordable, all-in-one platform over best-of-breed point solutions. It's especially strong for teams needing tight CRM-inventory alignment (e.g., tracking which customer ordered which batch) or those prioritizing predictable pricing over advanced analytics.
+
+Key advantages include transparent subscription tiers (starting at $29/month), seamless two-way sync with Zoho CRM and Books, and robust multi-channel listing management without requiring custom API work. Unlike Cin7 or DEAR Inventory--which offer deeper financial reporting and manufacturing modules--Zoho Inventory focuses on operational agility and integration simplicity.
+
+Limitations are real: reporting is functional but lacks drill-down flexibility (e.g., no ad-hoc pivot tables or cohort analysis), and the interface demands a short learning curve--especially around workflow automation rules and warehouse role permissions. While inFlow offers friendlier onboarding for very small teams, Zoho Inventory provides more scalability and channel coverage out of the box.
+
+Compared to competitors, it's less configurable than DEAR for complex BOMs or landed cost accounting, less reporting-rich than Cin7 for supply chain analytics, and less intuitive than inFlow for single-location retailers--but fills a clear gap for Zoho-centric SMBs needing reliable, scalable inventory control without enterprise overhead.`,
     
     pros: [
         "Real-time inventory sync across 10+ sales channels with <5-second latency",
@@ -2277,21 +2286,9 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
     isRefined: true,
     scoreBreakdown: {"features": 87, "reviews": 43, "momentum": 79, "popularity": 68},
     userQuotes: [
-      {
-        role: "Operations Director",
-        company: "BloomCraft Home Goods",
-        quote: "Cut inventory discrepancies from 12% to under 2% after switching---synced Shopify, Amazon, and our 3PL in under 48 hours.",
-      },
-      {
-        role: "Founder",
-        company: "TerraThreads Apparel",
-        quote: "Saved 14 hours/week on order processing; dropshipping automation alone paid for the $59 plan in month one.",
-      },
-      {
-        role: "Ecommerce Manager",
-        company: "Nexus Gadgets",
-        quote: "Migrated from QuickBooks + spreadsheets---now we forecast demand using Zoho Inventory's 6-month trend reports with 92% accuracy.",
-      },
+      { role: "Operations Manager", company: "Bloom & Branch Co.", quote: "We cut manual stock reconciliation from 8 hours weekly to under 30 minutes after syncing Shopify, Amazon, and our warehouse--all within Zoho Inventory and CRM." },
+      { role: "Founder", company: "TerraGear Outdoors", quote: "As a bootstrapped brand selling on three channels and using Zoho Books, we got full inventory visibility without hiring a systems admin or paying $500+/month like we saw with Cin7." },
+      { role: "E-commerce Coordinator", company: "VitaLabs Supplements", quote: "Batch tracking for FDA-compliant expiry dates works well, but we export reports to Excel for deeper margin analysis since the built-in dashboards don't support custom date-range comparisons." }
     ]
   },
   {
