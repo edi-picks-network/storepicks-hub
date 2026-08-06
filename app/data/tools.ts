@@ -2092,9 +2092,19 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
         "Batch label generation, manifesting, and customs documentation for international shipments",
         "Integrated shipping insurance, signature confirmation, and adult signature enforcement"
       ],
+    keyFeatures: [
+        "Carrier-agnostic rate shopping across 100+ carriers",
+        "Two-way order sync with 2,400+ e-commerce platforms and marketplaces",
+        "Custom automation rules for labeling, routing, and fulfillment workflows",
+        "Branded tracking emails and self-service returns portal",
+        "37 prebuilt analytics dashboards for shipping performance and cost insights",
+        "REST/GraphQL API for deep integration and extensibility",
+        "Automated parcel audit and carrier refund recovery",
+    ],
     useCase: "Ideal for growing e-commerce brands ($1M--$50M ARR) managing orders across 3+ sales channels (marketplaces + DTC) who need carrier-agnostic shipping automation, real-time tracking visibility, and scalable reporting---but lack in-house dev resources to build custom logistics middleware.",
     websiteUrl: "https://www.shipstation.com",
     alternatives: ["shopify", "ordoro", "shipbob"],
+    isRefined: true,
     scoreBreakdown: {features: 8.9, reviews: 8.3, momentum: 7.7, popularity: 8.1},
     userQuotes: [
       {
@@ -2139,9 +2149,19 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
         "Batch lot tracking",
         "Branded shipping labels",
     ],
+    keyFeatures: [
+        "Multi-channel inventory synchronization across Shopify, Amazon, Walmart, BigCommerce, and eBay",
+        "Barcode-driven warehouse execution for accurate picking, packing, and shipping",
+        "Automated purchase order generation with supplier management",
+        "Kitting and bundling functionality for customizable product assemblies",
+        "Dropshipping coordination with real-time vendor inventory visibility",
+        "Intelligent reorder point management with demand forecasting",
+        "Unified order management for centralized fulfillment across sales channels",
+    ],
     useCase: "Ideal for DTC brands that sell across 3+ channels and manage inventory across distributed locations--especially those frequently assembling kits, fulfilling dropshipped items alongside in-house stock, or needing audit-ready batch traceability. Also well-suited for brands transitioning from spreadsheets or entry-level tools who require scalable, rule-based automation without over-engineering their tech stack.",
     websiteUrl: "https://www.ordoro.com",
     alternatives: ["shipstation", "cin7"],
+    isRefined: true,
     scoreBreakdown: {"features": 88, "reviews": 86, "momentum": 82, "popularity": 84},
     userQuotes: [
       {
@@ -2312,9 +2332,19 @@ Compared to competitors, it's less configurable than DEAR for complex BOMs or la
     pricing: "Usage-based + Subscription",
     pricingDetail: "Custom pricing model comprising a $349/month platform fee plus per-order fulfillment fees starting at $2.49 for domestic U.S. shipments; volume-based discounts apply above 5,000 orders/month; international, BOPIS, and returns handling incur separate tiered fees; all plans include free ROI consultation featuring live warehouse simulation, carrier bid analysis, and 30-day post-launch optimization support.",
     features: ["Distributed inventory management", "Automated replenishment alerts", "Carrier-agnostic shipping", "Multi-channel returns automation", "BOPIS (Buy Online, Pick Up In Store) orchestration", "Predictive demand forecasting (LLM-powered)", "Real-time carbon tracking & SBTi certification", "EU VAT-compliant fulfillment", "US-Mexico cross-border logistics lane", "Performance analytics dashboard", "API-first architecture with webhooks & RESTful endpoints", "Custom warehouse simulation and ROI consulting"],
+    keyFeatures: [
+        "Distributed global fulfillment network across 28 centers",
+        "AI-powered LLM demand forecasting for inventory optimization",
+        "Automated multi-channel returns processing with seamless reconciliation",
+        "BOPIS (Buy Online, Pickup In-Store) orchestration and real-time inventory sync",
+        "EU VAT-compliant shipping lanes with automated tax handling",
+        "Carbon footprint tracking and sustainability reporting dashboard",
+        "API-first integrations with Shopify Plus, BigCommerce, Magento, and Amazon",
+    ],
     useCase: "Ideal for e-commerce brands generating $1M–$50M in annual revenue that require scalable, transparent, and internationally compliant fulfillment—especially DTC-first companies selling across Shopify, Amazon, and wholesale channels who prioritize real-time inventory accuracy, rapid geographic expansion, and sustainable operations.",
     websiteUrl: "https://www.shipbob.com",
     alternatives: ["fulfillment-by-amazon", "red-stag-fulfillment"],
+        isRefined: true,
         scoreBreakdown: {features: 93, reviews: 91, momentum: 90, popularity: 88},
         userQuotes: [
       {
