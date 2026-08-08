@@ -62,7 +62,8 @@ const BLOG_SLUGS = [
   "ecommerce-oms-order-management-software-2026",,
   "ecommerce-fraud-prevention-tools-buying-guide-2026",
   "ecommerce-site-speed-performance-tools-2026",
-  "bnpl-flexible-payment-ecommerce-2026"
+  "bnpl-flexible-payment-ecommerce-2026",
+  "ecommerce-customer-support-automation-2026"
 ] as const;
 
 const TOOL_SLUGS = [
