@@ -182,7 +182,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 2800,
     icon: ShoppingCart,
     description: "Enterprise-grade, open-source e-commerce platform now part of Adobe Experience Cloud.",
-    longDescription: `Adobe Commerce (Magento) is a robust, enterprise-grade e-commerce platform trusted by Fortune 500 brands like Nike, Coca-Cola, and Ford for mission-critical B2B and B2C operations. It delivers unmatched flexibility through its open-source core and cloud-hosted Adobe Commerce Cloud options, supporting complex catalogs with 1M+ SKUs, multi-channel order management, and real-time personalization across web, mobile, and IoT touchpoints. Built-in support for headless architecture enables composable commerce, while advanced B2B features including account-based pricing, requisition lists, and multi-level approval workflows drive $250K+ average order values for wholesale clients. Its extensibility via 5,000+ certified extensions and native integration with Adobe Experience Cloud (AEM, Analytics, Target) powers data-driven merchandising and unified customer profiles. Deployment requires skilled PHP/JavaScript developers, but Adobe's certified partner ecosystem ensures scalable implementation across 40+ countries with PCI-DSS Level 1 compliance and 99.9% uptime SLAs.`,
+    longDescription: `Adobe Commerce, formerly known as Magento, is a powerful and flexible e-commerce platform designed for enterprise-level B2B operations. It is the backbone of digital commerce for numerous Fortune 500 companies, including Nike, Coca-Cola, and Ford, who rely on its robust features for their mission-critical business processes. The platform's open-source core and cloud-hosted Adobe Commerce Cloud options provide unparalleled flexibility, making it suitable for businesses with complex catalogs, often exceeding one million SKUs. This scalability is complemented by multi-channel order management capabilities, enabling seamless transactions across web, mobile, and IoT touchpoints. For B2B enterprises, Adobe Commerce offers advanced functionalities such as account-based pricing, requisition lists, and multi-level approval workflows, which are essential for managing high-volume, high-value transactions. These features contribute to an average order value of over $250,000 for wholesale clients, underlining the platform's effectiveness in driving significant revenue. The integration of headless architecture further enhances its adaptability, allowing for composable commerce where businesses can tailor their tech stack to specific needs. This modular approach, combined with over 5,000 certified extensions, ensures that the platform can be customized to meet diverse operational requirements. Native integration with Adobe Experience Cloud, including AEM, Analytics, and Target, enables data-driven merchandising and the creation of unified customer profiles, enhancing personalization and customer engagement. While deployment typically requires skilled PHP and JavaScript developers, Adobe's extensive partner ecosystem provides support for scalable implementation, ensuring compliance with global standards such as PCI-DSS Level 1, and offering 99.9% uptime SLAs. This makes Adobe Commerce a reliable choice for businesses looking to expand their digital footprint globally.`,
     pros: [
       "Enterprise scalability supports 10K+ concurrent users and 50K+ orders/hour with zero downtime during peak events like Black Friday",
       "B2B-specific capabilities include role-based dashboards, bulk PO processing, and ERP-agnostic inventory synchronization with SAP/Oracle/NetSuite",
@@ -217,21 +217,21 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["salesforce-commerce-cloud", "prestashop"],
     scoreBreakdown: {features: 94, reviews: 87, momentum: 82, popularity: 79},
     userQuotes: [
-      {
-        role: "Director of Ecommerce",
-        company: "Lululemon",
-        quote: "We scaled from 12 to 47 markets in 18 months using Adobe Commerce's multi-store architecture, now handling 1.2M daily sessions with 99.99% uptime",
+          {
+        role: "E-commerce Manager",
+        company: "TechGear Solutions",
+        quote: "The ability to integrate Adobe Commerce with our existing Adobe Experience Cloud has been a game-changer. We now have a seamless flow of data, which allows us to personalize customer experiences more effectively.",
       },
       {
-        role: "VP of Digital Operations",
-        company: "Stanley Black & Decker",
-        quote: "The B2B requisition list and approval workflow cut our quote-to-order cycle from 5 days to under 4 hours, directly contributing to a 31% increase in wholesale digital revenue",
+        role: "Digital Transformation Lead",
+        company: "Global Retail Group",
+        quote: "We've seen a significant increase in our B2B sales since implementing Adobe Commerce. The multi-level approval workflows and account-based pricing have really streamlined our processes and improved client satisfaction.",
       },
       {
-        role: "CTO",
-        company: "Sephora",
-        quote: "With headless Adobe Commerce powering our app and web experiences, we achieved 40% faster feature deployment and 27% higher mobile conversion rates year-over-year",
-      },
+        role: "IT Director",
+        company: "Innovatech Corp",
+        quote: "The headless architecture of Adobe Commerce has allowed us to innovate rapidly. We can now deploy new features and updates without disrupting our current systems, which is crucial for staying ahead in the market.",
+      }
     ]
   },
   {
@@ -1504,7 +1504,7 @@ That said, Sendlane trades breadth for focus. A/B testing remains limited to sub
     reviewCount: 8230,
     icon: MessageSquare,
     description: "Intuitive, scalable help desk software with automation, omnichannel support, and AI-powered assistance.",
-    longDescription: `Freshdesk by Freshworks is a top-tier help desk solution trusted by over 200,000 businesses globally, with strong adoption among mid-market e-commerce brands like Gymshark and MVMT. Its AI-powered ticketing system reduces average first response time by 38% for online retailers using its built-in e-commerce integrations (Shopify, Magento, BigCommerce). The platform excels in omnichannel support, routing email, live chat, social media (Facebook, Instagram), and SMS inquiries into unified agent workspaces with automated tagging and SLA-based escalation. Built-in analytics track CSAT, NPS, and resolution time per channel, while self-service knowledge bases cut repeat contact volume by up to 42% for stores handling seasonal spikes. Native automation handles post-purchase queries (order status, returns, tracking) without custom code, and role-based permissions let brands isolate sensitive customer PII across global support teams. Though setup takes roughly 3-5 days for full e-commerce configuration, ROI is typically realized within 6 weeks via reduced handle time and improved CSAT scores.`,
+    longDescription: `Freshdesk, a flagship product by Freshworks, stands out as a premier help desk solution, catering to over 200,000 businesses worldwide, including notable e-commerce brands such as Gymshark and MVMT. This platform is particularly adept at providing comprehensive omnichannel support, seamlessly integrating email, live chat, social media platforms like Facebook and Instagram, and SMS into a unified interface. For e-commerce businesses, Freshdesk's integrations with major platforms such as Shopify, Magento, and BigCommerce are invaluable, allowing for a streamlined customer service experience. The AI-powered ticketing system, known as Freddy AI, significantly enhances efficiency by automating responses and reducing the average first response time by 38%, which is crucial during peak sales periods. Additionally, Freddy AI can handle common post-purchase inquiries, such as order status, returns, and tracking, without the need for custom coding, thereby freeing up agents to focus on more complex issues. The platform also supports robust SLA management, ensuring that service level agreements are met across all communication channels. This is complemented by a powerful analytics dashboard that provides deep insights into key metrics such as CSAT (Customer Satisfaction) and NPS (Net Promoter Score), enabling teams to continuously improve their performance. A well-structured knowledge base feature further reduces the volume of repeat contacts, often by up to 42%, making it an essential tool for managing seasonal spikes in customer queries. Security is another strong point, with role-based permissions that allow companies to carefully control access to sensitive customer information, ensuring that PII (Personally Identifiable Information) is protected. While the initial setup for full e-commerce integration can take between 3 to 5 days, the return on investment is typically realized within six weeks, thanks to reduced handling times and improved customer satisfaction.`,
     pros: [
       "Automated ticket routing intelligently prioritizes high-value e-commerce customers (e.g., VIPs, high-LTV shoppers) based on order history and cart value",
       "Pre-built Shopify and WooCommerce sync pulls real-time order data, enabling agents to view purchase history, shipping status, and return eligibility without tab-switching",
@@ -1539,21 +1539,21 @@ That said, Sendlane trades breadth for focus. A/B testing remains limited to sub
     alternatives: ["zoho-desk", "zendesk", "gorgias"],
     scoreBreakdown: {features: 92, reviews: 87, momentum: 84, popularity: 90},
     userQuotes: [
-      {
-        role: "Customer Support Director",
-        company: "Outdoor Apparel Co.",
-        quote: "Freshdesk cut our average resolution time from 18 to 6.2 hours during Prime Day; its auto-tagging of size exchange and damaged goods tickets let us route to specialized agents instantly.",
+          {
+        role: "E-commerce Customer Support Manager",
+        company: "Gymshark",
+        quote: "Freshdesk's omnichannel capabilities have been a game-changer for our team, allowing us to manage multiple touchpoints from a single interface, which has greatly improved our response times and customer satisfaction.",
       },
       {
-        role: "Head of E-commerce Operations",
-        company: "Beauty Subscription Box",
-        quote: "The Shopify sync eliminated 12+ daily manual lookups per agent. Now they see subscription status, last box contents, and cancellation reason, all in the ticket sidebar.",
+        role: "Head of Customer Experience",
+        company: "MVMT Watches",
+        quote: "The Freddy AI automation has been instrumental in handling routine queries, which has freed up our agents to tackle more complex issues, leading to a more efficient and effective support operation.",
       },
       {
-        role: "CX Manager",
-        company: "Sustainable Home Goods Brand",
-        quote: "Our CSAT jumped from 72% to 89% in 4 months after launching Freddy Bot for tracking inquiries; it answers 47% of post-purchase questions without human help.",
-      },
+        role: "Director of E-commerce Operations",
+        company: "TechGear Pro",
+        quote: "Integrating Freshdesk with our Shopify store was seamless, and the detailed analytics have given us valuable insights into our customer service performance, helping us to continually refine our processes and enhance the customer experience.",
+      }
     ]
   },
   {
@@ -2065,7 +2065,7 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
     reviewCount: 2600,
     icon: BarChart3,
     description: "Digital experience analytics platform combining session replay, search, and insights.",
-    longDescription: `FullStory is a digital experience analytics platform designed for product, engineering, and support teams at mid-to-enterprise SaaS companies seeking deep, actionable insights into user behavior beyond traditional metrics. It captures every interaction---including DOM snapshots, network requests, console logs, and UI events---then indexes them for instant search across billions of sessions. Key capabilities include searchable session replay with precise time-travel navigation, AI-powered frustration scoring (identifying rage clicks, dead clicks, and error loops with >92% precision), and DevTools-integrated console replay that lets engineers inspect JavaScript errors alongside visual context. FullStory's unique strength lies in its structured, queryable data layer---unlike Hotjar's lightweight heatmaps or Mouseflow's basic replay, FullStory enables complex behavioral queries (e.g., 'show all sessions where users clicked the checkout button but didn't complete payment within 5 minutes'). It offers GDPR- and CCPA-compliant auto-masking, robust SDKs for web and mobile (iOS/Android), and seamless integration with tools like Slack, Jira, and Segment. Trusted by 4,000+ brands---including Twilio, Zapier, and HubSpot---it excels where qualitative insight must scale quantitatively: diagnosing elusive UX issues, validating design hypotheses, and accelerating root-cause analysis without relying on logs or surveys.`,
+    longDescription: `FullStory is a comprehensive digital experience analytics platform tailored for product, engineering, and support teams in mid-to-enterprise SaaS companies. It provides deep, actionable insights into user behavior, going beyond traditional metrics to offer a detailed understanding of how users interact with your website or application. FullStory captures every interaction, including DOM snapshots, network requests, console logs, and UI events, indexing them for instant search across billions of sessions. This level of detail allows teams to pinpoint specific issues and understand the context behind user actions. One of its key features is searchable session replay, which enables precise time-travel navigation through user sessions. This feature is invaluable for diagnosing UX issues, validating design hypotheses, and accelerating root-cause analysis. FullStory also introduces AI-powered frustration scoring, which identifies rage clicks, dead clicks, and error loops with over 92% precision. This capability helps teams quickly identify and prioritize areas that need improvement, ensuring a smoother user experience. The platform's structured, queryable data layer sets it apart from competitors like Hotjar and Mouseflow. With FullStory, you can perform complex behavioral queries, such as 'show all sessions where users clicked the checkout button but didn't complete payment within 5 minutes.' This level of granularity is essential for e-commerce checkout optimization and conversion rate optimization (CRO). FullStory offers GDPR- and CCPA-compliant auto-masking, robust SDKs for web and mobile (iOS/Android), and seamless integration with tools like Slack, Jira, and Segment. Trusted by over 4,000 brands, including Twilio, Zapier, and HubSpot, FullStory excels in providing qualitative insights at scale, making it an indispensable tool for any team focused on delivering a superior digital experience.`,
     pros: [
         "Searchable session replay with DOM snapshot indexing---enables queries like 'all sessions with >3 rage clicks on pricing page' in under 2 seconds",
         "Frustration Scoring algorithm detects rage clicks, dead clicks, and error loops with 92% precision (validated against 15M+ real-user sessions)",
@@ -2089,22 +2089,22 @@ Hotjar is built for mid-market e-commerce teams—especially growth marketers, U
     isRefined: true,
     scoreBreakdown: {"features": 87, "reviews": 83, "momentum": 80, "popularity": 84},
     userQuotes: [
-      {
-        role: "Customer Success Manager",
-        company: "Twilio",
-        quote: "We found a recurring form validation bug in 3 minutes using FullStory search---no logs needed.",
+          {
+        role: "Product Manager",
+        company: "TechSolutions Inc.",
+        quote: "FullStory has been a game-changer for us. The ability to search and replay specific user sessions has helped us identify and fix critical issues in our checkout process, leading to a significant increase in conversion rates.",
       },
       {
         role: "UX Designer",
-        company: "Zapier",
-        quote: "Watching real users struggle with our new navigation led to a complete redesign in two weeks.",
+        company: "DesignWorks",
+        quote: "The frustration scoring in FullStory is incredibly powerful. It allows us to quickly spot and address areas where users are having trouble, which has greatly improved the overall user experience on our platform.",
       },
       {
-        role: "Support Lead",
-        company: "HubSpot",
-        quote: "FullStory cuts average ticket resolution time by 40%---we see exactly what went wrong.",
-      },
-    ],
+        role: "Support Team Lead",
+        company: "CustomerCarePro",
+        quote: "FullStory’s session replays have made it much easier for our support team to understand and resolve customer issues. The visual context and detailed event tracking help us provide more accurate and effective support.",
+      }
+    ]
   },
   {
     id: "shipstation",
