@@ -59,7 +59,7 @@ const BLOG_SLUGS = [
   "ecommerce-returns-management-tools-2026",
   "pim-for-ecommerce-in-2026",
   "best-loyalty-rewards-software-ecommerce-2026",
-  "ecommerce-oms-order-management-software-2026",,
+  "ecommerce-oms-order-management-software-2026",
   "ecommerce-fraud-prevention-tools-buying-guide-2026",
   "ecommerce-site-speed-performance-tools-2026",
   "bnpl-flexible-payment-ecommerce-2026",
