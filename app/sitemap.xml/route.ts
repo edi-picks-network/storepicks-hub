@@ -64,7 +64,11 @@ const BLOG_SLUGS = [
   "ecommerce-site-speed-performance-tools-2026",
   "bnpl-flexible-payment-ecommerce-2026",
   "ecommerce-payment-gateway-comparison-2026",
-  "ecommerce-customer-support-automation-2026"
+  "ecommerce-customer-support-automation-2026",
+  "ecommerce-subscription-billing-tools-2026",
+  "ecommerce-funnel-retention-analytics-2026",
+  "ecommerce-optimization-tools-comparison-ab-testing-support-platforms",
+  "ecommerce-analytics-dashboards-comparison-2026"
 ] as const;
 
 const TOOL_SLUGS = [

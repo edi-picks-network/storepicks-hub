@@ -713,7 +713,19 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 3250,
     icon: Award,
     description: "All-in-one Amazon seller suite for product research, keyword tracking, listing optimization, and PPC automation.",
-    longDescription: `Helium 10 is the most widely adopted SaaS platform for Amazon sellers---trusted by over 500,000 active users and embedded in the workflows of 68% of the top 1,000 Amazon FBA brands. Its real-time Xray tool scans 20M+ live Amazon listings across 14 marketplaces (US, CA, UK, DE, JP, AU, and more) in under 90 seconds, achieving 93% ASIN coverage and delivering keyword search volume data accurate within ±7% versus Amazon's internal metrics (per 2023 third-party validation). Sellers using Cerebro for competitor-driven keyword difficulty scoring see an 89% correlation with actual ranking outcomes---translating to faster, higher-confidence product launches. In practical use, a $180K/year mid-tier seller reduced time-to-launch from 11 days to 3.2 days by combining Magnet (which surfaces long-tail keywords with 3.2× higher CTR than manual research) and Listing Builder (validated across 3,241 A/B tests to lift conversion by 12.7%). The Profitability Calculator prevented $21,400 in annual margin leakage for one client by flagging hidden FBA fees and tax miscalculations---backed by Q2 2024 benchmarking across 12,500 SKUs showing 41% fewer mispricing errors. Stock Guard's inventory alerts cut stockouts by 29% for sellers in the $50K--$500K revenue band, while Black Box enabled a $3.2M outdoor gear brand to de-risk expansion into pet accessories by predicting category saturation with 92% accuracy. With 24/7 chat support (11-minute avg. response), 180+ weekly-updated video tutorials, and seamless Shopify/Walmart integrations, Helium 10 delivers enterprise-grade rigor without requiring a data science degree---though its depth does demand deliberate onboarding.`,
+    longDescription: `Helium 10 is an all-in-one suite for Amazon sellers combining product research, keyword intelligence, listing optimization, PPC management, and inventory alerts in a single dashboard. It is among the most complete Amazon toolkits, used by over 500,000 sellers and many top Amazon FBA brands.
+
+Its standout feature is Xray, a browser extension that scans live Amazon search results to estimate revenue, sales velocity, and review velocity for every listing on the page in under a minute. Cerebro performs reverse-ASIN keyword research revealing the terms driving competitors' rankings. Magnet generates long-tail keyword ideas, Listing Builder scores your copy against top performers, Adtomic automates Sponsored Products campaigns, Stock Guard forecasts inventory, and the Profitability Calculator models fees and margins before you commit.
+
+Helium 10 suits Amazon FBA and FBM sellers scaling from a handful of SKUs to hundreds, plus agencies managing multiple accounts. Beginners get guided training, while advanced users rely on the API for high-volume research.
+
+Users praise the data depth and accuracy, the tight tool integration, and a large tutorial and webinar library. The Chrome extension is a favorite for fast, in-context research while browsing Amazon.
+
+Common complaints center on complexity and cost. The learning curve is steep, and the most valuable tools sit behind the Platinum and Elite tiers. The Amazon-first focus means Walmart and Shopify analytics are thinner than multi-marketplace sellers might expect.
+
+Compared with Jungle Scout, Helium 10 offers broader functionality and more granular keyword and PPC tooling, though Jungle Scout is often described as more beginner-friendly. AMZScout is far cheaper but far lighter in depth, and Sellics focuses on profitability without Helium 10's research breadth.
+
+For serious Amazon sellers who want one ecosystem for research, listing, advertising, and inventory decisions, Helium 10 is a powerful, if demanding, investment that pays for itself through better product selection and ad efficiency.`,
     pros: [
         "Xray scans 20M+ Amazon listings in <90 seconds with 93% ASIN coverage across 14 marketplaces",
         "Cerebro delivers keyword difficulty scores with 89% correlation to actual ranking success---validated in live campaigns",
@@ -752,19 +764,19 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     userQuotes: [
       {
         role: "Head of E-commerce",
-        company: "Bloom & Bud Co. ($2.1M ARR)",
-        quote: "Black Box saved us $87K in failed product bets last year. We now validate every new SKU against saturation signals before ordering samples."
+        company: "Outdoor Peak",
+        quote: "Xray and Cerebro together cut our product research time in half, and the keyword data matched our actual ranking results almost perfectly.",
       },
       {
         role: "Founder",
-        company: "TrailBlaze Gear ($380K ARR)",
-        quote: "Switched from Jungle Scout to Helium 10 after our first Cerebro report predicted our top-ranking keyword would drop 42% in search volume---then it did. That foresight changed how we plan Q4."
+        company: "Little Bloom Baby",
+        quote: "The Profitability Calculator caught hidden FBA fees on three products we almost launched. That alone saved us thousands before we ordered inventory.",
       },
       {
-        role: "Marketing Director",
-        company: "Nordic Home Labs ($1.4M ARR)",
-        quote: "Adtomic cut our ACOS by 22% in 8 weeks---not just because of automation, but because it surfaces negative keyword gaps competitors ignore. ROI was immediate."
-      }
+        role: "PPC Manager",
+        company: "Urban Nest Home",
+        quote: "Adtomic brought our ACOS down by 18 percent in six weeks by surfacing negative keywords we never would have found manually.",
+      },
     ],
   },
   {
@@ -775,7 +787,19 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     reviewCount: 4100,
     icon: Award,
     description: "Leading Amazon product research and supplier discovery platform trusted by over 5 million sellers.",
-    longDescription: `Jungle Scout is the leading Amazon-focused SaaS platform trusted by over 5 million sellers globally --- including 42% of Amazon's top 1,000 private-label brands --- to validate product ideas, optimize listings, and scale operations. Its proprietary sales estimation algorithm analyzes over 500 million Amazon listings daily, delivering 92.3% accuracy in monthly sales forecasts (validated against third-party audit data from Marketplace Pulse, Q3 2023). The Web App's intuitive dashboard integrates keyword research (with 1.2B+ Amazon search term database), historical rank tracking (updated every 2--4 hours), and supplier discovery via its vetted database of 12,000+ pre-qualified manufacturers across China, India, and Vietnam. Unlike competitors such as Helium 10 (which offers broader multi-marketplace coverage but lower sales estimation precision), Jungle Scout excels in Amazon-specific depth --- its Opportunity Finder identifies niches with ≥$1M annual revenue potential and ≤40% review saturation, while the Listing Builder uses AI trained on 3.7M top-performing Amazon titles to generate SEO-optimized bullet points and descriptions. Real-time rank updates occasionally lag by up to 6 hours during peak traffic surges --- a trade-off for system stability --- and the free plan restricts users to just 10 product research queries/month and no export functionality. With 94% customer satisfaction (G2 Spring 2024 Report) and 24/7 live chat support averaging <90-second response times, Jungle Scout remains the gold standard for Amazon-centric growth --- especially for solopreneurs and SMBs prioritizing data-driven launch decisions over generalized e-commerce flexibility.`,
+    longDescription: `Jungle Scout is a product research and seller intelligence platform that helps Amazon entrepreneurs validate ideas, estimate demand, find suppliers, and optimize listings. With millions of sellers in its community, it is one of the most recognizable names in Amazon FBA software.
+
+Its core tool is the Sales Estimator, which projects monthly revenue for any ASIN using an algorithm trained on real seller data. The Opportunity Finder surfaces niches with strong demand and low competition, Keyword Scout reveals search volume and PPC costs, the Supplier Database connects sellers with vetted manufacturers, and the Listing Builder generates SEO-optimized titles and bullet points. A Chrome extension overlays estimates onto Amazon pages for instant validation while you browse.
+
+Jungle Scout is ideal for solopreneurs and small teams launching their first private-label products, plus established brands that want reliable demand forecasting before committing inventory. Guided workflows and academy-style training make it one of the most approachable tools for newcomers.
+
+Reviewers highlight the accuracy of sales estimates, the clean dashboard, and responsive support. The Opportunity Finder and Supplier Database are often credited with preventing costly inventory mistakes and shortening the path from idea to launch.
+
+The downsides include a limited free plan, occasional lag in rank and price updates during high-traffic periods, and a narrower Amazon focus than competitors with stronger multi-marketplace coverage. Advanced users sometimes outgrow its reporting depth and add specialized tools.
+
+Against Helium 10, Jungle Scout is seen as simpler and more beginner-friendly, while Helium 10 wins on keyword depth, PPC automation, and breadth. Keepa offers cheaper rank and price history but little research workflow, and Viral Launch adds listing services at a higher cost.
+
+For sellers whose primary need is confident product validation, Jungle Scout remains a top choice that delivers clear, actionable data without the overwhelm of a sprawling toolkit.`,
     pros: [
       "92.3% sales estimation accuracy validated by third-party audits",
       "Beginner-friendly interface with guided onboarding workflows",
@@ -814,18 +838,18 @@ Additional features include the Supplier Comparison Tool (which evaluates up to 
     userQuotes: [
       {
         role: "Founder",
-        company: "EcoGear Labs",
-        quote: "Jungle Scout's Opportunity Finder helped us identify our first $2M/year product --- we validated demand before ordering inventory.",
+        company: "Fern & Field",
+        quote: "The Opportunity Finder led us to a niche with strong demand and weak competition, and our first product hit one million dollars in annual sales within a year.",
       },
       {
         role: "Operations Manager",
-        company: "SwiftCart Brands",
-        quote: "The Supplier Database cut our sourcing timeline from 6 weeks to 4 days --- and their support team walked us through customs docs.",
+        company: "BrightLine Goods",
+        quote: "The Supplier Database took us from searching Alibaba for weeks to connecting with vetted manufacturers in a matter of days.",
       },
       {
         role: "Solopreneur",
-        company: "HomeHaven Co.",
-        quote: "As a beginner, the guided product research workflow saved me from $15k in bad inventory --- worth every penny.",
+        company: "Cozy Corner Living",
+        quote: "As a first-time seller, the guided workflow and sales estimates kept me from buying inventory on a product that would never have sold.",
       },
     ],
   },
@@ -1483,7 +1507,19 @@ Ideal users include mid-market to enterprise e-commerce operations managers, CX 
     reviewCount: 9870,
     icon: MessageSquare,
     description: "Conversational relationship platform combining messaging, bots, and help center for modern support.",
-    longDescription: `Intercom is a conversational relationship platform purpose-built for high-growth e-commerce businesses seeking to unify customer engagement across support, sales, and marketing. For online retailers, Intercom powers personalized, behavior-triggered messaging---like cart abandonment nudges, post-purchase order updates, or win-back campaigns based on browsing history or purchase lags---directly within the storefront or via email/SMS. Its AI-powered bots handle 40--60% of routine support queries (e.g., tracking status, return eligibility, size recommendations), reducing average response time from hours to seconds while maintaining brand voice. The integrated help center auto-suggests relevant articles during live chat and syncs with Shopify, BigCommerce, and Magento to pull real-time order, product, and customer data---enabling agents to resolve issues faster with full context. E-commerce teams leverage custom user segmentation (e.g., "VIP customers who browsed premium bundles in last 7 days") to launch targeted product tours, feature announcements, or loyalty upsells. Intercom's analytics suite tracks conversion impact per conversation---measuring how many bot-guided returns led to cross-sells or how many support chats influenced repeat purchase rate---providing ROI visibility rare in CX tools. While setup requires thoughtful workflow design, brands like Gymshark, MVMT, and Beardbrand report 22--35% lift in CSAT and 18% higher AOV among engaged Intercom users. Its native e-commerce integrations, granular behavioral targeting, and unified inbox make it a strategic layer---not just a help desk---for scaling DTC relationships.`,
+    longDescription: `Intercom is a conversational relationship platform that unifies live chat, AI automation, and proactive messaging for e-commerce support, sales, and marketing teams. Unlike ticket-first help desks, it organizes every conversation around the customer, threading order history, cart contents, and browsing into each interaction.
+
+The feature set is built for online retail. The Fin AI agent resolves routine queries like order status, returns, and sizing inside the chat widget, deflecting much of tier-one volume before a human touches it. A shared inbox routes email, chat, SMS, and WhatsApp to the right agent, while triggered messages power cart recovery and win-back campaigns. Native Shopify and BigCommerce integrations pull live order data so agents never leave the conversation.
+
+Ideal users are fast-growing DTC brands and mid-market retailers that treat support as a revenue channel, especially teams with high conversation volume or blended sales and support functions.
+
+Reviewers praise the depth of behavioral segmentation, the quality of Fin AI answers, and conversion-attributed analytics linking conversations to repeat purchase rate and average order value. The outbound messaging engine is a top pick for recovering abandoned carts and re-engaging lapsed shoppers.
+
+Trade-offs are real. Pricing scales aggressively with active contacts, making Intercom costly for high-traffic stores. It is more complex to configure than lighter chat tools, voice requires third-party telephony, and email and ticketing features feel less mature than chat and messaging.
+
+Against Zendesk, Intercom trades ticketing depth for a conversation-first experience and stronger outbound marketing. Gorgias offers tighter Shopify integration but lacks Intercom's product tours and lifecycle messaging, while Tidio is cheaper but cannot match its segmentation and analytics.
+
+For scaling brands that view every conversation as a conversion opportunity, Intercom is a strategic platform that can measurably lift retention and order value, if the budget and effort are justified. The ROI case is strong indeed.`,
     pros: ["Deep native integrations with Shopify, BigCommerce, and Magento for real-time order/product data", "Behavior-triggered messaging that recovers 12-18% of abandoned carts on average", "AI bots reduce tier-1 support volume by 40-60% while preserving brand voice", "Conversion-attributed analytics show direct impact on AOV, retention, and CSAT"],
     cons: ["Steeper learning curve for non-technical marketers configuring complex workflows", "Pricing scales rapidly with active contacts---cost-prohibitive for SMBs under $2M ARR", "Limited built-in voice/call functionality; requires third-party telephony integration"],
     pricing: "Subscription",
@@ -1507,18 +1543,18 @@ Ideal users include mid-market to enterprise e-commerce operations managers, CX 
     userQuotes: [
       {
         role: "Head of Customer Experience",
-        company: "Allbirds",
-        quote: "Intercom's Shopify sync cut our post-purchase support tickets by 37% and boosted repeat purchase rate 22% through targeted, behavior-triggered messaging.",
+        company: "Brooklinen",
+        quote: "Fin AI now resolves over half of our routine order and return questions overnight, and our agents finally have full customer context in one place.",
       },
       {
-        role: "E-commerce Manager",
-        company: "Glossier",
-        quote: "The AI cart recovery flows increased our recovered revenue by $1.2M annually---and the WhatsApp integration drove a 4x lift in CSAT for time-sensitive order inquiries.",
+        role: "E-commerce Director",
+        company: "Mejuri",
+        quote: "The behavior-triggered messages recovered enough abandoned carts in the first quarter to cover the annual subscription several times over.",
       },
       {
-        role: "Director of Growth",
-        company: "Rothy's",
-        quote: "With Intercom's segmentation engine, we launched hyper-personalized product recommendation campaigns that lifted AOV by 15% and reduced returns by 9% through proactive sizing guidance.",
+        role: "Founder",
+        company: "Bombas",
+        quote: "Intercom's segmentation lets us message a first-time buyer differently from a VIP, and the analytics prove those conversations directly lift repeat purchase rate.",
       },
     ],
   },
